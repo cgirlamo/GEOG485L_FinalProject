@@ -1,10 +1,14 @@
-
+window.document.onload = function(e){
 
 //Width and height of map
 var width = 960;
 var height = 500;
 
 
+
+
+
+L.geoJSON(countries).addTo(map);
 
 
 // D3 Projection
@@ -32,9 +36,13 @@ var div = d3.select("body")
     .attr("class", "tooltip")
     .style("opacity", 0);
 
-// Load in my Irish Whiskey Sales Data
-d3.csv("Irish Whiskey Sales by Volume.csv", function (data) {
-    color.domain([0, 1, 2, 3]); // setting the range of the input data
-    // Load in my Wine Production Data
-    d3.csv("Wine_Production_by_country.csv", function (data) {
-        color.domain([0, 1, 2, 3]); // setting the range of the input data
+// // Load in my Irish Whiskey Sales Data
+// d3.csv("Irish Whiskey Sales by Volume.csv", function (data) {
+//     color.domain([0, 1, 2, 3]); // setting the range of the input data
+//     // Load in my Wine Production Data
+//     d3.csv("Wine_Production_by_country.csv", function (data) {
+//         color.domain([0, 1, 2, 3]); // setting the range of the input data
+//     }
+// };
+
+};
