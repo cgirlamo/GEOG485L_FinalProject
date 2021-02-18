@@ -1,0 +1,31 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>90</x><y>20</y><w>840</w><h>660</h></coordinates><panel_attributes>
+customelement=
+drawRectangle(10,10,width-20,height-20) //fg= bg= lt= lw= //Parameters (x, y, width, height)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>120</x><y>40</y><w>780</w><h>60</h></coordinates><panel_attributes>halign=center
+fontsize=48
+Title </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>110</x><y>110</y><w>800</w><h>50</h></coordinates><panel_attributes>valign=bottom
+halign=left
+fontsize=24
+   Whiskey Type           Wine               Beer             Spirits         Cases/$ </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>100</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>100</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>290</x><y>170</y><w>620</w><h>340</h></coordinates><panel_attributes>halign=center
+fontsize=48
+Map</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>290</x><y>520</y><w>290</w><h>140</h></coordinates><panel_attributes>halign=left
+fontsize=18
+Filter Data
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>520</y><w>320</w><h>140</h></coordinates><panel_attributes>halign=left
+fontsize=18
+Frequency Distribution
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>110</x><y>170</y><w>160</w><h>190</h></coordinates><panel_attributes>halign=left
+fontsize=18
+Info about the
+Country
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>110</x><y>370</y><w>160</w><h>290</h></coordinates><panel_attributes>halign=left
+fontsize=18
+Donut Chart
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>470</y><w>600</w><h>30</h></coordinates><panel_attributes>halign=left
+fontsize=18
+Time Slider
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>100</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>750</x><y>100</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element></diagram>
