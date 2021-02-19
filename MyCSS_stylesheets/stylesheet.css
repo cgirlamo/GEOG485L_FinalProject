@@ -5,6 +5,7 @@
         border-radius: 0;
     }
 
+
     /* Add a gray background color and some padding to the footer */
 
     footer {
@@ -39,5 +40,6 @@
     #mapid { height: 400px; }
 
     .item img {
+        
         width:100%
       }
