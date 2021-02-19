@@ -13,6 +13,7 @@
     }
     body {
         background-color: #d8dde4b6;
+        position: relative;
     }
     .container{
         background-color: snow;
@@ -35,3 +36,4 @@
     ul {
         list-style-type: none;
     }
+    #mapid { height: 400px; }

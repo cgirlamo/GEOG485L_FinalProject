@@ -6,42 +6,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="JS_CSS_downloaded_libraries/bootstrap-3.4.1-dist/css/bootstrap.css">
   <link rel = 'stylesheet' href ='MyCSS_stylesheets/stylesheet.css'>
+  <link rel = 'stylesheet' href ='JS_CSS_downloaded_libraries/leaflet.css'>
   <script src="JS_CSS_downloaded_libraries/bower_components/jquery/dist/jquery.js"></script>
   <script src="JS_CSS_downloaded_libraries/bootstrap-3.4.1-dist/js/bootstrap.js"></script>
+  <script src ='JS_CSS_downloaded_libraries/leaflet.js'></script>
   
 </head>
-<body>
+<body data-spy='scroll' data-target=".navbar" data-offset = "50">
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Portfolio</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="About/index.html">About</a></li>
-        <li><a href = '../MyWebApp/index.html'> My Web Map</a></li>
-        <li><a href="Contact/index.html">Contact</a></li>
-      </ul>
+  <nav class="navbar navbar-inverse navbar-fixed-top" id = 'navbar'>
+    <div class="container" style='background-color: #595959;'>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls='navabarResponsive' aria-expanded="false" aria-label="Toggle navigation">
+        </button>
 
-</nav>
+        <div class = 'collapse navbar-collapse' id = 'navabarResponsive'>
+          <ul class = 'nav navbar-nav ml-auto'>
+            <li class = 'nav-item'>
+              <a class ='nav-link js-scroll-trigger' href='#Home'>Home</a>
+            </li>
+            <li class = 'nav-item'>
+              <a class = 'nav-link js-scroll-trigger' href='#About'>About</a>
+            </li>
+            <li class = 'nav-item'>
+              <a class='nav-link js-scroll-trigger' href='#Contact'>Contact Me</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+  </nav>
 
-<div class="jumbotron">
+
+<section id = 'Home'>
+<div class="jumbotron" >
   <div class="container text-center">
-    <h1>My Portfolio</h1>      
+    <h1>Chris's Awesome Website!</h1>      
     <p>Guitarist | Geographer | Data Scientist | Student</p>
   </div>
 </div>
   
 <div class="container-fluid bg-3 text-center">    
   <h3>Some of my Work</h3><br>
-  <div class="row">
+  <div class="row" id = '#Home'>
     <div class="col-sm-3">
       <p>Some text..</p>
       <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
@@ -61,7 +67,7 @@
   </div>
 </div><br>
 
-<div class="container-fluid bg-3 text-center">    
+<div class="container-fluid bg-3 text-center" id = '#Home'>    
   <div class="row">
     <div class="col-sm-3">
       <p>Some text..</p>
@@ -81,10 +87,171 @@
     </div>
   </div>
 </div><br><br>
+</section>
 
-<footer class="container-fluid text-center">
-  <p>Footer Text</p>
+<!-- About -->
+<section id = 'About'>
+  <div class = 'container-xl - col-lg-offset-5' id ='#About'>
+    <h1> <B>Chris Girlamo</B> </h1>
+
+  </div>
+  <div class = 'container' id = '#About'>
+  <div class = 'row justify-content-md-center'>
+    <div class = 'col-md-6'>
+    <p> I am a prospective graduate student at the University of New Mexico.  I am currently finishing a dual degree program 
+      where I will recieve a Bachelors of Business Administration in Management Information Systems and a Bachelors of Science
+      in Geography. I am currently employed by Dr. Yan Lin of UNM as a research assisstant. I have assisted her in analyzing spatial
+      patterns using network analysis and gathering and cleaning data related to wind patterns. I also work as an intern at the 
+      Earth Data Analysis Center where I assist GIS  analysts in analyzing and visually representing spatial data as well as 
+      cleaning and providing data for customers. 
+    </p>
+  </div>
+  <div class = 'col-md-6' id = "#About">
+    <img src = 'pics/Chris.jpg' alt = 'picture of Me' height="600px">
+  </div>
+
+
+  </div>
+  </div>
+
+</section>
+
+<!-- Contact -->
+
+
+<section id = 'Contact'>
+<section class="resume-section p-4 p-lg-5 text-center" id="#Contact">
+  <div class="my-auto">
+    <h2 class="mb-4">
+       Contact Information
+    </h2>
+
+    <ul class="fa-ul mb-4 ml-0">
+      <li id="mail-address">
+        <!--               Replace with your email address -->
+        <i class="fas fa-envelope-open mr-2 contact-icons"></i>chrisgirlamo@gmail.com</a>
+      </li>
+      <li>
+        <i class="fas fa-mobile-alt mr-2 contact-icons"></i>505-553-3455
+      </li>
+      <li>
+        <i class="fas fa-map-marker-alt mr-2 contact-icons"></i>Albuquerque NM
+      </li>
+    </ul>
+
+    <p>
+      ...or leave your message below and I will be back to you as soon as
+      possible.
+    </p>
+
+    <form class="contact-form d-flex flex-column align-items-center" action="https://formspree.io/youremail@mail.com"
+      method="POST">
+      <div class="form-group w-75">
+        <input type="name" class="form-control" placeholder="Name" name="name" required />
+      </div>
+      <div class="form-group w-75">
+        <input type="email" class="form-control" placeholder="Email" name="name" required />
+      </div>
+
+      <div class="form-group w-75">
+        <textarea class="form-control" type="text" placeholder="Message" rows="7" name="name" required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-submit btn-info w-75">Submit</button>
+    </form>
+  </div>
+  <div>
+
+  </div>
+
+  <div class=container>
+    <div class='col-md-6'>
+  <div id = 'mapid'></div>
+  <script>
+var map = L.map('mapid').setView([35.11185917699199, -106.62883953976302], 10);
+var HikeBike_HikeBike = L.tileLayer('https://tiles.wmflabs.org/hikebike/{z}/{x}/{y}.png', {
+	maxZoom: 19,
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+var marker = L.marker([35.11073577508096, -106.63295941274373]).addTo(map)
+marker.bindPopup("<b>Hello!</b> <br>This is where I live!")
+    </script>
+</div>
+</div>
+
+</section>
+</section>
+<!-- Footer -->
+<footer class="bg-light text-center text-lg-start">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Footer Content</h5>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+          molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
+          voluptatem veniam, est atque cumque eum delectus sint!
+        </p>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Links</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-dark">Link 1</a>
+          </li>
+          <li>
+            <a href="#!" class="text-dark">Link 2</a>
+          </li>
+          <li>
+            <a href="#!" class="text-dark">Link 3</a>
+          </li>
+          <li>
+            <a href="#!" class="text-dark">Link 4</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-0">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!" class="text-dark">Link 1</a>
+          </li>
+          <li>
+            <a href="#!" class="text-dark">Link 2</a>
+          </li>
+          <li>
+            <a href="#!" class="text-dark">Link 3</a>
+          </li>
+          <li>
+            <a href="#!" class="text-dark">Link 4</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
 </footer>
-
+<!-- Footer -->
 </body>
 </html>
