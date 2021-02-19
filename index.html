@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Chris Girlamo</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="JS_CSS_downloaded_libraries/bootstrap-3.4.1-dist/css/bootstrap.css">
@@ -31,6 +31,9 @@
             <li class = 'nav-item'>
               <a class='nav-link js-scroll-trigger' href='#Contact'>Contact Me</a>
             </li>
+            <li class = 'nav-item'>
+              <a class= 'nav-link' href = 'MyWebApp/index.html'>My Web App</a>
+            </li>
           </ul>
         </div>
         </div>
@@ -44,49 +47,61 @@
     <p>Guitarist | Geographer | Data Scientist | Student</p>
   </div>
 </div>
-  
-<div class="container-fluid bg-3 text-center">    
-  <h3>Some of my Work</h3><br>
-  <div class="row" id = '#Home'>
-    <div class="col-sm-3">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3"> 
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3"> 
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+  <div class = 'container center-block'>
+    <div class = 'col-md-12 text-center' ali>
+      <h2>My favorite Bands!</h2>
     </div>
   </div>
-</div><br>
+  <div class= 'container'>
+    <div class = 'row center-block'>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
 
-<div class="container-fluid bg-3 text-center" id = '#Home'>    
-  <div class="row">
-    <div class="col-sm-3">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="pics/smalltown.jpg" alt="Small Town Titans" >
+      <div class = 'carousel-caption'>
+        <h2 style="color: black;">Small Town Titans</h2>
+        <p style="font-size: 8px; color: black;"> photo courtesy of https://smalltowntitans.com/</p>
+      </div>
     </div>
-    <div class="col-sm-3"> 
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+
+    <div class="item">
+      <img src="pics/U2.jpg" alt="U2" >
+      <div class = 'carousel-caption'>
+        <h2>U2</h2>
+        <p style="font-size: 8px;"> photo courtesy of https://www.billboard.com/articles/news/9427058/u2-donate-live-music-covid19</p>
+      </div>
     </div>
-    <div class="col-sm-3"> 
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+
+    <div class="item">
+      <img src="pics/The_pretty.jpg" alt="The Pretty Reckless" >
+      <div class = 'carousel-caption'>
+        <h2>Small Town Titans</h2>
+        <p style ='font-size: 8px;'>photo courtes of https://twitter.com/pandoramusic/status/1360710344944087042/photo/1</p>
+      </div>
     </div>
   </div>
-</div><br><br>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</div>
+
 </section>
 
 <!-- About -->
@@ -117,6 +132,39 @@
 </section>
 
 <!-- Contact -->
+<div class=container>
+  <div class='col-md-6'>
+<div id = 'mapid'></div>
+<script>
+var map = L.map('mapid').setView([35.11185917699199, -106.62883953976302], 10);
+var HikeBike_HikeBike = L.tileLayer('https://tiles.wmflabs.org/hikebike/{z}/{x}/{y}.png', {
+maxZoom: 19,
+attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+var marker = L.marker([35.084454437929594, -106.61990451181903]).addTo(map);
+marker.bindPopup("University of New Mexico <br> This is where I go to school!");
+var marker2 = L.marker([35.21015251124235, -106.4496890834382]).addTo(map);
+marker2.bindPopup("Sandia Crest <br> I like to go hiking here when it's not freezing!");
+var marker3 = L.marker([35.19068407625907, -106.47938054471003]).addTo(map);
+marker3.bindPopup('The Sandia Tram <br> a fun way to get to the top of the mountain');
+var marker4 = L.marker([35.13336428837662, -106.7418950645644]).addTo(map);
+marker4.bindPopup('The Petroglyphs <br> A great place for archaeology and hiking fans');
+var marker5 = L.marker([35.175187874894874, -106.6253240548188]).addTo(map);
+marker5.bindPopup('Steel Bender Brewery <br> One of my favorite places to grab a cold one');
+
+  </script>
+</div>
+<div class = 'col-md-6'>
+<h2>Albuquerque New Mexico</h2>
+<br>
+<p>
+  I was born and raise in Albuquerque New Mexico. New Mexico is the home of the green chile
+  and is also home to the University of New Mexico. Some of my favorite places in Albuquerqe are the Sandia Crest, 
+  the world-famous Tram to the top of the mountain, The petroglyphs, and my favorite brewery in New Mexico is Steelbender. Check out the 
+  map to see where my favorite places are!
+</p>
+</div>
+</div>
 
 
 <section id = 'Contact'>
@@ -164,20 +212,6 @@
 
   </div>
 
-  <div class=container>
-    <div class='col-md-6'>
-  <div id = 'mapid'></div>
-  <script>
-var map = L.map('mapid').setView([35.11185917699199, -106.62883953976302], 10);
-var HikeBike_HikeBike = L.tileLayer('https://tiles.wmflabs.org/hikebike/{z}/{x}/{y}.png', {
-	maxZoom: 19,
-	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
-var marker = L.marker([35.11073577508096, -106.63295941274373]).addTo(map)
-marker.bindPopup("<b>Hello!</b> <br>This is where I live!")
-    </script>
-</div>
-</div>
 
 </section>
 </section>
@@ -188,69 +222,14 @@ marker.bindPopup("<b>Hello!</b> <br>This is where I live!")
     <!--Grid row-->
     <div class="row">
       <!--Grid column-->
-      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-        <h5 class="text-uppercase">Footer Content</h5>
+      <div class="col-md-12 text-center"  >
 
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-          molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-          voluptatem veniam, est atque cumque eum delectus sint!
+          Thank you for visiting my website! Feel free to contact me with any questions. 
         </p>
       </div>
       <!--Grid column-->
 
-      <!--Grid column-->
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h5 class="text-uppercase">Links</h5>
-
-        <ul class="list-unstyled mb-0">
-          <li>
-            <a href="#!" class="text-dark">Link 1</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark">Link 2</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark">Link 3</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark">Link 4</a>
-          </li>
-        </ul>
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h5 class="text-uppercase mb-0">Links</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!" class="text-dark">Link 1</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark">Link 2</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark">Link 3</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark">Link 4</a>
-          </li>
-        </ul>
-      </div>
-      <!--Grid column-->
-    </div>
-    <!--Grid row-->
-  </div>
-  <!-- Grid container -->
-
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2020 Copyright:
-    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-  </div>
-  <!-- Copyright -->
 </footer>
 <!-- Footer -->
 </body>

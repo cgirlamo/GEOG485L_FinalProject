@@ -37,3 +37,7 @@
         list-style-type: none;
     }
     #mapid { height: 400px; }
+
+    .item img {
+        width:100%
+      }
