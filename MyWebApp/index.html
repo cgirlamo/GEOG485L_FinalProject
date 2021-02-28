@@ -1,55 +1,125 @@
 <!DOCTYPE html>
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href='../JS_CSS_downloaded_libraries/bootstrap-3.4.1-dist/css/bootstrap.css'>
-    <link rel = 'stylesheet' href ='../MyCSS_stylesheets/stylesheet.css'>
-    <script src="../JS_CSS_downloaded_libraries/bootstrap-3.4.1-dist/js/bootstrap.js"></script>
-    <script src="../JS_CSS_downloaded_libraries/bower_components/jquery/dist/jquery.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    <link rel="stylesheet" href = 'stylesheet.css'/>
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-    <script src='countries.geojson'></script>
-    <script src='Whiskey_Wine.js'></script>
-    <script src= 'Whiskey.json'></script>
-    <script src='Wine.json'></script>
-    
-</head>
-    <body>
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>                        
-                </button>
-              </div>
-              <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                  <li><a href="../index.html">Home</a></li>
-                  
-                  <li class = 'active'><a href = '../MyWebApp/index.html'> My Web Map</a></li>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alcohol Worldwide Demand</title>
+
+  <script src = 'https://cdnjs.cloudflare.com/ajax/libs/d3/4.10.2/d3.min.js'></script>
+  <script src = 'JS_CSS_downloaded_libraries/bower_components/jquery/dist/jquery.min.js'></script>
+  <script src = 'JS_CSS_downloaded_libraries/bootstrap-3.4.1-dist/js/bootstrap.js'></script>
+  <script src = 'JS_CSS_downloaded_libraries/bower_components/angular/angular.js'></script>
+  <script src = 'JS_CSS_downloaded_libraries/bower_components/ng-favicon/ng-favicon.js'></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
   
-                </ul>
-                </div>
-                </div>
-                </nav>
-          
-                  
-                  
+  <link rel = 'stylesheet' href = 'JS_CSS_downloaded_libraries/leaflet.css'>
+  <link rel = 'stylesheet' href = 'MyCSS_stylesheets/stylesheet.css'>
+  <script src = 'JS_CSS_downloaded_libraries/leaflet.js'></script>
+  
+  <link rel = 'stylesheet' href = 'JS_CSS_downloaded_libraries/bootstrap-3.4.1-dist/css/bootstrap.min.css'>
+  <style>
+
+    .container{
+      background-color:lightgray;
+      width: 100%;
+      height: 100%;
+    }
+    .col-md-2 {
+      border: 3px solid black;
+    }
+    .col-md-4 {
+      border: 3px solid black;
+    }
+    h1 {
+      color:black;
+    } 
+
+    
+    
+
+    #mapid{
+      height: 800px;
+    }
+  </style>
+</head>
+
+<body data-spy='scroll' data-target=".navbar" data-offset = "50">
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="../../index.html">Home</a></li>
+
+          <li class='active'><a href='../GEOG485L-WebMap/index.html'> My Web Map</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Whiskey
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Standard</a></li>
+              <li><a href="#">Premium</a></li>
+              <li><a href="#">Ultra Premium</a></li>
+            </ul>
+            <li><a href ='#'>Wine</a></li>
+            <li><a href = '#'>Beer</a></li>
+            <li><a href = '#'>Spirits</a></li>
+
+        </ul>
+      </div>
+    </div>
+    </nav>
 
 
     
 
+  <div class = 'container'>
+    <div class = 'frame'>
+    <div class = 'col-md-2'>
+      <h1>Hello! If all goes according to plan this area will contain information about alcohol sold in the country you select!</h1>
+    </div>
+  </div>
+    <div class = 'col-md-10'>
+      
+      <div id = 'mapid'> </div>
 
 
 
-                  <p> My web app will be available shortly, and will comprise of several charts and a chloropleth map showing the change in demand over the years of 
-                      alcohol demand over the years worldwide. This website will be useful to potential investors in the alcohol sector and general alcohol enthusiasts.</p>
-<div id= 'map'></div>
-
-
+  </div>
+  
+  <div class="slidecontainer">
+    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+    </div>
+  </div>
+  <div class = 'container'>
+  <div class = 'frame'>
+    <div class = 'col-md-4'>
+      <button onclick="update(data1)">Data 1</button>
+      <button onclick="update(data2)">Data 2</button>
+      <div id = 'my_donut'>
+      </div>
+      </div>
+    </div>
+    <div class = 'frame'>
+      <div class = 'col-md-4'>
+        <h1>Hello! I am a placeholder, hopefully a filter will replace me when chris has the time to learn how to make that!</h1>
+      </div>
+    </div>
+    <div class = 'frame'>
+      <div class = 'col-md-4'>
+      <div id = 'my_hist'></div>
+    
+    </div>
+  </div>
+      <script src = "Mainjs.js"></script>
+    
+  </div>
+  
 
 
 
