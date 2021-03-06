@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../JS_CSS_downloaded_libraries/bootstrap-3.4.1-dist/css/bootstrap.css">
     <link rel='stylesheet' href='../../MyCSS_stylesheets/stylesheet.css'>
+    <link rel ='stylesheet' href="../../JS_CSS_downloaded_libraries/leaflet.css">
 
     <script src="../../JS_CSS_downloaded_libraries/bower_components/jquery/dist/jquery.js"></script>
     <script src="../../JS_CSS_downloaded_libraries/bootstrap-3.4.1-dist/js/bootstrap.js"></script>
-
+    <script src = '../../JS_CSS_downloaded_libraries/leaflet.js'></script>
 
 </head>
 
@@ -49,7 +50,7 @@
     </nav>
     <br>
     <br>
-    <div class='container'>
+    <!-- <div class='container'>
         <div class='row'>
             <div class='col-md-1'>
                 <ul style='list-style-type: circle;'>
@@ -82,9 +83,88 @@
             </div>
         </div>
     </div>
+ -->
+ <div class = 'container'>
+     <div class = 'col-md-4'>
+         <h1>Get Ready to Shop!</h1>
+         <p> select an item to add it to your shopping cart</p>
+         <form>
+            <input type = 'radio' id = 'organic' name ='Bananas' value = 'organic'>
+             <label for = 'organic'>Organic Bananas
+                 <img src = '../../pics/organic.jpg' alt = 'organic bananas' width="200" height="200">
+             </label>
+             <input type = 'radio' id = 'Chiquita' name = 'Bananas' value = 'Chiquita'>
+             <label for = 'Chiquita'>Chiquita Bananas
+                 <img src = '../../pics/Chiquita.jpg' alt = 'Chiquita bananas' width = '200' height="200">
+             </label>
+             <input type = 'radio' id = 'bananaChips' name = 'Bananas' value="bananaChips">
+             <label for = 'bananaChips'>Banana Chips 
+                 <img src = '../../pics/bananachips.jpg' alt = 'Banana Chips' width = '200' height="200">
+             </label>
+             <br>
+             <input type = 'radio' id = 'manzano' name = 'Bananas' value = 'manzano'>
+             <label for = 'manzano'>Manzano Bananas 
+                 <img src = '../../pics/manzano.jpg' alt = 'Manzano Bananas' width = '200' height="200">
+             </label>
+             
+         </form>
+     </div>
+     <div class = 'col-md-4 col-md-push-2'>
+         <form>
+             <br>
+             <br>
+             <button type = 'button'>Add To Cart</button>
+             <button type = 'submit'>View Cart</button>
+         </form>
+         <br>
+         <br>
+         <form>
+             <label for = 'searchRecipe'>Search For Recipes!</label> <br>
+             <input type = 'text' id = 'SearchRecipe' name = 'searchRecipe'><br>
 
+         </form>
+         <img src = '../../pics/banana_recipe.jpg' alt = 'banana coupon' width="300" height="300">
+         <p>source: https://www.pinterest.com/pin/268034615303199819/</p>
 
+         <form>
+             <label for = 'searchCoupons'>Search for Coupons</label> <br>
+             <input type = 'text' id = 'SearchCoupons' name ='searchCoupons'> <br>
+         </form>
+         <img src = '../../pics/bananacoup.png' alt = 'banana coupon' width="300" height="300">
+     </div>
+     <div class = 'col-md-12'>
+         <p style = 'text-align: center;'>Choose your favorite Store! <br> (If not already selected)</p>
+         <div id ='mapid'></div>
+     </div>
+ </div>
 
+ <script>
+
+var map = L.map('mapid').setView([35.159242892459375, -106.57627896333486],11); 
+    var Esri_WorldStreetMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+      attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
+  }).addTo(map);
+  var greenIcon = new L.Icon({
+  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
+  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
+});
+  var albertsons = L.marker([35.13273388504262, -106.58867425239974], {icon:greenIcon}).addTo(map);
+  var smiths = L.marker([35.18181702670427, -106.55727839886855]).addTo(map);
+  var wholefoods = L.marker([35.151611836354526, -106.55491084117146]).addTo(map);
+  var sprouts = L.marker([35.21053988537174, -106.64486140326494]).addTo(map);
+
+  albertsons.bindPopup("Albertsons <br> Your Favorite Store!").openPopup();
+  smiths.bindPopup("Smiths");
+  wholefoods.bindPopup("Whole Foods");
+  sprouts.bindPopup('Sprouts');
+  
+  
+  
+  </script>
 
 
 </body>

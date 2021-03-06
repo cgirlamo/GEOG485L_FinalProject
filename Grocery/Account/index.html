@@ -7,9 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../../JS_CSS_downloaded_libraries/bootstrap-3.4.1-dist/css/bootstrap.css">
   <link rel='stylesheet' href='../../MyCSS_stylesheets/stylesheet.css'>
+  <link rel = 'stylesheet' href = '../../JS_CSS_downloaded_libraries/leaflet.css'>
 
   <script src="../../JS_CSS_downloaded_libraries/bower_components/jquery/dist/jquery.js"></script>
   <script src="../../JS_CSS_downloaded_libraries/bootstrap-3.4.1-dist/js/bootstrap.js"></script>
+  <script src ="../../JS_CSS_downloaded_libraries/bower_components/d3/d3.js"></script>
+  <script src = '../../JS_CSS_downloaded_libraries/leaflet.js'></script>
 </head>
 
 <body data-spy='scroll' data-target=".navbar" data-offset="50">
@@ -47,7 +50,7 @@
   </nav>
   <br>
   <br>
-  <div class="container">
+  <!-- <div class="container">
     <div class='row'>
       <div class='col-md-4'>
         <ul style='list-style-type: circle;'>
@@ -63,10 +66,86 @@
   </div>
 
 
+ -->
+
+ <div class="container">
+  <br>
+  <br>
+  
+  <row>
+    <div class = 'col-md-6'>
+      <form>
+        <label for = 'fname'>First Name:</label> <br>
+        <input type="text" id = 'fname' name='fname'><br>
+        <label for = 'lname'>Last name:</label> <br>
+        <input type = 'text' id = 'lname' name = 'lname'>
+      </form>
+
+  </div>
+  </row>
+  <row>
+    <div class = 'col-md-6'>
+      <form>
+        <label for = 'usern'>Enter your username</label> <br>
+        <input type = 'usern' id = 'usern' name = 'usern'> <br>
+        <label for = 'password'>Enter your password</label> <br>
+        <input type = 'password' id = 'password' name = 'password'><br>
+        <label for = 'password2'>Re-enter your password</label> <br>
+        <input type = 'password' id = 'password2' name = 'password2'><br>
+        <button type = 'button' id = 'submit'>Submit</button>
+      </form>
+    </div>
+  </row>
+  <row>
+    <div class = 'col-md-6'>
+      <p>How many times a week do you go grocery shopping?</p>
+      <form>
+        <input type = 'radio' id = '1' name = 'shopfreq' value = '1'>
+        <label for = '1'>1</label> <br>
+        <input type = 'radio' id = '2' name = 'shopfreq' value = '2'>
+        <label for = '2'>2</label> <br>
+        <input type = 'radio' id = '3' name = 'shopfreq' value = '3'>
+        <label for = '3'>3</label> <br>
+        <input type = 'radio' id = '4' name = 'shopfreq' value ='4'>
+        <label for = '4'>4</label> <br>
+        <input type = 'radio' id = '5' name = 'shopfreq' value = '5'>
+        <label for = '5'>5</label> <br>
+        <input type = 'radio' id = '6' name = 'shopfreq' value = '6'>
+        <label for = '6'>6</label> <br>
+        <input type = 'radio' id = '7' name = 'shopfreq' value ='7'>
+        <label for = '7'>7</label>
+
+
+      </form>
+
+    </div>
+    <div class = 'col-md-6'>
+      <p>What is your favorite Grocery Store? Click on a store to see it's name!</p>
+      <div id = 'mapid'></div>
+    </div>
+  </row>
+
+
+</div>
+<script>
+  var map = L.map('mapid').setView([35.159242892459375, -106.57627896333486],11); 
+  var Esri_WorldStreetMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
+}).addTo(map);
+
+var albertsons = L.marker([35.13273388504262, -106.58867425239974]).addTo(map);
+var smiths = L.marker([35.18181702670427, -106.55727839886855]).addTo(map);
+var wholefoods = L.marker([35.151611836354526, -106.55491084117146]).addTo(map);
+var sprouts = L.marker([35.21053988537174, -106.64486140326494]).addTo(map);
+
+albertsons.bindPopup("Albertsons");
+smiths.bindPopup("Smiths");
+wholefoods.bindPopup("Whole Foods");
+sprouts.bindPopup('Sprouts');
 
 
 
-
+</script>
 </body>
 
 </html>

@@ -24,22 +24,22 @@
             <a class='nav-link' href='../../index.html'>Home</a>
           </li>
 
-          <li class = 'nav-item'>
-            <a class = 'nav-link' href = '../../MyWebApp/index.html'>My Web App</a>
+          <li class='nav-item'>
+            <a class='nav-link' href='../../MyWebApp/index.html'>My Web App</a>
           </li>
 
           <li class="dropdown active">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Foodie App
-            <span class="caret"></span></a>
+              <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="../Create Account/index.html">Account</a></li>
               <li><a href="../Follow/index.html">Follow</a></li>
               <li><a href="../Post/index.html">Post</a></li>
               <li><a href='../Search/index.html'>Search</a></li>
-              <li><a href ='../index.html'>Foodie Home</a></li>
+              <li><a href='../index.html'>Foodie Home</a></li>
             </ul>
-            <li class = 'nav-item'>
-              <a class = 'nav-link' href ='../../Grocery/index.html'>Grocery App</a>
+          <li class='nav-item'>
+            <a class='nav-link' href='../../Grocery/index.html'>Grocery App</a>
           </li>
           <ul>
       </div>
@@ -47,7 +47,7 @@
   </nav>
   <br>
   <br>
-
+  <!-- 
   <div class='container'>
     <div class='row'>
       <div class='col-md-4'>
@@ -67,8 +67,42 @@
         </ul>
       </div>
     </div>
-  </div>
+  </div> -->
+  <br>
+  <br>
+  <div class='container'>
+    <div class='col-md-12 text-center'>
+      <h1 style="text-align: center;">Post a Recipe!</h1>
+      <form>
+        <label for='recipeName'>Enter your Recipe name</label><br>
+        <input type='text' id='recipeName' name='recipeName'><br>
+        <label for='tags'>Tag people, types of cuisine, or Restaurants, seperated by a #</label><br>
+        <textarea id='tags' name='tags' style="height: 100px; width: 100%;"></textarea>
+        <label for='ingredients'>Enter the Required ingredients</label>
+        <textarea id='ingredients' name='ingredients' style="height: 400px; width: 100%;"></textarea>
+        <label for='instructions'>Enter the Instructions for your Recipe</label>
+        <textarea id='instructions' name='instructions' style="height: 400px; width: 100%;"></textarea>
 
+        <label for='desc'>Write a small description</label>
+        <textarea id='desc' name='desc' style="height: 400px; width: 100%;"></textarea>
+        <div class='col-md-3'>
+          <label for='Rpic'>Post a picture of your Recipe!
+            <p>Here's an example!</p>
+            <img src = '../../pics/bananachips.jpg' alt = 'bananachips' height="400" width="400"> 
+          </label>
+          <input type='file' id='Rpic' name='Rpic' style="align-content: center;">
+          <label for='Rvideo'>Post a video of yourself making the recipe!
+            <p>Here's an example</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mhDJNfV7hjk" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          </label>
+          <input type='file' id='Rvideo' name='Rpic'>
+        </div>
+      </form>
+
+    </div>
+  </div>
 
 </body>
 

@@ -4,46 +4,56 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Alcohol Worldwide Demand</title>
+  <script src = 'JS_CSS_downloaded_libraries/bower_components/plotly.js'></script>
+  <script src='JS_CSS_downloaded_libraries/bower_components/d3/d3.js'></script>
+  <script src='JS_CSS_downloaded_libraries/bower_components/jquery/dist/jquery.min.js'></script>
+  <script src='JS_CSS_downloaded_libraries/bootstrap-3.4.1-dist/js/bootstrap.js'></script>
+  <script src='JS_CSS_downloaded_libraries/bower_components/angular/angular.js'></script>
 
-  <script src = 'https://cdnjs.cloudflare.com/ajax/libs/d3/4.10.2/d3.min.js'></script>
-  <script src = 'JS_CSS_downloaded_libraries/bower_components/jquery/dist/jquery.min.js'></script>
-  <script src = 'JS_CSS_downloaded_libraries/bootstrap-3.4.1-dist/js/bootstrap.js'></script>
-  <script src = 'JS_CSS_downloaded_libraries/bower_components/angular/angular.js'></script>
-  <script src = 'JS_CSS_downloaded_libraries/bower_components/ng-favicon/ng-favicon.js'></script>
-  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-  
-  <link rel = 'stylesheet' href = 'JS_CSS_downloaded_libraries/leaflet.css'>
-  <link rel = 'stylesheet' href = 'MyCSS_stylesheets/stylesheet.css'>
-  <script src = 'JS_CSS_downloaded_libraries/leaflet.js'></script>
-  
-  <link rel = 'stylesheet' href = 'JS_CSS_downloaded_libraries/bootstrap-3.4.1-dist/css/bootstrap.min.css'>
+  <script src='JS_CSS_downloaded_libraries/bower_components/ng-favicon/ng-favicon.js'></script>
+  <script src="JS_CSS_downloaded_libraries/bower_components/bower_components/d3-scale-chromatic/d3-scale-chromatic.v1.min.js"></script>
+
+  <link rel='stylesheet' href='JS_CSS_downloaded_libraries/leaflet.css'>
+  <link rel='stylesheet' href='MyCSS_stylesheets/stylesheet.css'>
+  <script src='JS_CSS_downloaded_libraries/leaflet.js'></script>
+
+  <link rel='stylesheet' href='JS_CSS_downloaded_libraries/bootstrap-3.4.1-dist/css/bootstrap.min.css'>
   <style>
+    #con1 {
+      height: 400px;
 
-    .container{
-      background-color:lightgray;
+    }
+    .container {
+      background-color: lightgray;
       width: 100%;
       height: 100%;
     }
+
     .col-md-2 {
       border: 3px solid black;
     }
+
     .col-md-4 {
       border: 3px solid black;
     }
+    .col-md-6 {
+      border: 3px solid black;
+    }
+
     h1 {
-      color:black;
-    } 
+      color: black;
+    }
 
-    
-    
 
-    #mapid{
+
+
+    #mapid {
       height: 800px;
     }
   </style>
 </head>
 
-<body data-spy='scroll' data-target=".navbar" data-offset = "50">
+<body data-spy='scroll' data-target=".navbar" data-offset="50">
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -60,67 +70,189 @@
           <li class='active'><a href='../GEOG485L-WebMap/index.html'> My Web Map</a></li>
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Whiskey
-            <span class="caret"></span></a>
+              <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#">Standard</a></li>
-              <li><a href="#">Premium</a></li>
-              <li><a href="#">Ultra Premium</a></li>
+              <li><a class='menu' id = 'standard' href = '#'>Standard</a></li>
+              <li><a class='menu' id = 'premium' href = '#'>Premium</a></li>
+              <li><a class='menu' id = 'ultra_P' href = '#'>Ultra Premium</a></li>
             </ul>
-            <li><a href ='#'>Wine</a></li>
-            <li><a href = '#'>Beer</a></li>
-            <li><a href = '#'>Spirits</a></li>
+          <li><a class='menu' id = 'wine' href = '#'>Wine</a></li>
+          <li><a class='menu' id = 'beer' href = '#'>Beer</a></li>
+          <li><a class='menu' id = 'spirits' href = '#'>Spirits</a></li>
 
         </ul>
       </div>
     </div>
-    </nav>
-
-
-    
-
+  </nav>
   <div class = 'container'>
-    <div class = 'frame'>
-    <div class = 'col-md-2'>
-      <h1>Hello! If all goes according to plan this area will contain information about alcohol sold in the country you select!</h1>
-    </div>
-  </div>
-    <div class = 'col-md-10'>
-      
-      <div id = 'mapid'> </div>
-
-
-
-  </div>
-  
-  <div class="slidecontainer">
-    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-    </div>
-  </div>
-  <div class = 'container'>
-  <div class = 'frame'>
-    <div class = 'col-md-4'>
-      <button onclick="update(data1)">Data 1</button>
-      <button onclick="update(data2)">Data 2</button>
-      <div id = 'my_donut'>
-      </div>
+    <div class = 'row'>
+      <div class = 'col-md-12 text-center'>
+        <h1 style="font-family:cursive; font-size: 50px;">Worldwide Alcohol Demand 1835-2019</h1>
       </div>
     </div>
-    <div class = 'frame'>
-      <div class = 'col-md-4'>
-        <h1>Hello! I am a placeholder, hopefully a filter will replace me when chris has the time to learn how to make that!</h1>
-      </div>
-    </div>
-    <div class = 'frame'>
-      <div class = 'col-md-4'>
-      <div id = 'my_hist'></div>
-    
-    </div>
-  </div>
-      <script src = "Mainjs.js"></script>
-    
   </div>
   
 
 
+  <div class='container'>
+    <div class='frame'>
+      <div class='col-md-2' style="height: 800px; word-wrap: break-word;">
+        <p>Country:<br> Name</p> <br>
+        <p>Type Selected: <br>Whiskey</p> <br>
+        <p>Demand type: <br>(Cases sold or consumption</p> <br>
+        <p>Demand level: <br>Some Number</p>
+      </div>
+    </div>
+    <div class='col-md-9 right'>
 
+      <div id='mapid'> </div>
+
+
+
+    </div>
+
+    <div class="slidecontainer">
+      <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+    </div>
+  </div>
+  <div class='container'>
+    <div class='frame'>
+      <div class='col-md-6' id = 'con1'>
+             <!-- This is just placeholder data, no functionality yet -->
+        <!-- Pie Chart -->
+        <div id='my_donut' style="border: 3px solid black;"> 
+          
+        </div>
+      </div>
+    </div>
+    <div class='frame'>
+              
+      <div class='col-md-6' id = 'con1'>
+        <label for = 'Max'>Choose a maximum filter</label>
+      <select name = 'max' id = 'max'>
+        <option value = 0>0</option>
+        <option value = 50000>50,000</option>
+        <option value = 100000>100,000</option>
+        <option value = 500000>500,000</option>
+        <option value = 1000000>1,000,000</option>
+        <option value = 5000000>5,000,000</option>
+        <option value = 10000000>10,000,000</option>
+      </select>
+      <br>
+      <label for = 'Min'>Choose a minimum filter</label>
+      <select name = 'min' id = 'min'>
+        <option value = 0>0</option>
+        <option value = 50000>50,000</option>
+        <option value = 100000>100,000</option>
+        <option value = 500000>500,000</option>
+        <option value = 1000000>1,000,000</option>
+        <option value = 5000000>5,000,000</option>
+        <option value = 10000000>10,000,000</option>
+      </select>
+      <br>
+      <p> The maximum and minimum filters will set the bounds for all the visual aspectss of this app. It will limit the map, histogram, and pie chart. It is important 
+        that you choose a minimum that is smaller than your maximum, or nothing will be shown. 
+      </p>
+      </div>
+    </div>
+  
+  <div class = 'row'>
+    <div class='frame'>
+      <!-- This is just placeholder data, no functionality yet -->
+      <div class='col-md-12' id = 'con1'>
+        
+        <div id='my_hist'></div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  
+<!-- Footer -->
+<footer class="bg-light text-center text-lg-start">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-md-12 "  >
+
+  
+
+      </div>
+      <div class = 'row'> 
+        <div class = 'col-md-12'>
+          <br>
+          <br>
+          
+  <!-- Modal Trigger button -->
+  <button type='button' class='btn btn-primary' data-toggle='modal' data-target="#About1">
+    About the Project!
+  </button>
+  <!-- Actual modal --> 
+  <div class='modal fade' id='About1' tabindex='-1' role='dialog' aria-labelledy='About the project and authors'
+    aria-hidden="true">
+    <div class='modal-dialog modal-dialog-centered' role='document'>
+      <div class='modal-content'>
+        <div class='modal-header'>
+          <h1 class='modal-title' id='ModalTitle'>About The Project</h1>
+          <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+            <span aria-hidden='true'>&times;</span>
+          </button>
+        </div>
+        <div class='modal-body'>
+          <h3><b>What is this?</b></h3> <br>
+          <p>This web map is intended for investors in alcoholic production and distribution, Researchers interested in
+            alcoholic consumption and demand, and general
+            alcohol enthusiasts! This app allows you to select between Irish Whiskey, Wine, Beer, and Spirits. Within
+            the Irish Whiskey category, you can also
+            select standard, premium, or ultra-premium. The time slider on the bottom will allow you to select a year
+            going from 1835 to 2019, and then the chloropleth map will change to reflect the results of that query. More
+            specific information will be displayed on the upper left,
+            while the histogram and frequency distribution charts will also change to accomodate your selection.
+          </p>
+          
+          <h3><b>Author: Chris Girlamo</b></h3>
+          <p>Chris is a perspective Graduate student at the
+            University of New Mexico looking to study supply in historically under-served communites.
+            He is currently finishing his Bachelors of Science in Geography and his Bachelors of
+            Business Administration in Management Information Systems. He enjoys alcohol in all forms
+            and created this map because of that hobby and hopes to help other enthusiasts with their
+            research in this field. If you would like to know more about Chris, click <a
+              href="https://cgirlamo.github.io/" target="_blank">here</a>
+          </p>
+          <h3><b>Contributors: Liping Yang</b></h3>
+          <p>Dr. Liping Yang is an assistant professor of GIScience and Computer Science at the Univeristy of New Mexico. Before UNM, she conducted 
+            post-doctoral research at both the Los Alamos National Laboratory and the University of Pennslyvania. She is passionate about machine learning,
+          data mining and analytics, computer vision and geo-visual analytics. To learn more about Dr. Yang, click <a href = 'https://lipingyang.org/' target="_blank">here</a>  </p>
+          <h3><b>Datasets:</b></h3>
+          <p> The ISWR drinks analysis organization provided data on Irish Whiskey Sales worldwide, their data can be found on <a href = 'https://data.world/makeovermonday/2018w11-growth-in-irish-whiskey-sales' target="_blank">data.world</a></p>
+          <p> All other data was provided by the University of Adelaide who host a wine megafile of alcohol consumption, production, exportation, and importation. The data used in this 
+            project was the national consumption per year as that is a fairly close estimation of demand in that country. The University of Adelaide's wine megafile can be found 
+            <a href= 'https://universityofadelaide.app.box.com/s/eqpjqyq8o3mfy7139cr4pn76iolr1o1w' target="_blank">here</a>
+          </p>
+        </div>
+        <div class='modal-footer'>
+          <button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+        </div>
+      </div>
+      <div class = 'col-md-12 text-center'>
+        <p style="font-size: 14px;">I hope you enjoyed using my interactive Web Map! Click on the button above if you would like to 
+          know more about this app and the people who made it!
+        </p>
+
+      <!--Grid column-->
+
+</footer>
+<!-- Footer -->
+
+  <script src="My_JS/Mainjs.js"></script>
 </body>
