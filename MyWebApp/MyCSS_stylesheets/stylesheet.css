@@ -1,0 +1,142 @@
+    /* Remove the navbar's default margin-bottom and rounded borders */
+
+    .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+
+    /* Add a gray background color and some padding to the footer */
+
+    footer {
+        background-color: #f2f2f2;
+        padding: 25px;
+    }
+
+    body {
+        background-color: #d8dde4b6;
+        position: relative;
+    }
+
+    .container {
+        background-color: snow;
+    }
+
+    h1 {
+        font-size: 48px;
+        color: black;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    p {
+        font-size: 12px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    h2 {
+        font-size: 46px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    #mapid {
+        height: 400px;
+    }
+
+    .item img {
+        width: 100%
+    }
+
+    input[type=number]:focus {
+        background-color: lightblue;
+        border: 3px solid #555;
+        width: 100%;
+    }
+
+    input[type=number] {
+        transition: width 0.4s ease-in-out;
+    }
+
+    #legend {
+        line-height: 18px;
+        color: #555;
+        position: absolute;
+        bottom: 40px;
+        right: 20px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        background: rgba(255, 255, 255, 0.8);
+        z-index: 2;
+        background: white;
+        padding: 5px;
+    }
+
+    #legend i {
+        width: 50px;
+        height: 18px;
+        float: left;
+        margin-right: 8px;
+        opacity: 0.7;
+    }
+
+    div.tooltip {
+        position: absolute;
+        text-align: center;
+        width: 60px;
+        height: 28px;
+        padding: 2px;
+        font: 12px sans-serif;
+        background: lightsteelblue;
+        border: 0px;
+        border-radius: 8px;
+        pointer-events: none;
+    }
+
+    .legend {
+        text-align: left;
+        line-height: 18px;
+        color: #555;
+        padding: 6px 8px;
+        font: 14px/16px Arial,Helvetica,sans-serif;
+        background: white;
+        box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        border-radius: 5px;
+    }
+
+    .legend i {
+        width: 18px;
+        height: 18px;
+        float: left;
+        margin-right: 8px;
+        opacity: 0.7;
+    }
+    .slider {
+        -webkit-appearance: none;
+        width: 100%;
+        height: 15px;
+        border-radius: 5px;  
+        background: #d3d3d3;
+        outline: none;
+        opacity: 0.7;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+      }
+      
+      .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%; 
+        background: #4CAF50;
+        cursor: pointer;
+      }
+      
+      .slider::-moz-range-thumb {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #4CAF50;
+        cursor: pointer;
+      }

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alcohol Worldwide Demand</title>
+  <script src='JS_CSS_downloaded_libraries/bower_components/plotlyjs/plotly.js'></script>
+  <script src='JS_CSS_downloaded_libraries/bower_components/d3.js'></script>
+  <script src='JS_CSS_downloaded_libraries/bower_components/jquery/dist/jquery.min.js'></script>
+  <script src='JS_CSS_downloaded_libraries/bootstrap-3.4.1-dist/js/bootstrap.js'></script>
+  <script src='JS_CSS_downloaded_libraries/bower_components/angular/angular.js'></script>
+
+  <script src='JS_CSS_downloaded_libraries/bower_components/ng-favicon/ng-favicon.js'></script>
+  <script
+    src="JS_CSS_downloaded_libraries/bower_components/bower_components/d3-scale-chromatic/d3-scale-chromatic.v1.min.js"></script>
+
+  <link rel='stylesheet' href='JS_CSS_downloaded_libraries/leaflet.css'>
+  <link rel='stylesheet' href="MyCSS_stylesheets/stylesheet.css">
+  <script src='JS_CSS_downloaded_libraries/leaflet.js'></script>
+
+  <link rel='stylesheet' href='JS_CSS_downloaded_libraries/bootstrap-3.4.1-dist/css/bootstrap.min.css'>
+  <style>
+    .slider {
+      -webkit-appearance: none;
+      /* Override default CSS styles */
+      appearance: none;
+ 
+      /* background: #d3d3d3; */
+      /* Grey background */
+      outline: none;
+      /* Remove outline */
+      opacity: 0.7;
+      /* Set transparency (for mouse-over effects on hover) */
+      -webkit-transition: .2s;
+      /* 0.2 seconds transition on hover */
+      transition: opacity .2s;
+    }
+    /* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+    #con1 {
+      height: 400px;
+
+    }
+
+    .container {
+      background-color: lightgray;
+      width: 100%;
+      height: 100%;
+    }
+
+
+    h1 {
+      color: black;
+    }
+
+
+
+
+    #mapid {
+      height: 800px;
+    }
+  </style>
+</head>
+<!-- Define the body so it will scroll -->
+
+<body data-spy='scroll' data-target=".navbar" data-offset="50">
+  <!-- draw in the navbar -->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="../../index.html">Home</a></li>
+
+          <li class='active'><a href='../GEOG485L-WebMap/index.html'> My Web Map</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Whiskey
+              <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a class='menu' id='standard' href='index_std.html'>Standard</a></li>
+              <li><a class='menu' id='premium' href='indexprm.html'>Premium</a></li>
+              <li><a class='menu' id='ultra_P' href='index_ult.html'>Ultra Premium</a></li>
+            </ul>
+          <li><a class='menu' id='wine' href="index_wine.html">Wine</a></li>
+          <li><a class='menu' id='beer' href="index.html">Beer</a></li>
+          <li class="active"><a class='menu' id='spirits' href="index_spirits.html">Spirits</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- write the title -->
+  <div class='container'>
+    <div class='row'>
+      <div class='col-md-12 text-center'>
+        <h1 style="font-family:cursive; font-size: 50px;">Worldwide Alcohol Consumption 1835-2019</h1>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Controls the left panel -->
+  <div class='container'>
+    <div class='frame'>
+      <div class='col-md-2' style="height: 800px; word-wrap: break-word;">
+        <!-- type of map -->
+        <h1>Spirit Map</h1>
+        <!-- Images -->
+        <img src='pics/beer.png' alt='beer' width="100%">
+        <img src='pics/wine.jpg' alt='wine' width="100%">
+        <img src='pics/whiskey.jpg' alt='whiskey' width="100%">
+      </div>
+    </div>
+    <!-- Holds the map -->
+    <div class='col-md-9 right'>
+
+      <div id='mapid'>
+      </div>
+
+
+
+
+    </div>
+  </div>
+  <!-- Defines the slider -->
+
+  <div class='container'>
+    <row>
+      <p id='scontent' style="text-align: center;"></p>
+      <p id='min and max' style="text-align: center;">The min is 1835 and the max is 2016</p>
+
+      <div id="slidecontainer" class='slider'>
+
+
+
+        <input type="range" min="1835" max="2019" value="1927" class="slider" id="myRange">
+        <br>
+      </div>
+    </row>
+  </div>
+
+  <div class='container' style="height: 600;">
+    <div class='frame'>
+      <div class='col-md-6' id='con1'>
+        <!-- This is just placeholder data, no functionality yet -->
+        <!-- Pie Chart -->
+        <h1 style="text-align: center;">Alcoholic Consumption Per Country</h1>
+        <div id='my_donut' style=" height: 100%; width: 100%; background-color: lightgray;" >
+
+        </div>
+      </div>
+    </div>
+    <div class='frame'>
+
+      <div class='col-md-6 text-center'>
+        <img src='pics/Spirits.jpg' alt='spirits' height="100%">
+      </div>
+
+    </div>
+
+    <div class='row'>
+      <div class='frame'>
+        <!-- This is just placeholder data, no functionality yet -->
+        <div class='col-md-12' id='con1'>
+          <h1 style="text-align: center;">Alcoholic Consumption Per Country</h1>
+
+          <div id='my_hist'></div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center text-lg-start">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-md-12 ">
+
+
+
+        </div>
+        <div class='row'>
+          <div class='col-md-6 col-md-offset-3' style="border: none;">
+            <br>
+            <br>
+
+            <!-- Modal Trigger button -->
+            <button type='button' class='btn btn-primary' data-toggle='modal' data-target="#About1">
+              About the Project!
+            </button>
+            <!-- Actual modal -->
+            <div class='modal fade' id='About1' tabindex='-1' role='dialog'
+              aria-labelledy='About the project and authors' aria-hidden="true">
+              <div class='modal-dialog modal-dialog-centered' role='document'>
+                <div class='modal-content'>
+                  <div class='modal-header'>
+                    <h1 class='modal-title' id='ModalTitle'>About The Project</h1>
+                    <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+                      <span aria-hidden='true'>&times;</span>
+                    </button>
+                  </div>
+                  <div class='modal-body'>
+                    <h3><b>What is this?</b></h3> <br>
+                    <p>This web map is intended for investors in alcoholic production and distribution, Researchers
+                      interested in
+                      alcoholic consumption and demand, and general
+                      alcohol enthusiasts! This app allows you to select between Irish Whiskey, Wine, Beer, and Spirits.
+                      Within
+                      the Irish Whiskey category, you can also
+                      select standard, premium, or ultra-premium. The time slider on the bottom will allow you to select
+                      a year
+                      going from 1835 to 2019, and then the chloropleth map will change to reflect the results of that
+                      query. More
+                      specific information will be displayed on the upper left,
+                      while the histogram and frequency distribution charts will also change to accomodate your
+                      selection.
+                    </p>
+
+                    <h3><b>Author: Chris Girlamo</b></h3>
+                    <p>Chris is a perspective Graduate student at the
+                      University of New Mexico looking to study supply in historically under-served communites.
+                      He is currently finishing his Bachelors of Science in Geography and his Bachelors of
+                      Business Administration in Management Information Systems. He enjoys alcohol in all forms
+                      and created this map because of that hobby and hopes to help other enthusiasts with their
+                      research in this field. If you would like to know more about Chris, click <a
+                        href="https://cgirlamo.github.io/" target="_blank">here</a>
+                    </p>
+                    <h3><b>Contributors: Liping Yang</b></h3>
+                    <p>Dr. Liping Yang is an assistant professor of GIScience and Computer Science at the Univeristy of
+                      New Mexico. Before UNM, she conducted
+                      post-doctoral research at both the Los Alamos National Laboratory and the University of
+                      Pennslyvania. She is passionate about machine learning,
+                      data mining and analytics, computer vision and geo-visual analytics. To learn more about Dr. Yang,
+                      click <a href='https://lipingyang.org/' target="_blank">here</a> </p>
+                  </div>
+                  <div class='modal-footer'>
+                    <button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='col-md-6 col-md-offset-3' style="border: none;">
+
+
+            <!-- Modal Trigger button -->
+            <button type='button' class='btn btn-primary' data-toggle='modal' data-target="#Datasets">
+              Datasets
+            </button>
+            <!-- Actual modal -->
+            <div class='modal fade' id='Datasets' tabindex='-1' role='dialog' aria-labelledy='Datasets'
+              aria-hidden="true">
+              <div class='modal-dialog modal-dialog-centered' role='document'>
+                <div class='modal-content'>
+                  <div class='modal-header'>
+                    <h1 class='modal-title' id='ModalTitle'>Datasets</h1>
+                    <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+                      <span aria-hidden='true'>&times;</span>
+                    </button>
+                  </div>
+                  <div class='modal-body'>
+
+                    <h3><b>Datasets:</b></h3>
+                    <p> The ISWR drinks analysis organization provided data on Irish Whiskey Sales worldwide, their data
+                      can be found on <a href='https://data.world/makeovermonday/2018w11-growth-in-irish-whiskey-sales'
+                        target="_blank">data.world</a></p>
+                    <p> All other data was provided by the University of Adelaide who host a wine megafile of alcohol
+                      consumption, production, exportation, and importation. The data used in this
+                      project was the national consumption per year as that is a fairly close estimation of demand in
+                      that country. The University of Adelaide's wine megafile can be found
+                      <a href='https://universityofadelaide.app.box.com/s/eqpjqyq8o3mfy7139cr4pn76iolr1o1w'
+                        target="_blank">here</a>
+                    </p>
+                    <h3>Tutorial sources</h3>
+                    <p>This map was created using examples from this tutorial by <a
+                        href="https://uscensusbureau.github.io/citysdk/examples/leaflet-choropleth/">CitySDK</a></p>
+                    <h3><b>Image Sources</b></h3> <br>
+                    <p>The Wine image is from <a href="https://www.liquibox.com/solution/beverage/wine/">here.</a></p>
+                    <br>
+                    <p>The beer image is from <a
+                        href="https://www.thedrinksbusiness.com/2020/04/10-of-the-worlds-lowest-calorie-beers-2020/">here.</a>
+                    </p> <br>
+                    <p>The Spirits image is from <a
+                        href="https://www.thegazette.com/iowa-liquor-sales-surge-in-pandemic-20200516">here.</a></p>
+                    <br>
+                    <p>The Whiskey image is from <a
+                        href="https://www.liquor.com/slideshows/irish-whiskey-bottles/">here.</a></p>
+
+                  </div>
+                  <div class='modal-footer'>
+                    <button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class='col-md-12 text-center'>
+      <p style="font-size: 14px;">I hope you enjoyed using my interactive Web Map! Click on the button above if you
+        would like to
+        know more about this app and the people who made it!
+      </p>
+
+      <!--Grid column-->
+
+  </footer>
+  <!-- Footer -->
+
+  <script src="My_JS/Mainjs_spirits.js"></script>
+</body>
