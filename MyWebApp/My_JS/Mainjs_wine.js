@@ -58,7 +58,8 @@ d3.csv(liqour, function (beer) {
     var jkeys = Object.keys(data.features)
     //cycle througth beer
     for (i = 0; i < beer.length; i++) {
-        var x = Math.floor(beer[i]['Country']).toString();
+        var x = Math.floor(beer[i]['Year']).toString();
+        console.log(x)
       //select beer with the correct year (just a placeholder for now a year with mostly positive values)
       if (x == Year) {
         //get the keys of beer
