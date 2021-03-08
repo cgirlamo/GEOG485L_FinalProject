@@ -18,41 +18,9 @@
   <link rel='stylesheet' href="../MyCSS_stylesheets/stylesheet.css">
   <script src='../JS_CSS_downloaded_libraries/leaflet.js'></script>
 
-  <link rel='stylesheet' href='JS_CSS_downloaded_libraries/bootstrap-3.4.1-dist/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='../JS_CSS_downloaded_libraries/bootstrap-3.4.1-dist/css/bootstrap.css'>
   <style>
-    .slider {
-      -webkit-appearance: none;
-      /* Override default CSS styles */
-      appearance: none;
- 
-      /* background: #d3d3d3; */
-      /* Grey background */
-      outline: none;
-      /* Remove outline */
-      opacity: 0.7;
-      /* Set transparency (for mouse-over effects on hover) */
-      -webkit-transition: .2s;
-      /* 0.2 seconds transition on hover */
-      transition: opacity .2s;
-    }
-    /* Mouse-over effects */
-.slider:hover {
-  opacity: 1; /* Fully shown on mouse-over */
-}
-/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
-.slider::-webkit-slider-thumb {
-  -webkit-appearance: none; /* Override default look */
-  appearance: none;
 
-  background: #4CAF50; /* Green background */
-  cursor: pointer; /* Cursor on hover */
-}
-
-.slider::-moz-range-thumb {
-
-  background: #4CAF50; /* Green background */
-  cursor: pointer; /* Cursor on hover */
-}
 
     #con1 {
       height: 400px;
@@ -100,13 +68,13 @@
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Whiskey
               <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a class='menu' id='standard' href='../STD/index.html'>Standard</a></li>
-              <li class = 'active'><a class='menu' id='premium' href='../PRM/index.html'>Premium</a></li>
-              <li><a class='menu' id='ultra_P' href='../ULT/index.html'>Ultra Premium</a></li>
+              <li><a class='menu' id='standard' href='index_std.html'>Standard</a></li>
+              <li><a class='menu' id='premium' href='indexprm.html'>Premium</a></li>
+              <li><a class='menu' id='ultra_P' href='indexprm.html'>Ultra Premium</a></li>
             </ul>
-          <li><a class='menu' id='wine' href="../wine/index.html">Wine</a></li>
-          <li><a class='menu' id='beer' href="../index.html">Beer</a></li>
-          <li><a class='menu' id='spirits' href="../spirits/index.html">Spirits</a></li>
+          <li class = 'active'><a class='menu' id='wine' href="index_wine.html">Wine</a></li>
+          <li><a class='menu' id='beer' href="index.html">Beer</a></li>
+          <li><a class='menu' id='spirits' href="index_spirits.html">Spirits</a></li>
 
         </ul>
       </div>
@@ -129,9 +97,9 @@
         <!-- type of map -->
         <h1>Wine Map</h1>
         <!-- Images -->
-        <img src='pics/beer.png' alt='beer' width="100%">
-        <img src='pics/wine.jpg' alt='wine' width="100%">
-        <img src='pics/whiskey.jpg' alt='whiskey' width="100%">
+        <img src='../pics/beer.png' alt='beer' width="100%">
+        <img src='../pics/wine.jpg' alt='wine' width="100%">
+        <img src='../pics/whiskey.jpg' alt='whiskey' width="100%">
       </div>
     </div>
     <!-- Holds the map -->
@@ -176,7 +144,7 @@
     <div class='frame'>
 
       <div class='col-md-6 text-center'>
-        <img src='pics/Spirits.jpg' alt='spirits' height="100%">
+        <img src='../pics/Spirits.jpg' alt='spirits' height="100%">
       </div>
 
     </div>

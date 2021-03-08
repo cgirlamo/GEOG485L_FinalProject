@@ -115,8 +115,8 @@
         -webkit-appearance: none;
         /* Override default CSS styles */
         appearance: none;
-   
-        background-color:black;
+        height: 25px;
+        
         /* Grey background */
         outline: white;
         /* Remove outline */
@@ -135,7 +135,7 @@
     -webkit-appearance: none; /* Override default look */
     appearance: none;
   
-    background: #4CAF50; Green background
+    background: #4CAF50; 
     cursor: pointer; /* Cursor on hover */
   }
   
