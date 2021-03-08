@@ -53,7 +53,7 @@ var svg = d3.select('#mapid').append('svg').attr('width', width).attr('height', 
 //open our csv
 d3.csv(liqour, function (beer) {
   //open our csv
-  d3.json('../data/countries.json', function (data) {
+  d3.json('../MyWebApp/data/countries.json', function (data) {
     //get the keys of the object
     var jkeys = Object.keys(data.features)
     //cycle througth beer
