@@ -1,7 +1,7 @@
 var beer = '../data/beer.csv';
 var beer1 = '../data/beer1.csv'
 var wine = '../data/Wine Imports Value.csv';
-var spirits = '../data/Spirit Consumption.csv';
+var spirits = '../MyWebApp/data/Spirit Consumption.csv';
 var whiskey = '../data/whiskey.csv'
 //set the liquor value
 liqour = spirits;
