@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Alcohol Worldwide Demand</title>
+  
   <script src='../JS_CSS_downloaded_libraries/bower_components/plotlyjs/plotly.js'></script>
   <script src='../JS_CSS_downloaded_libraries/bower_components/d3.js'></script>
   <script src='../JS_CSS_downloaded_libraries/bower_components/jquery/dist/jquery.min.js'></script>
@@ -15,19 +16,19 @@
     src="../JS_CSS_downloaded_libraries/bower_components/bower_components/d3-scale-chromatic/d3-scale-chromatic.v1.min.js"></script>
 
   <link rel='stylesheet' href='../JS_CSS_downloaded_libraries/leaflet.css'>
-  <link rel='stylesheet' href="../MyCSS_stylesheets/stylesheet.css">
+ 
   <script src='../JS_CSS_downloaded_libraries/leaflet.js'></script>
-
+  <link rel = 'stylesheet' href="../MyCSS_stylesheets/stylesheet.css"/>
   <link rel='stylesheet' href='../JS_CSS_downloaded_libraries/bootstrap-3.4.1-dist/css/bootstrap.min.css'>
   <style>
-    .slider {
+     .slider {
       -webkit-appearance: none;
       /* Override default CSS styles */
       appearance: none;
  
       /* background: #d3d3d3; */
       /* Grey background */
-      outline: none;
+      outline: white;
       /* Remove outline */
       opacity: 0.7;
       /* Set transparency (for mouse-over effects on hover) */
@@ -52,7 +53,7 @@
 
   background: #4CAF50; /* Green background */
   cursor: pointer; /* Cursor on hover */
-}
+} */
 
     #con1 {
       height: 400px;
@@ -100,13 +101,13 @@
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Whiskey
               <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a class='menu' id='standard' href='index_std.html'>Standard</a></li>
-              <li class = 'active'><a class='menu' id='premium' href='indexprm.html'>Premium</a></li>
-              <li><a class='menu' id='ultra_P' href='index_ult.html'>Ultra Premium</a></li>
+              <li><a class='menu' id='standard' href='../STD/index.html'>Standard</a></li>
+              <li class = 'active'><a class='menu' id='premium' href='../PRM/index.html'>Premium</a></li>
+              <li><a class='menu' id='ultra_P' href='../ULT/index.html'>Ultra Premium</a></li>
             </ul>
-          <li><a class='menu' id='wine' href="index_wine.html">Wine</a></li>
-          <li><a class='menu' id='beer' href="index.html">Beer</a></li>
-          <li><a class='menu' id='spirits' href="index_spirits.html">Spirits</a></li>
+          <li><a class='menu' id='wine' href="../wine/index.html">Wine</a></li>
+          <li><a class='menu' id='beer' href="../index.html">Beer</a></li>
+          <li><a class='menu' id='spirits' href="../spirits/index.html">Spirits</a></li>
 
         </ul>
       </div>
@@ -129,9 +130,9 @@
         <!-- type of map -->
         <h1>Premium Whiskey Map</h1>
         <!-- Images -->
-        <img src='pics/beer.png' alt='beer' width="100%">
-        <img src='pics/wine.jpg' alt='wine' width="100%">
-        <img src='pics/whiskey.jpg' alt='whiskey' width="100%">
+        <img src='../pics/beer.png' alt='beer' width="100%">
+        <img src='../pics/wine.jpg' alt='wine' width="100%">
+        <img src='../pics/whiskey.jpg' alt='whiskey' width="100%">
       </div>
     </div>
     <!-- Holds the map -->
@@ -167,7 +168,7 @@
       <div class='col-md-6' id='con1'>
         <!-- This is just placeholder data, no functionality yet -->
         <!-- Pie Chart -->
-        <h1 style="text-align: center;">Alcoholic Consumption Per Country</h1>
+        <h1 class = 'chart' style="text-align: center;">Alcoholic Consumption Per Country</h1>
         <div id='my_donut' style=" height: 100%; width: 100%; background-color: lightgray;" >
 
         </div>
@@ -176,7 +177,7 @@
     <div class='frame'>
 
       <div class='col-md-6 text-center'>
-        <img src='pics/Spirits.jpg' alt='spirits' height="100%">
+        <img src='../pics/Spirits.jpg' alt='spirits' height="100%">
       </div>
 
     </div>
@@ -185,7 +186,7 @@
       <div class='frame'>
         <!-- This is just placeholder data, no functionality yet -->
         <div class='col-md-12' id='con1'>
-          <h1 style="text-align: center;">Alcoholic Consumption Per Country</h1>
+          <h1 class = 'chart' style="text-align: center;">Alcoholic Consumption Per Country</h1>
 
           <div id='my_hist'></div>
 
