@@ -2,7 +2,7 @@ var beer = '../data/beer.csv';
 var beer1 = '../data/beer1.csv'
 var wine = '../data/Wine Imports.csv';
 var spirits = '../data/Spirit Consumption.csv';
-var whiskey = '../data/whiskey.csv'
+var whiskey = '../MyWebApp/data/whiskey.csv'
 //set the liquor value
 liqour = wine;
 
