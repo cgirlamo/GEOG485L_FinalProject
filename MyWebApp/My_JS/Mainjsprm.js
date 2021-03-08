@@ -235,7 +235,6 @@ d3.csv(liqour, function (beer) {
     //draw in the pie chart using Plotly
     Plotly.newPlot('my_donut', donut, layout, { responsive: true });
 
-    $('.chart').innerHTML = 'Alcoholic Consumption per Country (' + Year + ')';
 
     //use the slider input to change the year value and reload the map
     slider.oninput = function () {
