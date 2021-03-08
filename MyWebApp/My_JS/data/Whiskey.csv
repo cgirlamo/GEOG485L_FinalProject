@@ -1,0 +1,4132 @@
+Quality,Country,Year,Cases
+Standard,United States,1990,243000
+Standard,United States,1991,214000
+Standard,United States,1992,219500
+Standard,United States,1993,225000
+Standard,United States,1994,239500
+Standard,United States,1995,249000
+Standard,United States,1996,259000
+Standard,United States,1997,279500
+Standard,United States,1998,296750
+Standard,United States,1999,322000
+Standard,United States,2000,343750
+Standard,United States,2001,371250
+Standard,United States,2002,398750
+Standard,United States,2003,443500
+Standard,United States,2004,500250
+Standard,United States,2005,572500
+Standard,United States,2006,682250
+Standard,United States,2007,803000
+Standard,United States,2008,975500
+Standard,United States,2009,1099250
+Standard,United States,2010,1337600
+Standard,United States,2011,1652250
+Standard,United States,2012,1989750
+Standard,United States,2013,2365000
+Standard,United States,2014,2463750
+Standard,United States,2015,2893250
+Standard,United States,2016,3337500
+Standard,Ireland,1990,537500
+Standard,Ireland,1991,546000
+Standard,Ireland,1992,513000
+Standard,Ireland,1993,524500
+Standard,Ireland,1994,526000
+Standard,Ireland,1995,517500
+Standard,Ireland,1996,536350
+Standard,Ireland,1997,545050
+Standard,Ireland,1998,546000
+Standard,Ireland,1999,583100
+Standard,Ireland,2000,586350
+Standard,Ireland,2001,584650
+Standard,Ireland,2002,564900
+Standard,Ireland,2003,475400
+Standard,Ireland,2004,472950
+Standard,Ireland,2005,471400
+Standard,Ireland,2006,470500
+Standard,Ireland,2007,473400
+Standard,Ireland,2008,448000
+Standard,Ireland,2009,404400
+Standard,Ireland,2010,404300
+Standard,Ireland,2011,426100
+Standard,Ireland,2012,484450
+Standard,Ireland,2013,468800
+Standard,Ireland,2014,413870
+Standard,Ireland,2015,434600
+Standard,Ireland,2016,444200
+Standard,France,1990,92000
+Standard,France,1991,118000
+Standard,France,1992,137000
+Standard,France,1993,151000
+Standard,France,1994,161000
+Standard,France,1995,181000
+Standard,France,1996,225000
+Standard,France,1997,255000
+Standard,France,1998,289000
+Standard,France,1999,327000
+Standard,France,2000,340000
+Standard,France,2001,393000
+Standard,France,2002,399500
+Standard,France,2003,398000
+Standard,France,2004,398000
+Standard,France,2005,379000
+Standard,France,2006,379750
+Standard,France,2007,370250
+Standard,France,2008,370000
+Standard,France,2009,353000
+Standard,France,2010,380000
+Standard,France,2011,376000
+Standard,France,2012,365250
+Standard,France,2013,364000
+Standard,France,2014,364000
+Standard,France,2015,358250
+Standard,France,2016,345250
+Standard,South Africa,1990,7000
+Standard,South Africa,1991,6500
+Standard,South Africa,1992,7000
+Standard,South Africa,1993,8000
+Standard,South Africa,1994,9500
+Standard,South Africa,1995,11500
+Standard,South Africa,1996,20500
+Standard,South Africa,1997,24750
+Standard,South Africa,1998,26250
+Standard,South Africa,1999,29500
+Standard,South Africa,2000,30250
+Standard,South Africa,2001,34000
+Standard,South Africa,2002,36500
+Standard,South Africa,2003,40500
+Standard,South Africa,2004,62000
+Standard,South Africa,2005,87500
+Standard,South Africa,2006,131000
+Standard,South Africa,2007,168000
+Standard,South Africa,2008,195000
+Standard,South Africa,2009,200500
+Standard,South Africa,2010,208000
+Standard,South Africa,2011,209500
+Standard,South Africa,2012,211250
+Standard,South Africa,2013,229000
+Standard,South Africa,2014,243750
+Standard,South Africa,2015,278750
+Standard,South Africa,2016,308250
+Standard,Russia,1990,0
+Standard,Russia,1991,750
+Standard,Russia,1992,1250
+Standard,Russia,1993,2750
+Standard,Russia,1994,3500
+Standard,Russia,1995,5000
+Standard,Russia,1996,6000
+Standard,Russia,1997,9000
+Standard,Russia,1998,8000
+Standard,Russia,1999,6000
+Standard,Russia,2000,7500
+Standard,Russia,2001,10000
+Standard,Russia,2002,12000
+Standard,Russia,2003,14000
+Standard,Russia,2004,21500
+Standard,Russia,2005,37800
+Standard,Russia,2006,59250
+Standard,Russia,2007,97750
+Standard,Russia,2008,136750
+Standard,Russia,2009,124650
+Standard,Russia,2010,171500
+Standard,Russia,2011,292600
+Standard,Russia,2012,345200
+Standard,Russia,2013,367600
+Standard,Russia,2014,427500
+Standard,Russia,2015,277700
+Standard,Russia,2016,280250
+Standard,Germany,1990,80000
+Standard,Germany,1991,85000
+Standard,Germany,1992,98000
+Standard,Germany,1993,89000
+Standard,Germany,1994,96500
+Standard,Germany,1995,84500
+Standard,Germany,1996,91750
+Standard,Germany,1997,90000
+Standard,Germany,1998,92750
+Standard,Germany,1999,99500
+Standard,Germany,2000,107100
+Standard,Germany,2001,112950
+Standard,Germany,2002,113200
+Standard,Germany,2003,118400
+Standard,Germany,2004,137300
+Standard,Germany,2005,135650
+Standard,Germany,2006,136550
+Standard,Germany,2007,146000
+Standard,Germany,2008,168000
+Standard,Germany,2009,165300
+Standard,Germany,2010,182200
+Standard,Germany,2011,224500
+Standard,Germany,2012,246750
+Standard,Germany,2013,277500
+Standard,Germany,2014,293500
+Standard,Germany,2015,285500
+Standard,Germany,2016,279000
+Standard,United Kingdom,1990,110000
+Standard,United Kingdom,1991,110000
+Standard,United Kingdom,1992,115000
+Standard,United Kingdom,1993,125000
+Standard,United Kingdom,1994,140500
+Standard,United Kingdom,1995,151000
+Standard,United Kingdom,1996,149800
+Standard,United Kingdom,1997,163000
+Standard,United Kingdom,1998,174000
+Standard,United Kingdom,1999,185400
+Standard,United Kingdom,2000,196300
+Standard,United Kingdom,2001,209750
+Standard,United Kingdom,2002,233300
+Standard,United Kingdom,2003,238950
+Standard,United Kingdom,2004,245500
+Standard,United Kingdom,2005,253750
+Standard,United Kingdom,2006,250000
+Standard,United Kingdom,2007,256500
+Standard,United Kingdom,2008,266000
+Standard,United Kingdom,2009,262000
+Standard,United Kingdom,2010,276000
+Standard,United Kingdom,2011,246500
+Standard,United Kingdom,2012,238750
+Standard,United Kingdom,2013,245500
+Standard,United Kingdom,2014,249250
+Standard,United Kingdom,2015,264250
+Standard,United Kingdom,2016,274500
+Standard,Czech Republic,1990,0
+Standard,Czech Republic,1991,0
+Standard,Czech Republic,1992,0
+Standard,Czech Republic,1993,500
+Standard,Czech Republic,1994,1000
+Standard,Czech Republic,1995,2250
+Standard,Czech Republic,1996,6250
+Standard,Czech Republic,1997,11000
+Standard,Czech Republic,1998,18250
+Standard,Czech Republic,1999,17750
+Standard,Czech Republic,2000,24000
+Standard,Czech Republic,2001,28950
+Standard,Czech Republic,2002,34000
+Standard,Czech Republic,2003,38660
+Standard,Czech Republic,2004,50720
+Standard,Czech Republic,2005,61480
+Standard,Czech Republic,2006,79150
+Standard,Czech Republic,2007,101950
+Standard,Czech Republic,2008,115950
+Standard,Czech Republic,2009,136250
+Standard,Czech Republic,2010,115000
+Standard,Czech Republic,2011,135000
+Standard,Czech Republic,2012,135650
+Standard,Czech Republic,2013,154000
+Standard,Czech Republic,2014,172500
+Standard,Czech Republic,2015,182500
+Standard,Czech Republic,2016,197500
+Standard,Canada,1990,21850
+Standard,Canada,1991,22250
+Standard,Canada,1992,21000
+Standard,Canada,1993,20350
+Standard,Canada,1994,21100
+Standard,Canada,1995,21250
+Standard,Canada,1996,23000
+Standard,Canada,1997,21400
+Standard,Canada,1998,22100
+Standard,Canada,1999,23850
+Standard,Canada,2000,25750
+Standard,Canada,2001,27500
+Standard,Canada,2002,30500
+Standard,Canada,2003,32150
+Standard,Canada,2004,35000
+Standard,Canada,2005,38000
+Standard,Canada,2006,40500
+Standard,Canada,2007,45100
+Standard,Canada,2008,50250
+Standard,Canada,2009,57000
+Standard,Canada,2010,65750
+Standard,Canada,2011,80500
+Standard,Canada,2012,108000
+Standard,Canada,2013,116000
+Standard,Canada,2014,140000
+Standard,Canada,2015,162750
+Standard,Canada,2016,182000
+Standard,Bulgaria,1990,0
+Standard,Bulgaria,1991,0
+Standard,Bulgaria,1992,250
+Standard,Bulgaria,1993,250
+Standard,Bulgaria,1994,500
+Standard,Bulgaria,1995,500
+Standard,Bulgaria,1996,500
+Standard,Bulgaria,1997,500
+Standard,Bulgaria,1998,2750
+Standard,Bulgaria,1999,9000
+Standard,Bulgaria,2000,17750
+Standard,Bulgaria,2001,24910
+Standard,Bulgaria,2002,37150
+Standard,Bulgaria,2003,43100
+Standard,Bulgaria,2004,48250
+Standard,Bulgaria,2005,49950
+Standard,Bulgaria,2006,61150
+Standard,Bulgaria,2007,89900
+Standard,Bulgaria,2008,121700
+Standard,Bulgaria,2009,117100
+Standard,Bulgaria,2010,131100
+Standard,Bulgaria,2011,143100
+Standard,Bulgaria,2012,145600
+Standard,Bulgaria,2013,149900
+Standard,Bulgaria,2014,161000
+Standard,Bulgaria,2015,158500
+Standard,Bulgaria,2016,169200
+Standard,Australia,1990,9000
+Standard,Australia,1991,8000
+Standard,Australia,1992,9500
+Standard,Australia,1993,11500
+Standard,Australia,1994,18500
+Standard,Australia,1995,24000
+Standard,Australia,1996,33750
+Standard,Australia,1997,37250
+Standard,Australia,1998,42200
+Standard,Australia,1999,44000
+Standard,Australia,2000,46000
+Standard,Australia,2001,47000
+Standard,Australia,2002,48500
+Standard,Australia,2003,55500
+Standard,Australia,2004,59750
+Standard,Australia,2005,60750
+Standard,Australia,2006,64250
+Standard,Australia,2007,63000
+Standard,Australia,2008,59500
+Standard,Australia,2009,68100
+Standard,Australia,2010,72250
+Standard,Australia,2011,80750
+Standard,Australia,2012,84150
+Standard,Australia,2013,91350
+Standard,Australia,2014,103350
+Standard,Australia,2015,107250
+Standard,Australia,2016,114000
+Standard,Sweden,1990,13300
+Standard,Sweden,1991,14500
+Standard,Sweden,1992,17400
+Standard,Sweden,1993,22900
+Standard,Sweden,1994,27400
+Standard,Sweden,1995,31000
+Standard,Sweden,1996,34400
+Standard,Sweden,1997,34050
+Standard,Sweden,1998,39000
+Standard,Sweden,1999,44500
+Standard,Sweden,2000,49500
+Standard,Sweden,2001,51600
+Standard,Sweden,2002,51880
+Standard,Sweden,2003,54600
+Standard,Sweden,2004,47050
+Standard,Sweden,2005,46300
+Standard,Sweden,2006,50950
+Standard,Sweden,2007,59300
+Standard,Sweden,2008,65450
+Standard,Sweden,2009,80930
+Standard,Sweden,2010,84400
+Standard,Sweden,2011,87250
+Standard,Sweden,2012,97400
+Standard,Sweden,2013,97500
+Standard,Sweden,2014,95000
+Standard,Sweden,2015,97000
+Standard,Sweden,2016,100000
+Standard,Poland,1990,250
+Standard,Poland,1991,0
+Standard,Poland,1992,250
+Standard,Poland,1993,250
+Standard,Poland,1994,800
+Standard,Poland,1995,1000
+Standard,Poland,1996,1000
+Standard,Poland,1997,1250
+Standard,Poland,1998,1900
+Standard,Poland,1999,3250
+Standard,Poland,2000,3750
+Standard,Poland,2001,3750
+Standard,Poland,2002,3900
+Standard,Poland,2003,4700
+Standard,Poland,2004,8000
+Standard,Poland,2005,10250
+Standard,Poland,2006,14000
+Standard,Poland,2007,22400
+Standard,Poland,2008,27200
+Standard,Poland,2009,28100
+Standard,Poland,2010,32250
+Standard,Poland,2011,37000
+Standard,Poland,2012,39550
+Standard,Poland,2013,51250
+Standard,Poland,2014,67500
+Standard,Poland,2015,77900
+Standard,Poland,2016,96750
+Standard,Portugal,1990,1750
+Standard,Portugal,1991,2400
+Standard,Portugal,1992,2500
+Standard,Portugal,1993,2900
+Standard,Portugal,1994,3800
+Standard,Portugal,1995,4200
+Standard,Portugal,1996,8650
+Standard,Portugal,1997,14550
+Standard,Portugal,1998,21200
+Standard,Portugal,1999,27000
+Standard,Portugal,2000,32550
+Standard,Portugal,2001,40750
+Standard,Portugal,2002,44850
+Standard,Portugal,2003,53200
+Standard,Portugal,2004,59100
+Standard,Portugal,2005,62250
+Standard,Portugal,2006,63750
+Standard,Portugal,2007,75750
+Standard,Portugal,2008,81750
+Standard,Portugal,2009,81500
+Standard,Portugal,2010,91450
+Standard,Portugal,2011,96200
+Standard,Portugal,2012,91850
+Standard,Portugal,2013,95300
+Standard,Portugal,2014,93100
+Standard,Portugal,2015,103050
+Standard,Portugal,2016,95150
+Standard,Slovakia,1990,0
+Standard,Slovakia,1991,0
+Standard,Slovakia,1992,0
+Standard,Slovakia,1993,0
+Standard,Slovakia,1994,0
+Standard,Slovakia,1995,250
+Standard,Slovakia,1996,750
+Standard,Slovakia,1997,1750
+Standard,Slovakia,1998,750
+Standard,Slovakia,1999,1600
+Standard,Slovakia,2000,1650
+Standard,Slovakia,2001,2000
+Standard,Slovakia,2002,2650
+Standard,Slovakia,2003,3850
+Standard,Slovakia,2004,5100
+Standard,Slovakia,2005,5250
+Standard,Slovakia,2006,5750
+Standard,Slovakia,2007,6750
+Standard,Slovakia,2008,7500
+Standard,Slovakia,2009,10880
+Standard,Slovakia,2010,12650
+Standard,Slovakia,2011,18550
+Standard,Slovakia,2012,27150
+Standard,Slovakia,2013,34250
+Standard,Slovakia,2014,46150
+Standard,Slovakia,2015,61250
+Standard,Slovakia,2016,75500
+Standard,DF Nordic Countries - (All Countries),1990,19000
+Standard,DF Nordic Countries - (All Countries),1991,28000
+Standard,DF Nordic Countries - (All Countries),1992,29500
+Standard,DF Nordic Countries - (All Countries),1993,31500
+Standard,DF Nordic Countries - (All Countries),1994,31750
+Standard,DF Nordic Countries - (All Countries),1995,33500
+Standard,DF Nordic Countries - (All Countries),1996,34250
+Standard,DF Nordic Countries - (All Countries),1997,29000
+Standard,DF Nordic Countries - (All Countries),1998,38250
+Standard,DF Nordic Countries - (All Countries),1999,40000
+Standard,DF Nordic Countries - (All Countries),2000,26350
+Standard,DF Nordic Countries - (All Countries),2001,32700
+Standard,DF Nordic Countries - (All Countries),2002,28250
+Standard,DF Nordic Countries - (All Countries),2003,27500
+Standard,DF Nordic Countries - (All Countries),2004,28200
+Standard,DF Nordic Countries - (All Countries),2005,29800
+Standard,DF Nordic Countries - (All Countries),2006,32850
+Standard,DF Nordic Countries - (All Countries),2007,44050
+Standard,DF Nordic Countries - (All Countries),2008,56075
+Standard,DF Nordic Countries - (All Countries),2009,52250
+Standard,DF Nordic Countries - (All Countries),2010,57000
+Standard,DF Nordic Countries - (All Countries),2011,70675
+Standard,DF Nordic Countries - (All Countries),2012,72475
+Standard,DF Nordic Countries - (All Countries),2013,75600
+Standard,DF Nordic Countries - (All Countries),2014,76390
+Standard,DF Nordic Countries - (All Countries),2015,69750
+Standard,DF Nordic Countries - (All Countries),2016,72925
+Standard,Denmark,1990,6800
+Standard,Denmark,1991,6300
+Standard,Denmark,1992,6000
+Standard,Denmark,1993,6000
+Standard,Denmark,1994,6750
+Standard,Denmark,1995,7000
+Standard,Denmark,1996,9500
+Standard,Denmark,1997,9950
+Standard,Denmark,1998,13000
+Standard,Denmark,1999,14700
+Standard,Denmark,2000,16000
+Standard,Denmark,2001,18350
+Standard,Denmark,2002,20000
+Standard,Denmark,2003,27000
+Standard,Denmark,2004,34300
+Standard,Denmark,2005,37500
+Standard,Denmark,2006,43000
+Standard,Denmark,2007,45900
+Standard,Denmark,2008,46300
+Standard,Denmark,2009,49750
+Standard,Denmark,2010,53000
+Standard,Denmark,2011,48600
+Standard,Denmark,2012,49670
+Standard,Denmark,2013,49050
+Standard,Denmark,2014,48230
+Standard,Denmark,2015,62000
+Standard,Denmark,2016,64400
+Standard,Netherlands,1990,29000
+Standard,Netherlands,1991,31000
+Standard,Netherlands,1992,32600
+Standard,Netherlands,1993,33100
+Standard,Netherlands,1994,32600
+Standard,Netherlands,1995,38400
+Standard,Netherlands,1996,41500
+Standard,Netherlands,1997,45600
+Standard,Netherlands,1998,51150
+Standard,Netherlands,1999,55150
+Standard,Netherlands,2000,60000
+Standard,Netherlands,2001,62600
+Standard,Netherlands,2002,65500
+Standard,Netherlands,2003,60250
+Standard,Netherlands,2004,59500
+Standard,Netherlands,2005,60000
+Standard,Netherlands,2006,60000
+Standard,Netherlands,2007,60500
+Standard,Netherlands,2008,65750
+Standard,Netherlands,2009,63750
+Standard,Netherlands,2010,68450
+Standard,Netherlands,2011,67700
+Standard,Netherlands,2012,69850
+Standard,Netherlands,2013,64100
+Standard,Netherlands,2014,63000
+Standard,Netherlands,2015,60700
+Standard,Netherlands,2016,62250
+Standard,Latvia,1990,0
+Standard,Latvia,1991,0
+Standard,Latvia,1992,0
+Standard,Latvia,1993,250
+Standard,Latvia,1994,500
+Standard,Latvia,1995,750
+Standard,Latvia,1996,1250
+Standard,Latvia,1997,2500
+Standard,Latvia,1998,4000
+Standard,Latvia,1999,7250
+Standard,Latvia,2000,6750
+Standard,Latvia,2001,7000
+Standard,Latvia,2002,6330
+Standard,Latvia,2003,12450
+Standard,Latvia,2004,15850
+Standard,Latvia,2005,23750
+Standard,Latvia,2006,33600
+Standard,Latvia,2007,54250
+Standard,Latvia,2008,60250
+Standard,Latvia,2009,30450
+Standard,Latvia,2010,34400
+Standard,Latvia,2011,38900
+Standard,Latvia,2012,43940
+Standard,Latvia,2013,56000
+Standard,Latvia,2014,58420
+Standard,Latvia,2015,60170
+Standard,Latvia,2016,60750
+Standard,Greece,1990,5000
+Standard,Greece,1991,6000
+Standard,Greece,1992,9000
+Standard,Greece,1993,14000
+Standard,Greece,1994,17000
+Standard,Greece,1995,20000
+Standard,Greece,1996,29000
+Standard,Greece,1997,34000
+Standard,Greece,1998,35500
+Standard,Greece,1999,39250
+Standard,Greece,2000,43500
+Standard,Greece,2001,44250
+Standard,Greece,2002,46000
+Standard,Greece,2003,45500
+Standard,Greece,2004,45750
+Standard,Greece,2005,45750
+Standard,Greece,2006,45500
+Standard,Greece,2007,46250
+Standard,Greece,2008,44500
+Standard,Greece,2009,43100
+Standard,Greece,2010,37250
+Standard,Greece,2011,36500
+Standard,Greece,2012,38500
+Standard,Greece,2013,44250
+Standard,Greece,2014,47750
+Standard,Greece,2015,51900
+Standard,Greece,2016,60500
+Standard,DF Russia,1990,0
+Standard,DF Russia,1991,0
+Standard,DF Russia,1992,0
+Standard,DF Russia,1993,0
+Standard,DF Russia,1994,0
+Standard,DF Russia,1995,0
+Standard,DF Russia,1996,0
+Standard,DF Russia,1997,0
+Standard,DF Russia,1998,0
+Standard,DF Russia,1999,0
+Standard,DF Russia,2000,0
+Standard,DF Russia,2001,3750
+Standard,DF Russia,2002,6250
+Standard,DF Russia,2003,8750
+Standard,DF Russia,2004,8750
+Standard,DF Russia,2005,10525
+Standard,DF Russia,2006,11750
+Standard,DF Russia,2007,27800
+Standard,DF Russia,2008,37925
+Standard,DF Russia,2009,45600
+Standard,DF Russia,2010,54300
+Standard,DF Russia,2011,85525
+Standard,DF Russia,2012,103250
+Standard,DF Russia,2013,119250
+Standard,DF Russia,2014,93825
+Standard,DF Russia,2015,60235
+Standard,DF Russia,2016,58590
+Standard,Ukraine,1990,0
+Standard,Ukraine,1991,0
+Standard,Ukraine,1992,0
+Standard,Ukraine,1993,0
+Standard,Ukraine,1994,0
+Standard,Ukraine,1995,0
+Standard,Ukraine,1996,0
+Standard,Ukraine,1997,250
+Standard,Ukraine,1998,200
+Standard,Ukraine,1999,150
+Standard,Ukraine,2000,0
+Standard,Ukraine,2001,250
+Standard,Ukraine,2002,250
+Standard,Ukraine,2003,500
+Standard,Ukraine,2004,3250
+Standard,Ukraine,2005,4750
+Standard,Ukraine,2006,6750
+Standard,Ukraine,2007,14000
+Standard,Ukraine,2008,18750
+Standard,Ukraine,2009,17550
+Standard,Ukraine,2010,22500
+Standard,Ukraine,2011,32750
+Standard,Ukraine,2012,47800
+Standard,Ukraine,2013,53500
+Standard,Ukraine,2014,56700
+Standard,Ukraine,2015,49200
+Standard,Ukraine,2016,54500
+Standard,DF British Isles (Inc. Ireland),1990,109000
+Standard,DF British Isles (Inc. Ireland),1991,121000
+Standard,DF British Isles (Inc. Ireland),1992,123000
+Standard,DF British Isles (Inc. Ireland),1993,150500
+Standard,DF British Isles (Inc. Ireland),1994,167750
+Standard,DF British Isles (Inc. Ireland),1995,194000
+Standard,DF British Isles (Inc. Ireland),1996,201000
+Standard,DF British Isles (Inc. Ireland),1997,205250
+Standard,DF British Isles (Inc. Ireland),1998,214000
+Standard,DF British Isles (Inc. Ireland),1999,128250
+Standard,DF British Isles (Inc. Ireland),2000,91500
+Standard,DF British Isles (Inc. Ireland),2001,93500
+Standard,DF British Isles (Inc. Ireland),2002,67000
+Standard,DF British Isles (Inc. Ireland),2003,72500
+Standard,DF British Isles (Inc. Ireland),2004,78250
+Standard,DF British Isles (Inc. Ireland),2005,86500
+Standard,DF British Isles (Inc. Ireland),2006,85750
+Standard,DF British Isles (Inc. Ireland),2007,76250
+Standard,DF British Isles (Inc. Ireland),2008,67000
+Standard,DF British Isles (Inc. Ireland),2009,58250
+Standard,DF British Isles (Inc. Ireland),2010,57500
+Standard,DF British Isles (Inc. Ireland),2011,52600
+Standard,DF British Isles (Inc. Ireland),2012,46200
+Standard,DF British Isles (Inc. Ireland),2013,50350
+Standard,DF British Isles (Inc. Ireland),2014,46010
+Standard,DF British Isles (Inc. Ireland),2015,46210
+Standard,DF British Isles (Inc. Ireland),2016,48675
+Standard,DF Germany,1990,12500
+Standard,DF Germany,1991,11000
+Standard,DF Germany,1992,11000
+Standard,DF Germany,1993,16000
+Standard,DF Germany,1994,19750
+Standard,DF Germany,1995,21000
+Standard,DF Germany,1996,27000
+Standard,DF Germany,1997,27500
+Standard,DF Germany,1998,23000
+Standard,DF Germany,1999,14500
+Standard,DF Germany,2000,10250
+Standard,DF Germany,2001,18250
+Standard,DF Germany,2002,20250
+Standard,DF Germany,2003,22000
+Standard,DF Germany,2004,23750
+Standard,DF Germany,2005,26000
+Standard,DF Germany,2006,29000
+Standard,DF Germany,2007,32150
+Standard,DF Germany,2008,38550
+Standard,DF Germany,2009,32250
+Standard,DF Germany,2010,39500
+Standard,DF Germany,2011,40500
+Standard,DF Germany,2012,35295
+Standard,DF Germany,2013,39355
+Standard,DF Germany,2014,41950
+Standard,DF Germany,2015,40150
+Standard,DF Germany,2016,45615
+Standard,Spain,1990,3000
+Standard,Spain,1991,3000
+Standard,Spain,1992,4000
+Standard,Spain,1993,5000
+Standard,Spain,1994,8750
+Standard,Spain,1995,9750
+Standard,Spain,1996,17250
+Standard,Spain,1997,21000
+Standard,Spain,1998,28000
+Standard,Spain,1999,34250
+Standard,Spain,2000,45250
+Standard,Spain,2001,65750
+Standard,Spain,2002,75500
+Standard,Spain,2003,77500
+Standard,Spain,2004,80250
+Standard,Spain,2005,81500
+Standard,Spain,2006,86250
+Standard,Spain,2007,78500
+Standard,Spain,2008,67500
+Standard,Spain,2009,62500
+Standard,Spain,2010,58000
+Standard,Spain,2011,59250
+Standard,Spain,2012,45750
+Standard,Spain,2013,44250
+Standard,Spain,2014,42250
+Standard,Spain,2015,42500
+Standard,Spain,2016,42700
+Standard,DF US/Canada,1990,22000
+Standard,DF US/Canada,1991,20000
+Standard,DF US/Canada,1992,18000
+Standard,DF US/Canada,1993,10250
+Standard,DF US/Canada,1994,8750
+Standard,DF US/Canada,1995,8750
+Standard,DF US/Canada,1996,10000
+Standard,DF US/Canada,1997,10000
+Standard,DF US/Canada,1998,11750
+Standard,DF US/Canada,1999,13500
+Standard,DF US/Canada,2000,15500
+Standard,DF US/Canada,2001,13250
+Standard,DF US/Canada,2002,16500
+Standard,DF US/Canada,2003,18000
+Standard,DF US/Canada,2004,18250
+Standard,DF US/Canada,2005,18500
+Standard,DF US/Canada,2006,19750
+Standard,DF US/Canada,2007,24000
+Standard,DF US/Canada,2008,30500
+Standard,DF US/Canada,2009,19550
+Standard,DF US/Canada,2010,30500
+Standard,DF US/Canada,2011,41550
+Standard,DF US/Canada,2012,47950
+Standard,DF US/Canada,2013,40200
+Standard,DF US/Canada,2014,52350
+Standard,DF US/Canada,2015,30700
+Standard,DF US/Canada,2016,42480
+Standard,Lithuania,1990,0
+Standard,Lithuania,1991,0
+Standard,Lithuania,1992,0
+Standard,Lithuania,1993,0
+Standard,Lithuania,1994,0
+Standard,Lithuania,1995,250
+Standard,Lithuania,1996,250
+Standard,Lithuania,1997,550
+Standard,Lithuania,1998,450
+Standard,Lithuania,1999,500
+Standard,Lithuania,2000,700
+Standard,Lithuania,2001,650
+Standard,Lithuania,2002,700
+Standard,Lithuania,2003,850
+Standard,Lithuania,2004,1150
+Standard,Lithuania,2005,2150
+Standard,Lithuania,2006,5700
+Standard,Lithuania,2007,10450
+Standard,Lithuania,2008,9000
+Standard,Lithuania,2009,6900
+Standard,Lithuania,2010,6850
+Standard,Lithuania,2011,11300
+Standard,Lithuania,2012,13400
+Standard,Lithuania,2013,17500
+Standard,Lithuania,2014,23650
+Standard,Lithuania,2015,33200
+Standard,Lithuania,2016,35800
+Standard,Norway,1990,3500
+Standard,Norway,1991,3700
+Standard,Norway,1992,4000
+Standard,Norway,1993,4900
+Standard,Norway,1994,5800
+Standard,Norway,1995,6500
+Standard,Norway,1996,8000
+Standard,Norway,1997,9400
+Standard,Norway,1998,11100
+Standard,Norway,1999,12950
+Standard,Norway,2000,14050
+Standard,Norway,2001,16600
+Standard,Norway,2002,19850
+Standard,Norway,2003,21600
+Standard,Norway,2004,23650
+Standard,Norway,2005,26350
+Standard,Norway,2006,26750
+Standard,Norway,2007,27850
+Standard,Norway,2008,29000
+Standard,Norway,2009,31500
+Standard,Norway,2010,32600
+Standard,Norway,2011,30100
+Standard,Norway,2012,30500
+Standard,Norway,2013,31250
+Standard,Norway,2014,32850
+Standard,Norway,2015,32250
+Standard,Norway,2016,34750
+Standard,Japan,1990,4750
+Standard,Japan,1991,5250
+Standard,Japan,1992,6250
+Standard,Japan,1993,9000
+Standard,Japan,1994,10150
+Standard,Japan,1995,8800
+Standard,Japan,1996,9600
+Standard,Japan,1997,8700
+Standard,Japan,1998,9900
+Standard,Japan,1999,9900
+Standard,Japan,2000,9700
+Standard,Japan,2001,9350
+Standard,Japan,2002,9700
+Standard,Japan,2003,9500
+Standard,Japan,2004,8500
+Standard,Japan,2005,9000
+Standard,Japan,2006,10000
+Standard,Japan,2007,11000
+Standard,Japan,2008,8500
+Standard,Japan,2009,9000
+Standard,Japan,2010,10750
+Standard,Japan,2011,11250
+Standard,Japan,2012,17000
+Standard,Japan,2013,19000
+Standard,Japan,2014,17850
+Standard,Japan,2015,27500
+Standard,Japan,2016,30150
+Standard,New Zealand,1990,3000
+Standard,New Zealand,1991,3000
+Standard,New Zealand,1992,2000
+Standard,New Zealand,1993,2500
+Standard,New Zealand,1994,2500
+Standard,New Zealand,1995,3000
+Standard,New Zealand,1996,3500
+Standard,New Zealand,1997,4000
+Standard,New Zealand,1998,5500
+Standard,New Zealand,1999,6750
+Standard,New Zealand,2000,7400
+Standard,New Zealand,2001,9000
+Standard,New Zealand,2002,9750
+Standard,New Zealand,2003,10750
+Standard,New Zealand,2004,10950
+Standard,New Zealand,2005,11700
+Standard,New Zealand,2006,13460
+Standard,New Zealand,2007,12660
+Standard,New Zealand,2008,13410
+Standard,New Zealand,2009,15900
+Standard,New Zealand,2010,16850
+Standard,New Zealand,2011,16100
+Standard,New Zealand,2012,16600
+Standard,New Zealand,2013,18050
+Standard,New Zealand,2014,21350
+Standard,New Zealand,2015,23700
+Standard,New Zealand,2016,30050
+Standard,Italy,1990,8000
+Standard,Italy,1991,7000
+Standard,Italy,1992,7000
+Standard,Italy,1993,10000
+Standard,Italy,1994,13500
+Standard,Italy,1995,16000
+Standard,Italy,1996,17500
+Standard,Italy,1997,33000
+Standard,Italy,1998,37250
+Standard,Italy,1999,37250
+Standard,Italy,2000,38000
+Standard,Italy,2001,46750
+Standard,Italy,2002,59500
+Standard,Italy,2003,63250
+Standard,Italy,2004,62500
+Standard,Italy,2005,43750
+Standard,Italy,2006,42250
+Standard,Italy,2007,33500
+Standard,Italy,2008,24000
+Standard,Italy,2009,22500
+Standard,Italy,2010,20500
+Standard,Italy,2011,21500
+Standard,Italy,2012,18500
+Standard,Italy,2013,23500
+Standard,Italy,2014,23000
+Standard,Italy,2015,25000
+Standard,Italy,2016,29200
+Standard,DF Rest of Africa,1990,0
+Standard,DF Rest of Africa,1991,0
+Standard,DF Rest of Africa,1992,0
+Standard,DF Rest of Africa,1993,0
+Standard,DF Rest of Africa,1994,0
+Standard,DF Rest of Africa,1995,0
+Standard,DF Rest of Africa,1996,0
+Standard,DF Rest of Africa,1997,0
+Standard,DF Rest of Africa,1998,0
+Standard,DF Rest of Africa,1999,0
+Standard,DF Rest of Africa,2000,5250
+Standard,DF Rest of Africa,2001,3500
+Standard,DF Rest of Africa,2002,2250
+Standard,DF Rest of Africa,2003,1700
+Standard,DF Rest of Africa,2004,1775
+Standard,DF Rest of Africa,2005,1825
+Standard,DF Rest of Africa,2006,2000
+Standard,DF Rest of Africa,2007,1925
+Standard,DF Rest of Africa,2008,2950
+Standard,DF Rest of Africa,2009,5900
+Standard,DF Rest of Africa,2010,10300
+Standard,DF Rest of Africa,2011,17025
+Standard,DF Rest of Africa,2012,22150
+Standard,DF Rest of Africa,2013,24475
+Standard,DF Rest of Africa,2014,39325
+Standard,DF Rest of Africa,2015,35300
+Standard,DF Rest of Africa,2016,22975
+Standard,Finland,1990,9000
+Standard,Finland,1991,8500
+Standard,Finland,1992,7500
+Standard,Finland,1993,6500
+Standard,Finland,1994,8650
+Standard,Finland,1995,10300
+Standard,Finland,1996,11750
+Standard,Finland,1997,13000
+Standard,Finland,1998,18250
+Standard,Finland,1999,19600
+Standard,Finland,2000,20800
+Standard,Finland,2001,23200
+Standard,Finland,2002,24900
+Standard,Finland,2003,22000
+Standard,Finland,2004,25000
+Standard,Finland,2005,24250
+Standard,Finland,2006,24500
+Standard,Finland,2007,27000
+Standard,Finland,2008,25000
+Standard,Finland,2009,24000
+Standard,Finland,2010,22150
+Standard,Finland,2011,22100
+Standard,Finland,2012,21250
+Standard,Finland,2013,21000
+Standard,Finland,2014,19750
+Standard,Finland,2015,22900
+Standard,Finland,2016,22000
+Standard,Austria,1990,1250
+Standard,Austria,1991,1250
+Standard,Austria,1992,1250
+Standard,Austria,1993,1000
+Standard,Austria,1994,3000
+Standard,Austria,1995,3250
+Standard,Austria,1996,3500
+Standard,Austria,1997,4500
+Standard,Austria,1998,4750
+Standard,Austria,1999,4800
+Standard,Austria,2000,5000
+Standard,Austria,2001,6250
+Standard,Austria,2002,6550
+Standard,Austria,2003,7570
+Standard,Austria,2004,7920
+Standard,Austria,2005,8100
+Standard,Austria,2006,9200
+Standard,Austria,2007,11600
+Standard,Austria,2008,12920
+Standard,Austria,2009,12850
+Standard,Austria,2010,13500
+Standard,Austria,2011,13750
+Standard,Austria,2012,16650
+Standard,Austria,2013,16500
+Standard,Austria,2014,17350
+Standard,Austria,2015,19000
+Standard,Austria,2016,21200
+Standard,Estonia,1990,0
+Standard,Estonia,1991,0
+Standard,Estonia,1992,250
+Standard,Estonia,1993,500
+Standard,Estonia,1994,1250
+Standard,Estonia,1995,2250
+Standard,Estonia,1996,2600
+Standard,Estonia,1997,2900
+Standard,Estonia,1998,4700
+Standard,Estonia,1999,3500
+Standard,Estonia,2000,4450
+Standard,Estonia,2001,4560
+Standard,Estonia,2002,4270
+Standard,Estonia,2003,3840
+Standard,Estonia,2004,5980
+Standard,Estonia,2005,6490
+Standard,Estonia,2006,7760
+Standard,Estonia,2007,9350
+Standard,Estonia,2008,9300
+Standard,Estonia,2009,8200
+Standard,Estonia,2010,8400
+Standard,Estonia,2011,11600
+Standard,Estonia,2012,13990
+Standard,Estonia,2013,19550
+Standard,Estonia,2014,21430
+Standard,Estonia,2015,23050
+Standard,Estonia,2016,20950
+Standard,Belgium and Luxembourg,1990,5000
+Standard,Belgium and Luxembourg,1991,5000
+Standard,Belgium and Luxembourg,1992,6000
+Standard,Belgium and Luxembourg,1993,6000
+Standard,Belgium and Luxembourg,1994,6000
+Standard,Belgium and Luxembourg,1995,7500
+Standard,Belgium and Luxembourg,1996,8000
+Standard,Belgium and Luxembourg,1997,10000
+Standard,Belgium and Luxembourg,1998,11250
+Standard,Belgium and Luxembourg,1999,12550
+Standard,Belgium and Luxembourg,2000,14850
+Standard,Belgium and Luxembourg,2001,18000
+Standard,Belgium and Luxembourg,2002,21100
+Standard,Belgium and Luxembourg,2003,21500
+Standard,Belgium and Luxembourg,2004,21500
+Standard,Belgium and Luxembourg,2005,21500
+Standard,Belgium and Luxembourg,2006,23750
+Standard,Belgium and Luxembourg,2007,21250
+Standard,Belgium and Luxembourg,2008,22250
+Standard,Belgium and Luxembourg,2009,22750
+Standard,Belgium and Luxembourg,2010,21450
+Standard,Belgium and Luxembourg,2011,22500
+Standard,Belgium and Luxembourg,2012,23500
+Standard,Belgium and Luxembourg,2013,24750
+Standard,Belgium and Luxembourg,2014,23250
+Standard,Belgium and Luxembourg,2015,23300
+Standard,Belgium and Luxembourg,2016,20500
+Standard,Argentina,1990,0
+Standard,Argentina,1991,0
+Standard,Argentina,1992,0
+Standard,Argentina,1993,0
+Standard,Argentina,1994,0
+Standard,Argentina,1995,0
+Standard,Argentina,1996,1750
+Standard,Argentina,1997,1750
+Standard,Argentina,1998,3000
+Standard,Argentina,1999,3500
+Standard,Argentina,2000,3500
+Standard,Argentina,2001,1750
+Standard,Argentina,2002,750
+Standard,Argentina,2003,750
+Standard,Argentina,2004,1250
+Standard,Argentina,2005,1250
+Standard,Argentina,2006,1500
+Standard,Argentina,2007,2250
+Standard,Argentina,2008,3000
+Standard,Argentina,2009,3500
+Standard,Argentina,2010,5750
+Standard,Argentina,2011,8500
+Standard,Argentina,2012,10050
+Standard,Argentina,2013,13150
+Standard,Argentina,2014,10600
+Standard,Argentina,2015,17850
+Standard,Argentina,2016,19050
+Standard,DF Rest of CIS,1990,0
+Standard,DF Rest of CIS,1991,0
+Standard,DF Rest of CIS,1992,0
+Standard,DF Rest of CIS,1993,0
+Standard,DF Rest of CIS,1994,0
+Standard,DF Rest of CIS,1995,0
+Standard,DF Rest of CIS,1996,0
+Standard,DF Rest of CIS,1997,0
+Standard,DF Rest of CIS,1998,0
+Standard,DF Rest of CIS,1999,0
+Standard,DF Rest of CIS,2000,0
+Standard,DF Rest of CIS,2001,0
+Standard,DF Rest of CIS,2002,1000
+Standard,DF Rest of CIS,2003,900
+Standard,DF Rest of CIS,2004,900
+Standard,DF Rest of CIS,2005,925
+Standard,DF Rest of CIS,2006,1100
+Standard,DF Rest of CIS,2007,1350
+Standard,DF Rest of CIS,2008,1675
+Standard,DF Rest of CIS,2009,2025
+Standard,DF Rest of CIS,2010,4800
+Standard,DF Rest of CIS,2011,8725
+Standard,DF Rest of CIS,2012,10375
+Standard,DF Rest of CIS,2013,18450
+Standard,DF Rest of CIS,2014,19850
+Standard,DF Rest of CIS,2015,18200
+Standard,DF Rest of CIS,2016,18875
+Standard,Romania,1990,0
+Standard,Romania,1991,0
+Standard,Romania,1992,0
+Standard,Romania,1993,0
+Standard,Romania,1994,0
+Standard,Romania,1995,0
+Standard,Romania,1996,0
+Standard,Romania,1997,0
+Standard,Romania,1998,250
+Standard,Romania,1999,1000
+Standard,Romania,2000,1000
+Standard,Romania,2001,1000
+Standard,Romania,2002,1750
+Standard,Romania,2003,1750
+Standard,Romania,2004,2150
+Standard,Romania,2005,3650
+Standard,Romania,2006,3900
+Standard,Romania,2007,3000
+Standard,Romania,2008,4900
+Standard,Romania,2009,3900
+Standard,Romania,2010,5000
+Standard,Romania,2011,5950
+Standard,Romania,2012,7960
+Standard,Romania,2013,9500
+Standard,Romania,2014,11800
+Standard,Romania,2015,13000
+Standard,Romania,2016,16950
+Standard,DF Australia,1990,0
+Standard,DF Australia,1991,0
+Standard,DF Australia,1992,0
+Standard,DF Australia,1993,0
+Standard,DF Australia,1994,0
+Standard,DF Australia,1995,0
+Standard,DF Australia,1996,0
+Standard,DF Australia,1997,0
+Standard,DF Australia,1998,0
+Standard,DF Australia,1999,0
+Standard,DF Australia,2000,2200
+Standard,DF Australia,2001,2400
+Standard,DF Australia,2002,4500
+Standard,DF Australia,2003,5950
+Standard,DF Australia,2004,6500
+Standard,DF Australia,2005,5450
+Standard,DF Australia,2006,5750
+Standard,DF Australia,2007,7925
+Standard,DF Australia,2008,9200
+Standard,DF Australia,2009,9300
+Standard,DF Australia,2010,8500
+Standard,DF Australia,2011,10050
+Standard,DF Australia,2012,9800
+Standard,DF Australia,2013,11250
+Standard,DF Australia,2014,12000
+Standard,DF Australia,2015,14850
+Standard,DF Australia,2016,15700
+Standard,Hungary,1990,300
+Standard,Hungary,1991,300
+Standard,Hungary,1992,250
+Standard,Hungary,1993,500
+Standard,Hungary,1994,1000
+Standard,Hungary,1995,1250
+Standard,Hungary,1996,2500
+Standard,Hungary,1997,3750
+Standard,Hungary,1998,5000
+Standard,Hungary,1999,5500
+Standard,Hungary,2000,6000
+Standard,Hungary,2001,5000
+Standard,Hungary,2002,5750
+Standard,Hungary,2003,6000
+Standard,Hungary,2004,6900
+Standard,Hungary,2005,7250
+Standard,Hungary,2006,8700
+Standard,Hungary,2007,10200
+Standard,Hungary,2008,10350
+Standard,Hungary,2009,8300
+Standard,Hungary,2010,9000
+Standard,Hungary,2011,9750
+Standard,Hungary,2012,10750
+Standard,Hungary,2013,10700
+Standard,Hungary,2014,13000
+Standard,Hungary,2015,14250
+Standard,Hungary,2016,15390
+Standard,DF Spain,1990,0
+Standard,DF Spain,1991,0
+Standard,DF Spain,1992,0
+Standard,DF Spain,1993,0
+Standard,DF Spain,1994,3250
+Standard,DF Spain,1995,4900
+Standard,DF Spain,1996,6150
+Standard,DF Spain,1997,6000
+Standard,DF Spain,1998,6750
+Standard,DF Spain,1999,5200
+Standard,DF Spain,2000,5850
+Standard,DF Spain,2001,7000
+Standard,DF Spain,2002,4700
+Standard,DF Spain,2003,8250
+Standard,DF Spain,2004,10250
+Standard,DF Spain,2005,11525
+Standard,DF Spain,2006,12500
+Standard,DF Spain,2007,13475
+Standard,DF Spain,2008,15275
+Standard,DF Spain,2009,13500
+Standard,DF Spain,2010,13900
+Standard,DF Spain,2011,16925
+Standard,DF Spain,2012,12300
+Standard,DF Spain,2013,12100
+Standard,DF Spain,2014,12125
+Standard,DF Spain,2015,13085
+Standard,DF Spain,2016,14985
+Standard,Switzerland,1990,3500
+Standard,Switzerland,1991,3500
+Standard,Switzerland,1992,3500
+Standard,Switzerland,1993,3000
+Standard,Switzerland,1994,4500
+Standard,Switzerland,1995,4250
+Standard,Switzerland,1996,4500
+Standard,Switzerland,1997,3500
+Standard,Switzerland,1998,4000
+Standard,Switzerland,1999,5450
+Standard,Switzerland,2000,5700
+Standard,Switzerland,2001,6700
+Standard,Switzerland,2002,6800
+Standard,Switzerland,2003,7500
+Standard,Switzerland,2004,7500
+Standard,Switzerland,2005,7250
+Standard,Switzerland,2006,7250
+Standard,Switzerland,2007,7500
+Standard,Switzerland,2008,9250
+Standard,Switzerland,2009,9050
+Standard,Switzerland,2010,9200
+Standard,Switzerland,2011,9950
+Standard,Switzerland,2012,9850
+Standard,Switzerland,2013,9600
+Standard,Switzerland,2014,11200
+Standard,Switzerland,2015,11250
+Standard,Switzerland,2016,14600
+Standard,DF Rest of Central & Eastern Europe,1990,0
+Standard,DF Rest of Central & Eastern Europe,1991,0
+Standard,DF Rest of Central & Eastern Europe,1992,0
+Standard,DF Rest of Central & Eastern Europe,1993,0
+Standard,DF Rest of Central & Eastern Europe,1994,0
+Standard,DF Rest of Central & Eastern Europe,1995,0
+Standard,DF Rest of Central & Eastern Europe,1996,0
+Standard,DF Rest of Central & Eastern Europe,1997,0
+Standard,DF Rest of Central & Eastern Europe,1998,0
+Standard,DF Rest of Central & Eastern Europe,1999,0
+Standard,DF Rest of Central & Eastern Europe,2000,0
+Standard,DF Rest of Central & Eastern Europe,2001,2725
+Standard,DF Rest of Central & Eastern Europe,2002,1025
+Standard,DF Rest of Central & Eastern Europe,2003,935
+Standard,DF Rest of Central & Eastern Europe,2004,1000
+Standard,DF Rest of Central & Eastern Europe,2005,1250
+Standard,DF Rest of Central & Eastern Europe,2006,1600
+Standard,DF Rest of Central & Eastern Europe,2007,2150
+Standard,DF Rest of Central & Eastern Europe,2008,2900
+Standard,DF Rest of Central & Eastern Europe,2009,3100
+Standard,DF Rest of Central & Eastern Europe,2010,5250
+Standard,DF Rest of Central & Eastern Europe,2011,8900
+Standard,DF Rest of Central & Eastern Europe,2012,9650
+Standard,DF Rest of Central & Eastern Europe,2013,10490
+Standard,DF Rest of Central & Eastern Europe,2014,13575
+Standard,DF Rest of Central & Eastern Europe,2015,14000
+Standard,DF Rest of Central & Eastern Europe,2016,14325
+Standard,Brazil,1990,0
+Standard,Brazil,1991,0
+Standard,Brazil,1992,250
+Standard,Brazil,1993,250
+Standard,Brazil,1994,250
+Standard,Brazil,1995,250
+Standard,Brazil,1996,250
+Standard,Brazil,1997,500
+Standard,Brazil,1998,500
+Standard,Brazil,1999,500
+Standard,Brazil,2000,500
+Standard,Brazil,2001,500
+Standard,Brazil,2002,500
+Standard,Brazil,2003,3250
+Standard,Brazil,2004,6000
+Standard,Brazil,2005,8250
+Standard,Brazil,2006,9250
+Standard,Brazil,2007,9250
+Standard,Brazil,2008,5750
+Standard,Brazil,2009,4250
+Standard,Brazil,2010,3250
+Standard,Brazil,2011,5650
+Standard,Brazil,2012,6650
+Standard,Brazil,2013,7400
+Standard,Brazil,2014,9600
+Standard,Brazil,2015,11000
+Standard,Brazil,2016,14000
+Standard,Canary Islands,1990,1500
+Standard,Canary Islands,1991,1750
+Standard,Canary Islands,1992,1750
+Standard,Canary Islands,1993,1500
+Standard,Canary Islands,1994,1500
+Standard,Canary Islands,1995,1500
+Standard,Canary Islands,1996,1500
+Standard,Canary Islands,1997,2000
+Standard,Canary Islands,1998,2000
+Standard,Canary Islands,1999,3000
+Standard,Canary Islands,2000,4750
+Standard,Canary Islands,2001,8250
+Standard,Canary Islands,2002,9250
+Standard,Canary Islands,2003,14250
+Standard,Canary Islands,2004,13250
+Standard,Canary Islands,2005,12500
+Standard,Canary Islands,2006,12500
+Standard,Canary Islands,2007,9500
+Standard,Canary Islands,2008,9650
+Standard,Canary Islands,2009,7000
+Standard,Canary Islands,2010,7400
+Standard,Canary Islands,2011,5900
+Standard,Canary Islands,2012,7150
+Standard,Canary Islands,2013,7650
+Standard,Canary Islands,2014,9650
+Standard,Canary Islands,2015,10350
+Standard,Canary Islands,2016,11500
+Standard,Thailand,1990,750
+Standard,Thailand,1991,500
+Standard,Thailand,1992,500
+Standard,Thailand,1993,750
+Standard,Thailand,1994,600
+Standard,Thailand,1995,700
+Standard,Thailand,1996,750
+Standard,Thailand,1997,1500
+Standard,Thailand,1998,2000
+Standard,Thailand,1999,3750
+Standard,Thailand,2000,3500
+Standard,Thailand,2001,3500
+Standard,Thailand,2002,4500
+Standard,Thailand,2003,4750
+Standard,Thailand,2004,7750
+Standard,Thailand,2005,4500
+Standard,Thailand,2006,4000
+Standard,Thailand,2007,3650
+Standard,Thailand,2008,4000
+Standard,Thailand,2009,3000
+Standard,Thailand,2010,3750
+Standard,Thailand,2011,4250
+Standard,Thailand,2012,5350
+Standard,Thailand,2013,4000
+Standard,Thailand,2014,5250
+Standard,Thailand,2015,6500
+Standard,Thailand,2016,11500
+Standard,DF Turkey,1990,0
+Standard,DF Turkey,1991,0
+Standard,DF Turkey,1992,0
+Standard,DF Turkey,1993,0
+Standard,DF Turkey,1994,0
+Standard,DF Turkey,1995,0
+Standard,DF Turkey,1996,0
+Standard,DF Turkey,1997,0
+Standard,DF Turkey,1998,0
+Standard,DF Turkey,1999,0
+Standard,DF Turkey,2000,1250
+Standard,DF Turkey,2001,1100
+Standard,DF Turkey,2002,1050
+Standard,DF Turkey,2003,2050
+Standard,DF Turkey,2004,2000
+Standard,DF Turkey,2005,2175
+Standard,DF Turkey,2006,2125
+Standard,DF Turkey,2007,2175
+Standard,DF Turkey,2008,6875
+Standard,DF Turkey,2009,7125
+Standard,DF Turkey,2010,8300
+Standard,DF Turkey,2011,13200
+Standard,DF Turkey,2012,14100
+Standard,DF Turkey,2013,11800
+Standard,DF Turkey,2014,13565
+Standard,DF Turkey,2015,10400
+Standard,DF Turkey,2016,11475
+Standard,DF Gulf - (All Countries),1990,0
+Standard,DF Gulf - (All Countries),1991,0
+Standard,DF Gulf - (All Countries),1992,0
+Standard,DF Gulf - (All Countries),1993,0
+Standard,DF Gulf - (All Countries),1994,0
+Standard,DF Gulf - (All Countries),1995,0
+Standard,DF Gulf - (All Countries),1996,0
+Standard,DF Gulf - (All Countries),1997,0
+Standard,DF Gulf - (All Countries),1998,0
+Standard,DF Gulf - (All Countries),1999,0
+Standard,DF Gulf - (All Countries),2000,5250
+Standard,DF Gulf - (All Countries),2001,5300
+Standard,DF Gulf - (All Countries),2002,3250
+Standard,DF Gulf - (All Countries),2003,3000
+Standard,DF Gulf - (All Countries),2004,3500
+Standard,DF Gulf - (All Countries),2005,4200
+Standard,DF Gulf - (All Countries),2006,4000
+Standard,DF Gulf - (All Countries),2007,4250
+Standard,DF Gulf - (All Countries),2008,4925
+Standard,DF Gulf - (All Countries),2009,3550
+Standard,DF Gulf - (All Countries),2010,5525
+Standard,DF Gulf - (All Countries),2011,6550
+Standard,DF Gulf - (All Countries),2012,7725
+Standard,DF Gulf - (All Countries),2013,7800
+Standard,DF Gulf - (All Countries),2014,8825
+Standard,DF Gulf - (All Countries),2015,9150
+Standard,DF Gulf - (All Countries),2016,10700
+Standard,DF Netherlands,1990,0
+Standard,DF Netherlands,1991,0
+Standard,DF Netherlands,1992,0
+Standard,DF Netherlands,1993,0
+Standard,DF Netherlands,1994,5500
+Standard,DF Netherlands,1995,6000
+Standard,DF Netherlands,1996,6000
+Standard,DF Netherlands,1997,6000
+Standard,DF Netherlands,1998,6250
+Standard,DF Netherlands,1999,4900
+Standard,DF Netherlands,2000,3500
+Standard,DF Netherlands,2001,3500
+Standard,DF Netherlands,2002,3750
+Standard,DF Netherlands,2003,3675
+Standard,DF Netherlands,2004,3575
+Standard,DF Netherlands,2005,3600
+Standard,DF Netherlands,2006,4275
+Standard,DF Netherlands,2007,4800
+Standard,DF Netherlands,2008,6750
+Standard,DF Netherlands,2009,7250
+Standard,DF Netherlands,2010,9750
+Standard,DF Netherlands,2011,8575
+Standard,DF Netherlands,2012,9600
+Standard,DF Netherlands,2013,9590
+Standard,DF Netherlands,2014,9550
+Standard,DF Netherlands,2015,9660
+Standard,DF Netherlands,2016,9350
+Standard,Others,1990,42350
+Standard,Others,1991,45350
+Standard,Others,1992,46550
+Standard,Others,1993,49990
+Standard,Others,1994,56450
+Standard,Others,1995,58870
+Standard,Others,1996,61525
+Standard,Others,1997,62400
+Standard,Others,1998,69100
+Standard,Others,1999,61645
+Standard,Others,2000,54145
+Standard,Others,2001,57280
+Standard,Others,2002,53730
+Standard,Others,2003,62680
+Standard,Others,2004,64490
+Standard,Others,2005,71620
+Standard,Others,2006,81240
+Standard,Others,2007,87570
+Standard,Others,2008,97505
+Standard,Others,2009,87725
+Standard,Others,2010,110025
+Standard,Others,2011,145135
+Standard,Others,2012,140545
+Standard,Others,2013,145660
+Standard,Others,2014,138525
+Standard,Others,2015,133445
+Standard,Others,2016,158185
+Premium,United States,1990,7500
+Premium,United States,1991,8250
+Premium,United States,1992,8000
+Premium,United States,1993,8000
+Premium,United States,1994,12000
+Premium,United States,1995,14500
+Premium,United States,1996,19000
+Premium,United States,1997,18500
+Premium,United States,1998,16000
+Premium,United States,1999,18000
+Premium,United States,2000,17250
+Premium,United States,2001,17950
+Premium,United States,2002,19850
+Premium,United States,2003,20700
+Premium,United States,2004,20100
+Premium,United States,2005,20300
+Premium,United States,2006,34500
+Premium,United States,2007,41250
+Premium,United States,2008,38500
+Premium,United States,2009,31500
+Premium,United States,2010,34150
+Premium,United States,2011,37500
+Premium,United States,2012,49250
+Premium,United States,2013,52750
+Premium,United States,2014,82250
+Premium,United States,2015,167250
+Premium,United States,2016,268250
+Premium,Ireland,1990,32000
+Premium,Ireland,1991,33000
+Premium,Ireland,1992,30000
+Premium,Ireland,1993,32000
+Premium,Ireland,1994,31000
+Premium,Ireland,1995,29000
+Premium,Ireland,1996,30150
+Premium,Ireland,1997,31650
+Premium,Ireland,1998,32250
+Premium,Ireland,1999,35050
+Premium,Ireland,2000,34750
+Premium,Ireland,2001,37450
+Premium,Ireland,2002,36550
+Premium,Ireland,2003,30750
+Premium,Ireland,2004,29850
+Premium,Ireland,2005,28250
+Premium,Ireland,2006,25650
+Premium,Ireland,2007,27150
+Premium,Ireland,2008,24200
+Premium,Ireland,2009,22600
+Premium,Ireland,2010,25950
+Premium,Ireland,2011,28050
+Premium,Ireland,2012,24550
+Premium,Ireland,2013,24700
+Premium,Ireland,2014,31380
+Premium,Ireland,2015,46400
+Premium,Ireland,2016,57550
+Premium,Germany,1990,0
+Premium,Germany,1991,0
+Premium,Germany,1992,0
+Premium,Germany,1993,0
+Premium,Germany,1994,250
+Premium,Germany,1995,750
+Premium,Germany,1996,2750
+Premium,Germany,1997,3350
+Premium,Germany,1998,2900
+Premium,Germany,1999,3650
+Premium,Germany,2000,4550
+Premium,Germany,2001,5700
+Premium,Germany,2002,5700
+Premium,Germany,2003,6500
+Premium,Germany,2004,7600
+Premium,Germany,2005,7750
+Premium,Germany,2006,8350
+Premium,Germany,2007,10650
+Premium,Germany,2008,10150
+Premium,Germany,2009,10600
+Premium,Germany,2010,12650
+Premium,Germany,2011,18600
+Premium,Germany,2012,19000
+Premium,Germany,2013,28800
+Premium,Germany,2014,33250
+Premium,Germany,2015,40350
+Premium,Germany,2016,43500
+Premium,France,1990,0
+Premium,France,1991,0
+Premium,France,1992,0
+Premium,France,1993,2000
+Premium,France,1994,3000
+Premium,France,1995,5000
+Premium,France,1996,9000
+Premium,France,1997,12000
+Premium,France,1998,16000
+Premium,France,1999,19000
+Premium,France,2000,24000
+Premium,France,2001,27000
+Premium,France,2002,28000
+Premium,France,2003,20000
+Premium,France,2004,19000
+Premium,France,2005,17750
+Premium,France,2006,15750
+Premium,France,2007,18750
+Premium,France,2008,22000
+Premium,France,2009,18500
+Premium,France,2010,17250
+Premium,France,2011,15500
+Premium,France,2012,15750
+Premium,France,2013,16000
+Premium,France,2014,19500
+Premium,France,2015,28250
+Premium,France,2016,33250
+Premium,South Africa,1990,0
+Premium,South Africa,1991,0
+Premium,South Africa,1992,0
+Premium,South Africa,1993,0
+Premium,South Africa,1994,0
+Premium,South Africa,1995,0
+Premium,South Africa,1996,0
+Premium,South Africa,1997,250
+Premium,South Africa,1998,250
+Premium,South Africa,1999,500
+Premium,South Africa,2000,750
+Premium,South Africa,2001,920
+Premium,South Africa,2002,900
+Premium,South Africa,2003,900
+Premium,South Africa,2004,1680
+Premium,South Africa,2005,1920
+Premium,South Africa,2006,3500
+Premium,South Africa,2007,3000
+Premium,South Africa,2008,4000
+Premium,South Africa,2009,4000
+Premium,South Africa,2010,7500
+Premium,South Africa,2011,9500
+Premium,South Africa,2012,8300
+Premium,South Africa,2013,10000
+Premium,South Africa,2014,14650
+Premium,South Africa,2015,16950
+Premium,South Africa,2016,25450
+Premium,DF British Isles (Inc. Ireland),1990,31500
+Premium,DF British Isles (Inc. Ireland),1991,36000
+Premium,DF British Isles (Inc. Ireland),1992,37450
+Premium,DF British Isles (Inc. Ireland),1993,40250
+Premium,DF British Isles (Inc. Ireland),1994,46550
+Premium,DF British Isles (Inc. Ireland),1995,50950
+Premium,DF British Isles (Inc. Ireland),1996,57300
+Premium,DF British Isles (Inc. Ireland),1997,58700
+Premium,DF British Isles (Inc. Ireland),1998,56000
+Premium,DF British Isles (Inc. Ireland),1999,31850
+Premium,DF British Isles (Inc. Ireland),2000,26675
+Premium,DF British Isles (Inc. Ireland),2001,30125
+Premium,DF British Isles (Inc. Ireland),2002,22225
+Premium,DF British Isles (Inc. Ireland),2003,19225
+Premium,DF British Isles (Inc. Ireland),2004,18550
+Premium,DF British Isles (Inc. Ireland),2005,18250
+Premium,DF British Isles (Inc. Ireland),2006,15500
+Premium,DF British Isles (Inc. Ireland),2007,14825
+Premium,DF British Isles (Inc. Ireland),2008,14900
+Premium,DF British Isles (Inc. Ireland),2009,16050
+Premium,DF British Isles (Inc. Ireland),2010,13950
+Premium,DF British Isles (Inc. Ireland),2011,14000
+Premium,DF British Isles (Inc. Ireland),2012,14225
+Premium,DF British Isles (Inc. Ireland),2013,12000
+Premium,DF British Isles (Inc. Ireland),2014,14930
+Premium,DF British Isles (Inc. Ireland),2015,18510
+Premium,DF British Isles (Inc. Ireland),2016,23695
+Premium,Canada,1990,1150
+Premium,Canada,1991,1250
+Premium,Canada,1992,1000
+Premium,Canada,1993,1150
+Premium,Canada,1994,1900
+Premium,Canada,1995,2250
+Premium,Canada,1996,2500
+Premium,Canada,1997,3100
+Premium,Canada,1998,3150
+Premium,Canada,1999,4150
+Premium,Canada,2000,4750
+Premium,Canada,2001,5000
+Premium,Canada,2002,5250
+Premium,Canada,2003,6100
+Premium,Canada,2004,6750
+Premium,Canada,2005,6750
+Premium,Canada,2006,7250
+Premium,Canada,2007,7650
+Premium,Canada,2008,8350
+Premium,Canada,2009,8750
+Premium,Canada,2010,9350
+Premium,Canada,2011,10450
+Premium,Canada,2012,10600
+Premium,Canada,2013,10750
+Premium,Canada,2014,11000
+Premium,Canada,2015,14400
+Premium,Canada,2016,18200
+Premium,United Kingdom,1990,35000
+Premium,United Kingdom,1991,38000
+Premium,United Kingdom,1992,34500
+Premium,United Kingdom,1993,34500
+Premium,United Kingdom,1994,33000
+Premium,United Kingdom,1995,29000
+Premium,United Kingdom,1996,29000
+Premium,United Kingdom,1997,27000
+Premium,United Kingdom,1998,25000
+Premium,United Kingdom,1999,27500
+Premium,United Kingdom,2000,28000
+Premium,United Kingdom,2001,29750
+Premium,United Kingdom,2002,31500
+Premium,United Kingdom,2003,32000
+Premium,United Kingdom,2004,31500
+Premium,United Kingdom,2005,32000
+Premium,United Kingdom,2006,34000
+Premium,United Kingdom,2007,29500
+Premium,United Kingdom,2008,28500
+Premium,United Kingdom,2009,24500
+Premium,United Kingdom,2010,26250
+Premium,United Kingdom,2011,22000
+Premium,United Kingdom,2012,12150
+Premium,United Kingdom,2013,14250
+Premium,United Kingdom,2014,10450
+Premium,United Kingdom,2015,9950
+Premium,United Kingdom,2016,14680
+Premium,Russia,1990,0
+Premium,Russia,1991,0
+Premium,Russia,1992,0
+Premium,Russia,1993,0
+Premium,Russia,1994,0
+Premium,Russia,1995,0
+Premium,Russia,1996,0
+Premium,Russia,1997,0
+Premium,Russia,1998,0
+Premium,Russia,1999,0
+Premium,Russia,2000,0
+Premium,Russia,2001,0
+Premium,Russia,2002,0
+Premium,Russia,2003,0
+Premium,Russia,2004,250
+Premium,Russia,2005,2700
+Premium,Russia,2006,4750
+Premium,Russia,2007,5750
+Premium,Russia,2008,10750
+Premium,Russia,2009,8100
+Premium,Russia,2010,11250
+Premium,Russia,2011,14500
+Premium,Russia,2012,20000
+Premium,Russia,2013,20000
+Premium,Russia,2014,18700
+Premium,Russia,2015,13250
+Premium,Russia,2016,13500
+Premium,DF Germany,1990,3500
+Premium,DF Germany,1991,3500
+Premium,DF Germany,1992,3500
+Premium,DF Germany,1993,2500
+Premium,DF Germany,1994,3450
+Premium,DF Germany,1995,3700
+Premium,DF Germany,1996,5500
+Premium,DF Germany,1997,6000
+Premium,DF Germany,1998,7750
+Premium,DF Germany,1999,3500
+Premium,DF Germany,2000,2000
+Premium,DF Germany,2001,3000
+Premium,DF Germany,2002,5250
+Premium,DF Germany,2003,5145
+Premium,DF Germany,2004,4990
+Premium,DF Germany,2005,4735
+Premium,DF Germany,2006,5240
+Premium,DF Germany,2007,5340
+Premium,DF Germany,2008,5440
+Premium,DF Germany,2009,4300
+Premium,DF Germany,2010,4500
+Premium,DF Germany,2011,4080
+Premium,DF Germany,2012,3305
+Premium,DF Germany,2013,5045
+Premium,DF Germany,2014,7575
+Premium,DF Germany,2015,8050
+Premium,DF Germany,2016,9535
+Premium,DF Nordic Countries - (All Countries),1990,500
+Premium,DF Nordic Countries - (All Countries),1991,1500
+Premium,DF Nordic Countries - (All Countries),1992,1500
+Premium,DF Nordic Countries - (All Countries),1993,1500
+Premium,DF Nordic Countries - (All Countries),1994,1700
+Premium,DF Nordic Countries - (All Countries),1995,2700
+Premium,DF Nordic Countries - (All Countries),1996,2975
+Premium,DF Nordic Countries - (All Countries),1997,3475
+Premium,DF Nordic Countries - (All Countries),1998,6725
+Premium,DF Nordic Countries - (All Countries),1999,6230
+Premium,DF Nordic Countries - (All Countries),2000,5385
+Premium,DF Nordic Countries - (All Countries),2001,4250
+Premium,DF Nordic Countries - (All Countries),2002,6500
+Premium,DF Nordic Countries - (All Countries),2003,6325
+Premium,DF Nordic Countries - (All Countries),2004,5400
+Premium,DF Nordic Countries - (All Countries),2005,4150
+Premium,DF Nordic Countries - (All Countries),2006,4925
+Premium,DF Nordic Countries - (All Countries),2007,3950
+Premium,DF Nordic Countries - (All Countries),2008,6675
+Premium,DF Nordic Countries - (All Countries),2009,5650
+Premium,DF Nordic Countries - (All Countries),2010,5550
+Premium,DF Nordic Countries - (All Countries),2011,6820
+Premium,DF Nordic Countries - (All Countries),2012,5525
+Premium,DF Nordic Countries - (All Countries),2013,7415
+Premium,DF Nordic Countries - (All Countries),2014,9420
+Premium,DF Nordic Countries - (All Countries),2015,9135
+Premium,DF Nordic Countries - (All Countries),2016,9435
+Premium,Bulgaria,1990,0
+Premium,Bulgaria,1991,0
+Premium,Bulgaria,1992,0
+Premium,Bulgaria,1993,0
+Premium,Bulgaria,1994,0
+Premium,Bulgaria,1995,0
+Premium,Bulgaria,1996,0
+Premium,Bulgaria,1997,0
+Premium,Bulgaria,1998,0
+Premium,Bulgaria,1999,0
+Premium,Bulgaria,2000,0
+Premium,Bulgaria,2001,40
+Premium,Bulgaria,2002,70
+Premium,Bulgaria,2003,870
+Premium,Bulgaria,2004,970
+Premium,Bulgaria,2005,1020
+Premium,Bulgaria,2006,2050
+Premium,Bulgaria,2007,3150
+Premium,Bulgaria,2008,6050
+Premium,Bulgaria,2009,4350
+Premium,Bulgaria,2010,5600
+Premium,Bulgaria,2011,5300
+Premium,Bulgaria,2012,5550
+Premium,Bulgaria,2013,6750
+Premium,Bulgaria,2014,7650
+Premium,Bulgaria,2015,8140
+Premium,Bulgaria,2016,9000
+Premium,Netherlands,1990,1000
+Premium,Netherlands,1991,1000
+Premium,Netherlands,1992,900
+Premium,Netherlands,1993,900
+Premium,Netherlands,1994,900
+Premium,Netherlands,1995,600
+Premium,Netherlands,1996,1000
+Premium,Netherlands,1997,1400
+Premium,Netherlands,1998,1850
+Premium,Netherlands,1999,1850
+Premium,Netherlands,2000,2250
+Premium,Netherlands,2001,2900
+Premium,Netherlands,2002,3500
+Premium,Netherlands,2003,3250
+Premium,Netherlands,2004,3500
+Premium,Netherlands,2005,3000
+Premium,Netherlands,2006,2500
+Premium,Netherlands,2007,2750
+Premium,Netherlands,2008,2630
+Premium,Netherlands,2009,3430
+Premium,Netherlands,2010,4700
+Premium,Netherlands,2011,6700
+Premium,Netherlands,2012,8550
+Premium,Netherlands,2013,8250
+Premium,Netherlands,2014,8500
+Premium,Netherlands,2015,5750
+Premium,Netherlands,2016,8950
+Premium,DF Russia,1990,0
+Premium,DF Russia,1991,0
+Premium,DF Russia,1992,0
+Premium,DF Russia,1993,0
+Premium,DF Russia,1994,0
+Premium,DF Russia,1995,0
+Premium,DF Russia,1996,0
+Premium,DF Russia,1997,0
+Premium,DF Russia,1998,0
+Premium,DF Russia,1999,0
+Premium,DF Russia,2000,0
+Premium,DF Russia,2001,1475
+Premium,DF Russia,2002,1980
+Premium,DF Russia,2003,2000
+Premium,DF Russia,2004,2025
+Premium,DF Russia,2005,2075
+Premium,DF Russia,2006,1875
+Premium,DF Russia,2007,1600
+Premium,DF Russia,2008,1950
+Premium,DF Russia,2009,3125
+Premium,DF Russia,2010,4475
+Premium,DF Russia,2011,7515
+Premium,DF Russia,2012,8950
+Premium,DF Russia,2013,9650
+Premium,DF Russia,2014,8700
+Premium,DF Russia,2015,6790
+Premium,DF Russia,2016,8210
+Premium,Australia,1990,0
+Premium,Australia,1991,0
+Premium,Australia,1992,0
+Premium,Australia,1993,500
+Premium,Australia,1994,500
+Premium,Australia,1995,500
+Premium,Australia,1996,1250
+Premium,Australia,1997,1250
+Premium,Australia,1998,1300
+Premium,Australia,1999,2000
+Premium,Australia,2000,2250
+Premium,Australia,2001,2500
+Premium,Australia,2002,2750
+Premium,Australia,2003,3000
+Premium,Australia,2004,4250
+Premium,Australia,2005,3000
+Premium,Australia,2006,3250
+Premium,Australia,2007,3250
+Premium,Australia,2008,3750
+Premium,Australia,2009,3650
+Premium,Australia,2010,3500
+Premium,Australia,2011,2750
+Premium,Australia,2012,3100
+Premium,Australia,2013,5650
+Premium,Australia,2014,4150
+Premium,Australia,2015,4500
+Premium,Australia,2016,7750
+Premium,Portugal,1990,0
+Premium,Portugal,1991,0
+Premium,Portugal,1992,0
+Premium,Portugal,1993,100
+Premium,Portugal,1994,200
+Premium,Portugal,1995,550
+Premium,Portugal,1996,850
+Premium,Portugal,1997,1450
+Premium,Portugal,1998,2050
+Premium,Portugal,1999,2500
+Premium,Portugal,2000,2950
+Premium,Portugal,2001,3500
+Premium,Portugal,2002,3150
+Premium,Portugal,2003,2800
+Premium,Portugal,2004,3400
+Premium,Portugal,2005,2470
+Premium,Portugal,2006,2500
+Premium,Portugal,2007,2500
+Premium,Portugal,2008,2250
+Premium,Portugal,2009,1950
+Premium,Portugal,2010,2200
+Premium,Portugal,2011,1250
+Premium,Portugal,2012,1650
+Premium,Portugal,2013,2200
+Premium,Portugal,2014,3100
+Premium,Portugal,2015,3450
+Premium,Portugal,2016,7350
+Premium,Mexico,1990,0
+Premium,Mexico,1991,0
+Premium,Mexico,1992,0
+Premium,Mexico,1993,0
+Premium,Mexico,1994,0
+Premium,Mexico,1995,0
+Premium,Mexico,1996,0
+Premium,Mexico,1997,0
+Premium,Mexico,1998,0
+Premium,Mexico,1999,0
+Premium,Mexico,2000,0
+Premium,Mexico,2001,0
+Premium,Mexico,2002,0
+Premium,Mexico,2003,0
+Premium,Mexico,2004,0
+Premium,Mexico,2005,0
+Premium,Mexico,2006,0
+Premium,Mexico,2007,0
+Premium,Mexico,2008,0
+Premium,Mexico,2009,0
+Premium,Mexico,2010,0
+Premium,Mexico,2011,0
+Premium,Mexico,2012,0
+Premium,Mexico,2013,0
+Premium,Mexico,2014,0
+Premium,Mexico,2015,900
+Premium,Mexico,2016,6800
+Premium,Czech Republic,1990,0
+Premium,Czech Republic,1991,0
+Premium,Czech Republic,1992,0
+Premium,Czech Republic,1993,0
+Premium,Czech Republic,1994,0
+Premium,Czech Republic,1995,0
+Premium,Czech Republic,1996,0
+Premium,Czech Republic,1997,0
+Premium,Czech Republic,1998,0
+Premium,Czech Republic,1999,0
+Premium,Czech Republic,2000,650
+Premium,Czech Republic,2001,750
+Premium,Czech Republic,2002,1000
+Premium,Czech Republic,2003,1240
+Premium,Czech Republic,2004,1030
+Premium,Czech Republic,2005,520
+Premium,Czech Republic,2006,500
+Premium,Czech Republic,2007,1050
+Premium,Czech Republic,2008,1050
+Premium,Czech Republic,2009,1250
+Premium,Czech Republic,2010,6750
+Premium,Czech Republic,2011,8150
+Premium,Czech Republic,2012,6600
+Premium,Czech Republic,2013,8750
+Premium,Czech Republic,2014,9250
+Premium,Czech Republic,2015,9000
+Premium,Czech Republic,2016,6500
+Premium,Poland,1990,0
+Premium,Poland,1991,0
+Premium,Poland,1992,0
+Premium,Poland,1993,0
+Premium,Poland,1994,0
+Premium,Poland,1995,0
+Premium,Poland,1996,0
+Premium,Poland,1997,0
+Premium,Poland,1998,0
+Premium,Poland,1999,0
+Premium,Poland,2000,0
+Premium,Poland,2001,0
+Premium,Poland,2002,0
+Premium,Poland,2003,0
+Premium,Poland,2004,0
+Premium,Poland,2005,0
+Premium,Poland,2006,500
+Premium,Poland,2007,600
+Premium,Poland,2008,3800
+Premium,Poland,2009,2400
+Premium,Poland,2010,2500
+Premium,Poland,2011,3500
+Premium,Poland,2012,4200
+Premium,Poland,2013,4700
+Premium,Poland,2014,6050
+Premium,Poland,2015,5600
+Premium,Poland,2016,5500
+Premium,DF Australia,1990,0
+Premium,DF Australia,1991,0
+Premium,DF Australia,1992,0
+Premium,DF Australia,1993,0
+Premium,DF Australia,1994,0
+Premium,DF Australia,1995,0
+Premium,DF Australia,1996,0
+Premium,DF Australia,1997,0
+Premium,DF Australia,1998,0
+Premium,DF Australia,1999,0
+Premium,DF Australia,2000,800
+Premium,DF Australia,2001,100
+Premium,DF Australia,2002,750
+Premium,DF Australia,2003,550
+Premium,DF Australia,2004,1250
+Premium,DF Australia,2005,1300
+Premium,DF Australia,2006,1500
+Premium,DF Australia,2007,2075
+Premium,DF Australia,2008,2075
+Premium,DF Australia,2009,3050
+Premium,DF Australia,2010,2850
+Premium,DF Australia,2011,3200
+Premium,DF Australia,2012,4100
+Premium,DF Australia,2013,4000
+Premium,DF Australia,2014,3550
+Premium,DF Australia,2015,3800
+Premium,DF Australia,2016,4900
+Premium,DF US/Canada,1990,3000
+Premium,DF US/Canada,1991,3000
+Premium,DF US/Canada,1992,3500
+Premium,DF US/Canada,1993,3000
+Premium,DF US/Canada,1994,3700
+Premium,DF US/Canada,1995,3600
+Premium,DF US/Canada,1996,3525
+Premium,DF US/Canada,1997,3250
+Premium,DF US/Canada,1998,3850
+Premium,DF US/Canada,1999,4600
+Premium,DF US/Canada,2000,4450
+Premium,DF US/Canada,2001,4225
+Premium,DF US/Canada,2002,2975
+Premium,DF US/Canada,2003,2475
+Premium,DF US/Canada,2004,2950
+Premium,DF US/Canada,2005,2675
+Premium,DF US/Canada,2006,3175
+Premium,DF US/Canada,2007,4225
+Premium,DF US/Canada,2008,4975
+Premium,DF US/Canada,2009,2000
+Premium,DF US/Canada,2010,3250
+Premium,DF US/Canada,2011,4900
+Premium,DF US/Canada,2012,3875
+Premium,DF US/Canada,2013,3810
+Premium,DF US/Canada,2014,6600
+Premium,DF US/Canada,2015,4500
+Premium,DF US/Canada,2016,4445
+Premium,Austria,1990,0
+Premium,Austria,1991,0
+Premium,Austria,1992,0
+Premium,Austria,1993,0
+Premium,Austria,1994,0
+Premium,Austria,1995,0
+Premium,Austria,1996,0
+Premium,Austria,1997,0
+Premium,Austria,1998,250
+Premium,Austria,1999,400
+Premium,Austria,2000,350
+Premium,Austria,2001,420
+Premium,Austria,2002,630
+Premium,Austria,2003,960
+Premium,Austria,2004,960
+Premium,Austria,2005,1430
+Premium,Austria,2006,1870
+Premium,Austria,2007,1920
+Premium,Austria,2008,3100
+Premium,Austria,2009,3070
+Premium,Austria,2010,3300
+Premium,Austria,2011,3350
+Premium,Austria,2012,3550
+Premium,Austria,2013,3650
+Premium,Austria,2014,3100
+Premium,Austria,2015,3800
+Premium,Austria,2016,4250
+Premium,DF Switzerland,1990,0
+Premium,DF Switzerland,1991,0
+Premium,DF Switzerland,1992,0
+Premium,DF Switzerland,1993,0
+Premium,DF Switzerland,1994,500
+Premium,DF Switzerland,1995,500
+Premium,DF Switzerland,1996,500
+Premium,DF Switzerland,1997,750
+Premium,DF Switzerland,1998,750
+Premium,DF Switzerland,1999,750
+Premium,DF Switzerland,2000,650
+Premium,DF Switzerland,2001,645
+Premium,DF Switzerland,2002,690
+Premium,DF Switzerland,2003,745
+Premium,DF Switzerland,2004,740
+Premium,DF Switzerland,2005,665
+Premium,DF Switzerland,2006,600
+Premium,DF Switzerland,2007,500
+Premium,DF Switzerland,2008,900
+Premium,DF Switzerland,2009,650
+Premium,DF Switzerland,2010,700
+Premium,DF Switzerland,2011,1000
+Premium,DF Switzerland,2012,1400
+Premium,DF Switzerland,2013,2915
+Premium,DF Switzerland,2014,3815
+Premium,DF Switzerland,2015,3750
+Premium,DF Switzerland,2016,3750
+Premium,DF Gulf - (All Countries),1990,0
+Premium,DF Gulf - (All Countries),1991,0
+Premium,DF Gulf - (All Countries),1992,0
+Premium,DF Gulf - (All Countries),1993,0
+Premium,DF Gulf - (All Countries),1994,0
+Premium,DF Gulf - (All Countries),1995,0
+Premium,DF Gulf - (All Countries),1996,0
+Premium,DF Gulf - (All Countries),1997,0
+Premium,DF Gulf - (All Countries),1998,0
+Premium,DF Gulf - (All Countries),1999,0
+Premium,DF Gulf - (All Countries),2000,500
+Premium,DF Gulf - (All Countries),2001,450
+Premium,DF Gulf - (All Countries),2002,500
+Premium,DF Gulf - (All Countries),2003,350
+Premium,DF Gulf - (All Countries),2004,325
+Premium,DF Gulf - (All Countries),2005,325
+Premium,DF Gulf - (All Countries),2006,450
+Premium,DF Gulf - (All Countries),2007,525
+Premium,DF Gulf - (All Countries),2008,1250
+Premium,DF Gulf - (All Countries),2009,1000
+Premium,DF Gulf - (All Countries),2010,1175
+Premium,DF Gulf - (All Countries),2011,1725
+Premium,DF Gulf - (All Countries),2012,2365
+Premium,DF Gulf - (All Countries),2013,6040
+Premium,DF Gulf - (All Countries),2014,3060
+Premium,DF Gulf - (All Countries),2015,3570
+Premium,DF Gulf - (All Countries),2016,3720
+Premium,DF France,1990,2000
+Premium,DF France,1991,2500
+Premium,DF France,1992,3000
+Premium,DF France,1993,3250
+Premium,DF France,1994,3000
+Premium,DF France,1995,3950
+Premium,DF France,1996,4625
+Premium,DF France,1997,4875
+Premium,DF France,1998,4700
+Premium,DF France,1999,2505
+Premium,DF France,2000,1235
+Premium,DF France,2001,2090
+Premium,DF France,2002,3135
+Premium,DF France,2003,2235
+Premium,DF France,2004,2065
+Premium,DF France,2005,1985
+Premium,DF France,2006,1715
+Premium,DF France,2007,1790
+Premium,DF France,2008,2140
+Premium,DF France,2009,1850
+Premium,DF France,2010,3000
+Premium,DF France,2011,3375
+Premium,DF France,2012,3825
+Premium,DF France,2013,4000
+Premium,DF France,2014,3935
+Premium,DF France,2015,3685
+Premium,DF France,2016,3685
+Premium,Sweden,1990,100
+Premium,Sweden,1991,200
+Premium,Sweden,1992,1100
+Premium,Sweden,1993,2100
+Premium,Sweden,1994,2100
+Premium,Sweden,1995,1500
+Premium,Sweden,1996,1600
+Premium,Sweden,1997,1700
+Premium,Sweden,1998,2000
+Premium,Sweden,1999,2250
+Premium,Sweden,2000,3000
+Premium,Sweden,2001,3150
+Premium,Sweden,2002,3370
+Premium,Sweden,2003,2850
+Premium,Sweden,2004,2200
+Premium,Sweden,2005,2100
+Premium,Sweden,2006,2150
+Premium,Sweden,2007,3200
+Premium,Sweden,2008,2800
+Premium,Sweden,2009,3400
+Premium,Sweden,2010,4650
+Premium,Sweden,2011,3600
+Premium,Sweden,2012,3350
+Premium,Sweden,2013,2500
+Premium,Sweden,2014,3000
+Premium,Sweden,2015,2000
+Premium,Sweden,2016,3000
+Premium,Belgium and Luxembourg,1990,0
+Premium,Belgium and Luxembourg,1991,0
+Premium,Belgium and Luxembourg,1992,0
+Premium,Belgium and Luxembourg,1993,0
+Premium,Belgium and Luxembourg,1994,0
+Premium,Belgium and Luxembourg,1995,0
+Premium,Belgium and Luxembourg,1996,0
+Premium,Belgium and Luxembourg,1997,0
+Premium,Belgium and Luxembourg,1998,0
+Premium,Belgium and Luxembourg,1999,200
+Premium,Belgium and Luxembourg,2000,400
+Premium,Belgium and Luxembourg,2001,750
+Premium,Belgium and Luxembourg,2002,1150
+Premium,Belgium and Luxembourg,2003,1500
+Premium,Belgium and Luxembourg,2004,2000
+Premium,Belgium and Luxembourg,2005,2000
+Premium,Belgium and Luxembourg,2006,1750
+Premium,Belgium and Luxembourg,2007,1250
+Premium,Belgium and Luxembourg,2008,1500
+Premium,Belgium and Luxembourg,2009,2250
+Premium,Belgium and Luxembourg,2010,2550
+Premium,Belgium and Luxembourg,2011,3000
+Premium,Belgium and Luxembourg,2012,3250
+Premium,Belgium and Luxembourg,2013,4500
+Premium,Belgium and Luxembourg,2014,3000
+Premium,Belgium and Luxembourg,2015,2450
+Premium,Belgium and Luxembourg,2016,3000
+Premium,DF Spain,1990,0
+Premium,DF Spain,1991,0
+Premium,DF Spain,1992,0
+Premium,DF Spain,1993,0
+Premium,DF Spain,1994,1250
+Premium,DF Spain,1995,1600
+Premium,DF Spain,1996,1600
+Premium,DF Spain,1997,1500
+Premium,DF Spain,1998,3250
+Premium,DF Spain,1999,1900
+Premium,DF Spain,2000,1400
+Premium,DF Spain,2001,1000
+Premium,DF Spain,2002,550
+Premium,DF Spain,2003,250
+Premium,DF Spain,2004,250
+Premium,DF Spain,2005,225
+Premium,DF Spain,2006,750
+Premium,DF Spain,2007,750
+Premium,DF Spain,2008,1250
+Premium,DF Spain,2009,1400
+Premium,DF Spain,2010,1850
+Premium,DF Spain,2011,2200
+Premium,DF Spain,2012,2325
+Premium,DF Spain,2013,1500
+Premium,DF Spain,2014,1725
+Premium,DF Spain,2015,1515
+Premium,DF Spain,2016,2165
+Premium,Ukraine,1990,0
+Premium,Ukraine,1991,0
+Premium,Ukraine,1992,0
+Premium,Ukraine,1993,0
+Premium,Ukraine,1994,0
+Premium,Ukraine,1995,0
+Premium,Ukraine,1996,0
+Premium,Ukraine,1997,0
+Premium,Ukraine,1998,0
+Premium,Ukraine,1999,0
+Premium,Ukraine,2000,0
+Premium,Ukraine,2001,0
+Premium,Ukraine,2002,0
+Premium,Ukraine,2003,0
+Premium,Ukraine,2004,0
+Premium,Ukraine,2005,0
+Premium,Ukraine,2006,0
+Premium,Ukraine,2007,0
+Premium,Ukraine,2008,1000
+Premium,Ukraine,2009,700
+Premium,Ukraine,2010,1250
+Premium,Ukraine,2011,2750
+Premium,Ukraine,2012,4250
+Premium,Ukraine,2013,4750
+Premium,Ukraine,2014,3050
+Premium,Ukraine,2015,2050
+Premium,Ukraine,2016,1750
+Premium,Latvia,1990,0
+Premium,Latvia,1991,0
+Premium,Latvia,1992,0
+Premium,Latvia,1993,0
+Premium,Latvia,1994,0
+Premium,Latvia,1995,0
+Premium,Latvia,1996,0
+Premium,Latvia,1997,0
+Premium,Latvia,1998,0
+Premium,Latvia,1999,0
+Premium,Latvia,2000,0
+Premium,Latvia,2001,0
+Premium,Latvia,2002,120
+Premium,Latvia,2003,200
+Premium,Latvia,2004,150
+Premium,Latvia,2005,250
+Premium,Latvia,2006,500
+Premium,Latvia,2007,550
+Premium,Latvia,2008,750
+Premium,Latvia,2009,150
+Premium,Latvia,2010,100
+Premium,Latvia,2011,850
+Premium,Latvia,2012,860
+Premium,Latvia,2013,1340
+Premium,Latvia,2014,1370
+Premium,Latvia,2015,1830
+Premium,Latvia,2016,1750
+Premium,Japan,1990,2250
+Premium,Japan,1991,1750
+Premium,Japan,1992,1750
+Premium,Japan,1993,1500
+Premium,Japan,1994,1350
+Premium,Japan,1995,1200
+Premium,Japan,1996,2400
+Premium,Japan,1997,2300
+Premium,Japan,1998,1600
+Premium,Japan,1999,9350
+Premium,Japan,2000,8550
+Premium,Japan,2001,7400
+Premium,Japan,2002,3300
+Premium,Japan,2003,1500
+Premium,Japan,2004,1200
+Premium,Japan,2005,1210
+Premium,Japan,2006,1450
+Premium,Japan,2007,1700
+Premium,Japan,2008,1700
+Premium,Japan,2009,1700
+Premium,Japan,2010,1950
+Premium,Japan,2011,1700
+Premium,Japan,2012,1950
+Premium,Japan,2013,2400
+Premium,Japan,2014,2300
+Premium,Japan,2015,2650
+Premium,Japan,2016,1750
+Premium,DF Rest of Africa,1990,0
+Premium,DF Rest of Africa,1991,0
+Premium,DF Rest of Africa,1992,0
+Premium,DF Rest of Africa,1993,0
+Premium,DF Rest of Africa,1994,0
+Premium,DF Rest of Africa,1995,0
+Premium,DF Rest of Africa,1996,0
+Premium,DF Rest of Africa,1997,0
+Premium,DF Rest of Africa,1998,0
+Premium,DF Rest of Africa,1999,0
+Premium,DF Rest of Africa,2000,1725
+Premium,DF Rest of Africa,2001,975
+Premium,DF Rest of Africa,2002,475
+Premium,DF Rest of Africa,2003,325
+Premium,DF Rest of Africa,2004,225
+Premium,DF Rest of Africa,2005,200
+Premium,DF Rest of Africa,2006,275
+Premium,DF Rest of Africa,2007,250
+Premium,DF Rest of Africa,2008,950
+Premium,DF Rest of Africa,2009,550
+Premium,DF Rest of Africa,2010,1400
+Premium,DF Rest of Africa,2011,1675
+Premium,DF Rest of Africa,2012,1595
+Premium,DF Rest of Africa,2013,1075
+Premium,DF Rest of Africa,2014,1625
+Premium,DF Rest of Africa,2015,1275
+Premium,DF Rest of Africa,2016,1750
+Premium,Finland,1990,0
+Premium,Finland,1991,0
+Premium,Finland,1992,0
+Premium,Finland,1993,0
+Premium,Finland,1994,50
+Premium,Finland,1995,0
+Premium,Finland,1996,0
+Premium,Finland,1997,0
+Premium,Finland,1998,250
+Premium,Finland,1999,400
+Premium,Finland,2000,1200
+Premium,Finland,2001,1700
+Premium,Finland,2002,2000
+Premium,Finland,2003,1800
+Premium,Finland,2004,1800
+Premium,Finland,2005,1850
+Premium,Finland,2006,2000
+Premium,Finland,2007,2000
+Premium,Finland,2008,1750
+Premium,Finland,2009,1500
+Premium,Finland,2010,1350
+Premium,Finland,2011,1400
+Premium,Finland,2012,1500
+Premium,Finland,2013,1500
+Premium,Finland,2014,1250
+Premium,Finland,2015,1750
+Premium,Finland,2016,1750
+Premium,DF Turkey,1990,0
+Premium,DF Turkey,1991,0
+Premium,DF Turkey,1992,0
+Premium,DF Turkey,1993,0
+Premium,DF Turkey,1994,0
+Premium,DF Turkey,1995,0
+Premium,DF Turkey,1996,0
+Premium,DF Turkey,1997,0
+Premium,DF Turkey,1998,0
+Premium,DF Turkey,1999,0
+Premium,DF Turkey,2000,150
+Premium,DF Turkey,2001,200
+Premium,DF Turkey,2002,200
+Premium,DF Turkey,2003,250
+Premium,DF Turkey,2004,225
+Premium,DF Turkey,2005,175
+Premium,DF Turkey,2006,100
+Premium,DF Turkey,2007,100
+Premium,DF Turkey,2008,250
+Premium,DF Turkey,2009,275
+Premium,DF Turkey,2010,550
+Premium,DF Turkey,2011,795
+Premium,DF Turkey,2012,1010
+Premium,DF Turkey,2013,1015
+Premium,DF Turkey,2014,1125
+Premium,DF Turkey,2015,975
+Premium,DF Turkey,2016,1450
+Premium,DF Czech Republic,1990,0
+Premium,DF Czech Republic,1991,0
+Premium,DF Czech Republic,1992,0
+Premium,DF Czech Republic,1993,0
+Premium,DF Czech Republic,1994,0
+Premium,DF Czech Republic,1995,0
+Premium,DF Czech Republic,1996,0
+Premium,DF Czech Republic,1997,0
+Premium,DF Czech Republic,1998,0
+Premium,DF Czech Republic,1999,0
+Premium,DF Czech Republic,2000,0
+Premium,DF Czech Republic,2001,0
+Premium,DF Czech Republic,2002,150
+Premium,DF Czech Republic,2003,25
+Premium,DF Czech Republic,2004,10
+Premium,DF Czech Republic,2005,120
+Premium,DF Czech Republic,2006,60
+Premium,DF Czech Republic,2007,100
+Premium,DF Czech Republic,2008,475
+Premium,DF Czech Republic,2009,400
+Premium,DF Czech Republic,2010,525
+Premium,DF Czech Republic,2011,520
+Premium,DF Czech Republic,2012,930
+Premium,DF Czech Republic,2013,670
+Premium,DF Czech Republic,2014,775
+Premium,DF Czech Republic,2015,825
+Premium,DF Czech Republic,2016,1350
+Premium,DF Netherlands,1990,0
+Premium,DF Netherlands,1991,0
+Premium,DF Netherlands,1992,0
+Premium,DF Netherlands,1993,0
+Premium,DF Netherlands,1994,1450
+Premium,DF Netherlands,1995,1975
+Premium,DF Netherlands,1996,2225
+Premium,DF Netherlands,1997,2225
+Premium,DF Netherlands,1998,3975
+Premium,DF Netherlands,1999,1590
+Premium,DF Netherlands,2000,750
+Premium,DF Netherlands,2001,750
+Premium,DF Netherlands,2002,750
+Premium,DF Netherlands,2003,575
+Premium,DF Netherlands,2004,425
+Premium,DF Netherlands,2005,400
+Premium,DF Netherlands,2006,975
+Premium,DF Netherlands,2007,1300
+Premium,DF Netherlands,2008,1500
+Premium,DF Netherlands,2009,2025
+Premium,DF Netherlands,2010,2225
+Premium,DF Netherlands,2011,1315
+Premium,DF Netherlands,2012,1275
+Premium,DF Netherlands,2013,970
+Premium,DF Netherlands,2014,760
+Premium,DF Netherlands,2015,950
+Premium,DF Netherlands,2016,1310
+Premium,Spain,1990,0
+Premium,Spain,1991,0
+Premium,Spain,1992,0
+Premium,Spain,1993,0
+Premium,Spain,1994,250
+Premium,Spain,1995,250
+Premium,Spain,1996,250
+Premium,Spain,1997,250
+Premium,Spain,1998,250
+Premium,Spain,1999,250
+Premium,Spain,2000,250
+Premium,Spain,2001,250
+Premium,Spain,2002,250
+Premium,Spain,2003,250
+Premium,Spain,2004,1750
+Premium,Spain,2005,2000
+Premium,Spain,2006,1500
+Premium,Spain,2007,1500
+Premium,Spain,2008,2250
+Premium,Spain,2009,2500
+Premium,Spain,2010,2000
+Premium,Spain,2011,2000
+Premium,Spain,2012,2000
+Premium,Spain,2013,1500
+Premium,Spain,2014,1250
+Premium,Spain,2015,1500
+Premium,Spain,2016,1300
+Premium,DF Rest of Central & Eastern Europe,1990,0
+Premium,DF Rest of Central & Eastern Europe,1991,0
+Premium,DF Rest of Central & Eastern Europe,1992,0
+Premium,DF Rest of Central & Eastern Europe,1993,0
+Premium,DF Rest of Central & Eastern Europe,1994,0
+Premium,DF Rest of Central & Eastern Europe,1995,0
+Premium,DF Rest of Central & Eastern Europe,1996,0
+Premium,DF Rest of Central & Eastern Europe,1997,0
+Premium,DF Rest of Central & Eastern Europe,1998,0
+Premium,DF Rest of Central & Eastern Europe,1999,0
+Premium,DF Rest of Central & Eastern Europe,2000,0
+Premium,DF Rest of Central & Eastern Europe,2001,850
+Premium,DF Rest of Central & Eastern Europe,2002,575
+Premium,DF Rest of Central & Eastern Europe,2003,440
+Premium,DF Rest of Central & Eastern Europe,2004,450
+Premium,DF Rest of Central & Eastern Europe,2005,475
+Premium,DF Rest of Central & Eastern Europe,2006,525
+Premium,DF Rest of Central & Eastern Europe,2007,525
+Premium,DF Rest of Central & Eastern Europe,2008,850
+Premium,DF Rest of Central & Eastern Europe,2009,825
+Premium,DF Rest of Central & Eastern Europe,2010,1250
+Premium,DF Rest of Central & Eastern Europe,2011,825
+Premium,DF Rest of Central & Eastern Europe,2012,1050
+Premium,DF Rest of Central & Eastern Europe,2013,855
+Premium,DF Rest of Central & Eastern Europe,2014,975
+Premium,DF Rest of Central & Eastern Europe,2015,1250
+Premium,DF Rest of Central & Eastern Europe,2016,1300
+Premium,DF Belgium/Luxembourg,1990,0
+Premium,DF Belgium/Luxembourg,1991,0
+Premium,DF Belgium/Luxembourg,1992,0
+Premium,DF Belgium/Luxembourg,1993,0
+Premium,DF Belgium/Luxembourg,1994,1950
+Premium,DF Belgium/Luxembourg,1995,1700
+Premium,DF Belgium/Luxembourg,1996,1750
+Premium,DF Belgium/Luxembourg,1997,1725
+Premium,DF Belgium/Luxembourg,1998,1400
+Premium,DF Belgium/Luxembourg,1999,900
+Premium,DF Belgium/Luxembourg,2000,425
+Premium,DF Belgium/Luxembourg,2001,200
+Premium,DF Belgium/Luxembourg,2002,690
+Premium,DF Belgium/Luxembourg,2003,425
+Premium,DF Belgium/Luxembourg,2004,300
+Premium,DF Belgium/Luxembourg,2005,225
+Premium,DF Belgium/Luxembourg,2006,475
+Premium,DF Belgium/Luxembourg,2007,400
+Premium,DF Belgium/Luxembourg,2008,375
+Premium,DF Belgium/Luxembourg,2009,425
+Premium,DF Belgium/Luxembourg,2010,225
+Premium,DF Belgium/Luxembourg,2011,275
+Premium,DF Belgium/Luxembourg,2012,460
+Premium,DF Belgium/Luxembourg,2013,1050
+Premium,DF Belgium/Luxembourg,2014,1575
+Premium,DF Belgium/Luxembourg,2015,1210
+Premium,DF Belgium/Luxembourg,2016,1295
+Premium,Switzerland,1990,0
+Premium,Switzerland,1991,0
+Premium,Switzerland,1992,0
+Premium,Switzerland,1993,0
+Premium,Switzerland,1994,0
+Premium,Switzerland,1995,0
+Premium,Switzerland,1996,0
+Premium,Switzerland,1997,0
+Premium,Switzerland,1998,0
+Premium,Switzerland,1999,50
+Premium,Switzerland,2000,50
+Premium,Switzerland,2001,50
+Premium,Switzerland,2002,200
+Premium,Switzerland,2003,250
+Premium,Switzerland,2004,250
+Premium,Switzerland,2005,250
+Premium,Switzerland,2006,500
+Premium,Switzerland,2007,500
+Premium,Switzerland,2008,500
+Premium,Switzerland,2009,700
+Premium,Switzerland,2010,1050
+Premium,Switzerland,2011,1050
+Premium,Switzerland,2012,650
+Premium,Switzerland,2013,1150
+Premium,Switzerland,2014,1300
+Premium,Switzerland,2015,1250
+Premium,Switzerland,2016,1250
+Premium,Italy,1990,0
+Premium,Italy,1991,0
+Premium,Italy,1992,0
+Premium,Italy,1993,0
+Premium,Italy,1994,500
+Premium,Italy,1995,1000
+Premium,Italy,1996,500
+Premium,Italy,1997,1000
+Premium,Italy,1998,1000
+Premium,Italy,1999,1250
+Premium,Italy,2000,1500
+Premium,Italy,2001,2250
+Premium,Italy,2002,3000
+Premium,Italy,2003,3250
+Premium,Italy,2004,3000
+Premium,Italy,2005,3000
+Premium,Italy,2006,2000
+Premium,Italy,2007,2000
+Premium,Italy,2008,500
+Premium,Italy,2009,250
+Premium,Italy,2010,250
+Premium,Italy,2011,500
+Premium,Italy,2012,750
+Premium,Italy,2013,700
+Premium,Italy,2014,950
+Premium,Italy,2015,1200
+Premium,Italy,2016,1250
+Premium,Denmark,1990,0
+Premium,Denmark,1991,0
+Premium,Denmark,1992,0
+Premium,Denmark,1993,0
+Premium,Denmark,1994,0
+Premium,Denmark,1995,0
+Premium,Denmark,1996,0
+Premium,Denmark,1997,0
+Premium,Denmark,1998,250
+Premium,Denmark,1999,300
+Premium,Denmark,2000,250
+Premium,Denmark,2001,200
+Premium,Denmark,2002,200
+Premium,Denmark,2003,200
+Premium,Denmark,2004,200
+Premium,Denmark,2005,250
+Premium,Denmark,2006,250
+Premium,Denmark,2007,250
+Premium,Denmark,2008,200
+Premium,Denmark,2009,200
+Premium,Denmark,2010,200
+Premium,Denmark,2011,500
+Premium,Denmark,2012,750
+Premium,Denmark,2013,350
+Premium,Denmark,2014,250
+Premium,Denmark,2015,440
+Premium,Denmark,2016,1150
+Premium,DF Portugal,1990,0
+Premium,DF Portugal,1991,0
+Premium,DF Portugal,1992,0
+Premium,DF Portugal,1993,0
+Premium,DF Portugal,1994,0
+Premium,DF Portugal,1995,0
+Premium,DF Portugal,1996,0
+Premium,DF Portugal,1997,0
+Premium,DF Portugal,1998,0
+Premium,DF Portugal,1999,0
+Premium,DF Portugal,2000,200
+Premium,DF Portugal,2001,200
+Premium,DF Portugal,2002,175
+Premium,DF Portugal,2003,115
+Premium,DF Portugal,2004,100
+Premium,DF Portugal,2005,40
+Premium,DF Portugal,2006,80
+Premium,DF Portugal,2007,325
+Premium,DF Portugal,2008,275
+Premium,DF Portugal,2009,275
+Premium,DF Portugal,2010,275
+Premium,DF Portugal,2011,450
+Premium,DF Portugal,2012,300
+Premium,DF Portugal,2013,440
+Premium,DF Portugal,2014,885
+Premium,DF Portugal,2015,865
+Premium,DF Portugal,2016,1150
+Premium,DF Ukraine,1990,0
+Premium,DF Ukraine,1991,0
+Premium,DF Ukraine,1992,0
+Premium,DF Ukraine,1993,0
+Premium,DF Ukraine,1994,0
+Premium,DF Ukraine,1995,0
+Premium,DF Ukraine,1996,0
+Premium,DF Ukraine,1997,0
+Premium,DF Ukraine,1998,0
+Premium,DF Ukraine,1999,0
+Premium,DF Ukraine,2000,0
+Premium,DF Ukraine,2001,0
+Premium,DF Ukraine,2002,0
+Premium,DF Ukraine,2003,0
+Premium,DF Ukraine,2004,0
+Premium,DF Ukraine,2005,0
+Premium,DF Ukraine,2006,0
+Premium,DF Ukraine,2007,0
+Premium,DF Ukraine,2008,0
+Premium,DF Ukraine,2009,0
+Premium,DF Ukraine,2010,0
+Premium,DF Ukraine,2011,0
+Premium,DF Ukraine,2012,25
+Premium,DF Ukraine,2013,750
+Premium,DF Ukraine,2014,500
+Premium,DF Ukraine,2015,740
+Premium,DF Ukraine,2016,1075
+Premium,DF Israel,1990,0
+Premium,DF Israel,1991,0
+Premium,DF Israel,1992,0
+Premium,DF Israel,1993,0
+Premium,DF Israel,1994,0
+Premium,DF Israel,1995,0
+Premium,DF Israel,1996,0
+Premium,DF Israel,1997,0
+Premium,DF Israel,1998,0
+Premium,DF Israel,1999,0
+Premium,DF Israel,2000,750
+Premium,DF Israel,2001,800
+Premium,DF Israel,2002,990
+Premium,DF Israel,2003,735
+Premium,DF Israel,2004,735
+Premium,DF Israel,2005,725
+Premium,DF Israel,2006,800
+Premium,DF Israel,2007,550
+Premium,DF Israel,2008,500
+Premium,DF Israel,2009,450
+Premium,DF Israel,2010,600
+Premium,DF Israel,2011,650
+Premium,DF Israel,2012,1625
+Premium,DF Israel,2013,1800
+Premium,DF Israel,2014,1050
+Premium,DF Israel,2015,1050
+Premium,DF Israel,2016,1050
+Premium,DF Rest of CIS,1990,0
+Premium,DF Rest of CIS,1991,0
+Premium,DF Rest of CIS,1992,0
+Premium,DF Rest of CIS,1993,0
+Premium,DF Rest of CIS,1994,0
+Premium,DF Rest of CIS,1995,0
+Premium,DF Rest of CIS,1996,0
+Premium,DF Rest of CIS,1997,0
+Premium,DF Rest of CIS,1998,0
+Premium,DF Rest of CIS,1999,0
+Premium,DF Rest of CIS,2000,0
+Premium,DF Rest of CIS,2001,0
+Premium,DF Rest of CIS,2002,250
+Premium,DF Rest of CIS,2003,100
+Premium,DF Rest of CIS,2004,100
+Premium,DF Rest of CIS,2005,100
+Premium,DF Rest of CIS,2006,100
+Premium,DF Rest of CIS,2007,100
+Premium,DF Rest of CIS,2008,125
+Premium,DF Rest of CIS,2009,150
+Premium,DF Rest of CIS,2010,225
+Premium,DF Rest of CIS,2011,500
+Premium,DF Rest of CIS,2012,1400
+Premium,DF Rest of CIS,2013,850
+Premium,DF Rest of CIS,2014,1200
+Premium,DF Rest of CIS,2015,1375
+Premium,DF Rest of CIS,2016,950
+Premium,DF Italy,1990,0
+Premium,DF Italy,1991,0
+Premium,DF Italy,1992,0
+Premium,DF Italy,1993,0
+Premium,DF Italy,1994,500
+Premium,DF Italy,1995,450
+Premium,DF Italy,1996,475
+Premium,DF Italy,1997,530
+Premium,DF Italy,1998,485
+Premium,DF Italy,1999,390
+Premium,DF Italy,2000,150
+Premium,DF Italy,2001,250
+Premium,DF Italy,2002,425
+Premium,DF Italy,2003,150
+Premium,DF Italy,2004,125
+Premium,DF Italy,2005,200
+Premium,DF Italy,2006,300
+Premium,DF Italy,2007,525
+Premium,DF Italy,2008,650
+Premium,DF Italy,2009,500
+Premium,DF Italy,2010,425
+Premium,DF Italy,2011,565
+Premium,DF Italy,2012,800
+Premium,DF Italy,2013,1075
+Premium,DF Italy,2014,500
+Premium,DF Italy,2015,675
+Premium,DF Italy,2016,925
+Premium,DF New Zealand,1990,0
+Premium,DF New Zealand,1991,0
+Premium,DF New Zealand,1992,0
+Premium,DF New Zealand,1993,0
+Premium,DF New Zealand,1994,0
+Premium,DF New Zealand,1995,0
+Premium,DF New Zealand,1996,0
+Premium,DF New Zealand,1997,0
+Premium,DF New Zealand,1998,0
+Premium,DF New Zealand,1999,0
+Premium,DF New Zealand,2000,325
+Premium,DF New Zealand,2001,475
+Premium,DF New Zealand,2002,425
+Premium,DF New Zealand,2003,400
+Premium,DF New Zealand,2004,300
+Premium,DF New Zealand,2005,275
+Premium,DF New Zealand,2006,275
+Premium,DF New Zealand,2007,375
+Premium,DF New Zealand,2008,350
+Premium,DF New Zealand,2009,525
+Premium,DF New Zealand,2010,775
+Premium,DF New Zealand,2011,550
+Premium,DF New Zealand,2012,1125
+Premium,DF New Zealand,2013,585
+Premium,DF New Zealand,2014,515
+Premium,DF New Zealand,2015,450
+Premium,DF New Zealand,2016,925
+Premium,DF Austria,1990,0
+Premium,DF Austria,1991,0
+Premium,DF Austria,1992,0
+Premium,DF Austria,1993,0
+Premium,DF Austria,1994,0
+Premium,DF Austria,1995,0
+Premium,DF Austria,1996,0
+Premium,DF Austria,1997,0
+Premium,DF Austria,1998,0
+Premium,DF Austria,1999,0
+Premium,DF Austria,2000,200
+Premium,DF Austria,2001,275
+Premium,DF Austria,2002,200
+Premium,DF Austria,2003,175
+Premium,DF Austria,2004,175
+Premium,DF Austria,2005,125
+Premium,DF Austria,2006,250
+Premium,DF Austria,2007,300
+Premium,DF Austria,2008,275
+Premium,DF Austria,2009,250
+Premium,DF Austria,2010,250
+Premium,DF Austria,2011,200
+Premium,DF Austria,2012,285
+Premium,DF Austria,2013,350
+Premium,DF Austria,2014,575
+Premium,DF Austria,2015,565
+Premium,DF Austria,2016,825
+Premium,DF Baltics - (All Countries),1990,0
+Premium,DF Baltics - (All Countries),1991,0
+Premium,DF Baltics - (All Countries),1992,0
+Premium,DF Baltics - (All Countries),1993,0
+Premium,DF Baltics - (All Countries),1994,0
+Premium,DF Baltics - (All Countries),1995,0
+Premium,DF Baltics - (All Countries),1996,0
+Premium,DF Baltics - (All Countries),1997,0
+Premium,DF Baltics - (All Countries),1998,0
+Premium,DF Baltics - (All Countries),1999,0
+Premium,DF Baltics - (All Countries),2000,0
+Premium,DF Baltics - (All Countries),2001,465
+Premium,DF Baltics - (All Countries),2002,240
+Premium,DF Baltics - (All Countries),2003,125
+Premium,DF Baltics - (All Countries),2004,45
+Premium,DF Baltics - (All Countries),2005,45
+Premium,DF Baltics - (All Countries),2006,40
+Premium,DF Baltics - (All Countries),2007,30
+Premium,DF Baltics - (All Countries),2008,75
+Premium,DF Baltics - (All Countries),2009,100
+Premium,DF Baltics - (All Countries),2010,275
+Premium,DF Baltics - (All Countries),2011,475
+Premium,DF Baltics - (All Countries),2012,825
+Premium,DF Baltics - (All Countries),2013,925
+Premium,DF Baltics - (All Countries),2014,775
+Premium,DF Baltics - (All Countries),2015,775
+Premium,DF Baltics - (All Countries),2016,810
+Premium,Others,1990,7300
+Premium,Others,1991,10350
+Premium,Others,1992,10700
+Premium,Others,1993,11560
+Premium,Others,1994,10400
+Premium,Others,1995,12380
+Premium,Others,1996,15375
+Premium,Others,1997,17200
+Premium,Others,1998,15175
+Premium,Others,1999,14825
+Premium,Others,2000,9125
+Premium,Others,2001,9020
+Premium,Others,2002,10780
+Premium,Others,2003,8545
+Premium,Others,2004,6645
+Premium,Others,2005,8055
+Premium,Others,2006,9305
+Premium,Others,2007,9235
+Premium,Others,2008,11625
+Premium,Others,2009,10090
+Premium,Others,2010,10850
+Premium,Others,2011,13260
+Premium,Others,2012,14085
+Premium,Others,2013,11365
+Premium,Others,2014,11615
+Premium,Others,2015,11240
+Premium,Others,2016,13580
+Super Premium,United States,1990,3500
+Super Premium,United States,1991,2750
+Super Premium,United States,1992,7500
+Super Premium,United States,1993,8000
+Super Premium,United States,1994,8500
+Super Premium,United States,1995,8000
+Super Premium,United States,1996,8000
+Super Premium,United States,1997,8000
+Super Premium,United States,1998,7000
+Super Premium,United States,1999,7200
+Super Premium,United States,2000,7900
+Super Premium,United States,2001,8400
+Super Premium,United States,2002,10400
+Super Premium,United States,2003,12300
+Super Premium,United States,2004,12400
+Super Premium,United States,2005,14200
+Super Premium,United States,2006,14500
+Super Premium,United States,2007,16750
+Super Premium,United States,2008,19750
+Super Premium,United States,2009,20000
+Super Premium,United States,2010,32250
+Super Premium,United States,2011,38250
+Super Premium,United States,2012,45250
+Super Premium,United States,2013,44750
+Super Premium,United States,2014,51500
+Super Premium,United States,2015,43250
+Super Premium,United States,2016,45505
+Super Premium,Germany,1990,0
+Super Premium,Germany,1991,0
+Super Premium,Germany,1992,0
+Super Premium,Germany,1993,0
+Super Premium,Germany,1994,250
+Super Premium,Germany,1995,250
+Super Premium,Germany,1996,250
+Super Premium,Germany,1997,150
+Super Premium,Germany,1998,100
+Super Premium,Germany,1999,100
+Super Premium,Germany,2000,100
+Super Premium,Germany,2001,100
+Super Premium,Germany,2002,100
+Super Premium,Germany,2003,100
+Super Premium,Germany,2004,100
+Super Premium,Germany,2005,100
+Super Premium,Germany,2006,100
+Super Premium,Germany,2007,100
+Super Premium,Germany,2008,100
+Super Premium,Germany,2009,100
+Super Premium,Germany,2010,150
+Super Premium,Germany,2011,150
+Super Premium,Germany,2012,150
+Super Premium,Germany,2013,400
+Super Premium,Germany,2014,500
+Super Premium,Germany,2015,1150
+Super Premium,Germany,2016,3500
+Super Premium,DF British Isles (Inc. Ireland),1990,0
+Super Premium,DF British Isles (Inc. Ireland),1991,0
+Super Premium,DF British Isles (Inc. Ireland),1992,550
+Super Premium,DF British Isles (Inc. Ireland),1993,1250
+Super Premium,DF British Isles (Inc. Ireland),1994,1450
+Super Premium,DF British Isles (Inc. Ireland),1995,1050
+Super Premium,DF British Isles (Inc. Ireland),1996,950
+Super Premium,DF British Isles (Inc. Ireland),1997,800
+Super Premium,DF British Isles (Inc. Ireland),1998,1250
+Super Premium,DF British Isles (Inc. Ireland),1999,650
+Super Premium,DF British Isles (Inc. Ireland),2000,575
+Super Premium,DF British Isles (Inc. Ireland),2001,625
+Super Premium,DF British Isles (Inc. Ireland),2002,525
+Super Premium,DF British Isles (Inc. Ireland),2003,775
+Super Premium,DF British Isles (Inc. Ireland),2004,700
+Super Premium,DF British Isles (Inc. Ireland),2005,750
+Super Premium,DF British Isles (Inc. Ireland),2006,750
+Super Premium,DF British Isles (Inc. Ireland),2007,800
+Super Premium,DF British Isles (Inc. Ireland),2008,750
+Super Premium,DF British Isles (Inc. Ireland),2009,500
+Super Premium,DF British Isles (Inc. Ireland),2010,600
+Super Premium,DF British Isles (Inc. Ireland),2011,400
+Super Premium,DF British Isles (Inc. Ireland),2012,2475
+Super Premium,DF British Isles (Inc. Ireland),2013,3200
+Super Premium,DF British Isles (Inc. Ireland),2014,2235
+Super Premium,DF British Isles (Inc. Ireland),2015,2280
+Super Premium,DF British Isles (Inc. Ireland),2016,3280
+Super Premium,France,1990,0
+Super Premium,France,1991,0
+Super Premium,France,1992,0
+Super Premium,France,1993,0
+Super Premium,France,1994,0
+Super Premium,France,1995,0
+Super Premium,France,1996,0
+Super Premium,France,1997,0
+Super Premium,France,1998,0
+Super Premium,France,1999,0
+Super Premium,France,2000,0
+Super Premium,France,2001,0
+Super Premium,France,2002,0
+Super Premium,France,2003,0
+Super Premium,France,2004,0
+Super Premium,France,2005,0
+Super Premium,France,2006,0
+Super Premium,France,2007,0
+Super Premium,France,2008,0
+Super Premium,France,2009,0
+Super Premium,France,2010,0
+Super Premium,France,2011,2000
+Super Premium,France,2012,4000
+Super Premium,France,2013,4000
+Super Premium,France,2014,3750
+Super Premium,France,2015,2000
+Super Premium,France,2016,2750
+Super Premium,Ireland,1990,0
+Super Premium,Ireland,1991,0
+Super Premium,Ireland,1992,0
+Super Premium,Ireland,1993,0
+Super Premium,Ireland,1994,0
+Super Premium,Ireland,1995,500
+Super Premium,Ireland,1996,600
+Super Premium,Ireland,1997,600
+Super Premium,Ireland,1998,500
+Super Premium,Ireland,1999,500
+Super Premium,Ireland,2000,500
+Super Premium,Ireland,2001,750
+Super Premium,Ireland,2002,850
+Super Premium,Ireland,2003,700
+Super Premium,Ireland,2004,750
+Super Premium,Ireland,2005,1450
+Super Premium,Ireland,2006,1650
+Super Premium,Ireland,2007,2400
+Super Premium,Ireland,2008,1700
+Super Premium,Ireland,2009,1500
+Super Premium,Ireland,2010,1500
+Super Premium,Ireland,2011,2000
+Super Premium,Ireland,2012,1250
+Super Premium,Ireland,2013,1250
+Super Premium,Ireland,2014,1250
+Super Premium,Ireland,2015,1750
+Super Premium,Ireland,2016,1750
+Super Premium,Canada,1990,0
+Super Premium,Canada,1991,0
+Super Premium,Canada,1992,0
+Super Premium,Canada,1993,0
+Super Premium,Canada,1994,0
+Super Premium,Canada,1995,0
+Super Premium,Canada,1996,0
+Super Premium,Canada,1997,0
+Super Premium,Canada,1998,0
+Super Premium,Canada,1999,0
+Super Premium,Canada,2000,0
+Super Premium,Canada,2001,0
+Super Premium,Canada,2002,0
+Super Premium,Canada,2003,0
+Super Premium,Canada,2004,0
+Super Premium,Canada,2005,0
+Super Premium,Canada,2006,0
+Super Premium,Canada,2007,250
+Super Premium,Canada,2008,250
+Super Premium,Canada,2009,250
+Super Premium,Canada,2010,350
+Super Premium,Canada,2011,500
+Super Premium,Canada,2012,600
+Super Premium,Canada,2013,700
+Super Premium,Canada,2014,500
+Super Premium,Canada,2015,800
+Super Premium,Canada,2016,1200
+Super Premium,United Kingdom,1990,0
+Super Premium,United Kingdom,1991,0
+Super Premium,United Kingdom,1992,0
+Super Premium,United Kingdom,1993,0
+Super Premium,United Kingdom,1994,0
+Super Premium,United Kingdom,1995,0
+Super Premium,United Kingdom,1996,0
+Super Premium,United Kingdom,1997,0
+Super Premium,United Kingdom,1998,0
+Super Premium,United Kingdom,1999,0
+Super Premium,United Kingdom,2000,0
+Super Premium,United Kingdom,2001,0
+Super Premium,United Kingdom,2002,0
+Super Premium,United Kingdom,2003,0
+Super Premium,United Kingdom,2004,0
+Super Premium,United Kingdom,2005,0
+Super Premium,United Kingdom,2006,0
+Super Premium,United Kingdom,2007,0
+Super Premium,United Kingdom,2008,0
+Super Premium,United Kingdom,2009,0
+Super Premium,United Kingdom,2010,0
+Super Premium,United Kingdom,2011,0
+Super Premium,United Kingdom,2012,100
+Super Premium,United Kingdom,2013,250
+Super Premium,United Kingdom,2014,300
+Super Premium,United Kingdom,2015,300
+Super Premium,United Kingdom,2016,1070
+Super Premium,South Africa,1990,0
+Super Premium,South Africa,1991,0
+Super Premium,South Africa,1992,0
+Super Premium,South Africa,1993,0
+Super Premium,South Africa,1994,0
+Super Premium,South Africa,1995,0
+Super Premium,South Africa,1996,0
+Super Premium,South Africa,1997,0
+Super Premium,South Africa,1998,0
+Super Premium,South Africa,1999,0
+Super Premium,South Africa,2000,0
+Super Premium,South Africa,2001,80
+Super Premium,South Africa,2002,100
+Super Premium,South Africa,2003,100
+Super Premium,South Africa,2004,0
+Super Premium,South Africa,2005,0
+Super Premium,South Africa,2006,0
+Super Premium,South Africa,2007,0
+Super Premium,South Africa,2008,0
+Super Premium,South Africa,2009,550
+Super Premium,South Africa,2010,550
+Super Premium,South Africa,2011,620
+Super Premium,South Africa,2012,600
+Super Premium,South Africa,2013,640
+Super Premium,South Africa,2014,750
+Super Premium,South Africa,2015,930
+Super Premium,South Africa,2016,940
+Super Premium,Austria,1990,0
+Super Premium,Austria,1991,0
+Super Premium,Austria,1992,0
+Super Premium,Austria,1993,0
+Super Premium,Austria,1994,0
+Super Premium,Austria,1995,0
+Super Premium,Austria,1996,0
+Super Premium,Austria,1997,0
+Super Premium,Austria,1998,0
+Super Premium,Austria,1999,0
+Super Premium,Austria,2000,0
+Super Premium,Austria,2001,0
+Super Premium,Austria,2002,0
+Super Premium,Austria,2003,0
+Super Premium,Austria,2004,0
+Super Premium,Austria,2005,0
+Super Premium,Austria,2006,10
+Super Premium,Austria,2007,0
+Super Premium,Austria,2008,500
+Super Premium,Austria,2009,500
+Super Premium,Austria,2010,620
+Super Premium,Austria,2011,570
+Super Premium,Austria,2012,500
+Super Premium,Austria,2013,600
+Super Premium,Austria,2014,600
+Super Premium,Austria,2015,670
+Super Premium,Austria,2016,750
+Super Premium,Russia,1990,0
+Super Premium,Russia,1991,0
+Super Premium,Russia,1992,0
+Super Premium,Russia,1993,0
+Super Premium,Russia,1994,0
+Super Premium,Russia,1995,0
+Super Premium,Russia,1996,0
+Super Premium,Russia,1997,0
+Super Premium,Russia,1998,0
+Super Premium,Russia,1999,0
+Super Premium,Russia,2000,0
+Super Premium,Russia,2001,0
+Super Premium,Russia,2002,0
+Super Premium,Russia,2003,0
+Super Premium,Russia,2004,0
+Super Premium,Russia,2005,0
+Super Premium,Russia,2006,0
+Super Premium,Russia,2007,0
+Super Premium,Russia,2008,0
+Super Premium,Russia,2009,0
+Super Premium,Russia,2010,0
+Super Premium,Russia,2011,900
+Super Premium,Russia,2012,800
+Super Premium,Russia,2013,400
+Super Premium,Russia,2014,300
+Super Premium,Russia,2015,300
+Super Premium,Russia,2016,500
+Super Premium,Switzerland,1990,0
+Super Premium,Switzerland,1991,0
+Super Premium,Switzerland,1992,0
+Super Premium,Switzerland,1993,0
+Super Premium,Switzerland,1994,0
+Super Premium,Switzerland,1995,0
+Super Premium,Switzerland,1996,0
+Super Premium,Switzerland,1997,0
+Super Premium,Switzerland,1998,0
+Super Premium,Switzerland,1999,0
+Super Premium,Switzerland,2000,0
+Super Premium,Switzerland,2001,0
+Super Premium,Switzerland,2002,0
+Super Premium,Switzerland,2003,0
+Super Premium,Switzerland,2004,0
+Super Premium,Switzerland,2005,0
+Super Premium,Switzerland,2006,0
+Super Premium,Switzerland,2007,0
+Super Premium,Switzerland,2008,0
+Super Premium,Switzerland,2009,0
+Super Premium,Switzerland,2010,0
+Super Premium,Switzerland,2011,0
+Super Premium,Switzerland,2012,0
+Super Premium,Switzerland,2013,0
+Super Premium,Switzerland,2014,0
+Super Premium,Switzerland,2015,0
+Super Premium,Switzerland,2016,400
+Super Premium,Argentina,1990,0
+Super Premium,Argentina,1991,0
+Super Premium,Argentina,1992,0
+Super Premium,Argentina,1993,0
+Super Premium,Argentina,1994,0
+Super Premium,Argentina,1995,0
+Super Premium,Argentina,1996,0
+Super Premium,Argentina,1997,0
+Super Premium,Argentina,1998,0
+Super Premium,Argentina,1999,0
+Super Premium,Argentina,2000,0
+Super Premium,Argentina,2001,0
+Super Premium,Argentina,2002,0
+Super Premium,Argentina,2003,0
+Super Premium,Argentina,2004,0
+Super Premium,Argentina,2005,0
+Super Premium,Argentina,2006,0
+Super Premium,Argentina,2007,0
+Super Premium,Argentina,2008,0
+Super Premium,Argentina,2009,0
+Super Premium,Argentina,2010,0
+Super Premium,Argentina,2011,0
+Super Premium,Argentina,2012,50
+Super Premium,Argentina,2013,100
+Super Premium,Argentina,2014,150
+Super Premium,Argentina,2015,200
+Super Premium,Argentina,2016,200
+Super Premium,Denmark,1990,0
+Super Premium,Denmark,1991,0
+Super Premium,Denmark,1992,0
+Super Premium,Denmark,1993,0
+Super Premium,Denmark,1994,0
+Super Premium,Denmark,1995,0
+Super Premium,Denmark,1996,0
+Super Premium,Denmark,1997,0
+Super Premium,Denmark,1998,0
+Super Premium,Denmark,1999,0
+Super Premium,Denmark,2000,0
+Super Premium,Denmark,2001,0
+Super Premium,Denmark,2002,0
+Super Premium,Denmark,2003,0
+Super Premium,Denmark,2004,0
+Super Premium,Denmark,2005,0
+Super Premium,Denmark,2006,0
+Super Premium,Denmark,2007,100
+Super Premium,Denmark,2008,0
+Super Premium,Denmark,2009,50
+Super Premium,Denmark,2010,50
+Super Premium,Denmark,2011,150
+Super Premium,Denmark,2012,330
+Super Premium,Denmark,2013,100
+Super Premium,Denmark,2014,20
+Super Premium,Denmark,2015,60
+Super Premium,Denmark,2016,100
+Super Premium,Japan,1990,0
+Super Premium,Japan,1991,0
+Super Premium,Japan,1992,0
+Super Premium,Japan,1993,0
+Super Premium,Japan,1994,0
+Super Premium,Japan,1995,0
+Super Premium,Japan,1996,0
+Super Premium,Japan,1997,0
+Super Premium,Japan,1998,0
+Super Premium,Japan,1999,0
+Super Premium,Japan,2000,0
+Super Premium,Japan,2001,0
+Super Premium,Japan,2002,0
+Super Premium,Japan,2003,0
+Super Premium,Japan,2004,50
+Super Premium,Japan,2005,40
+Super Premium,Japan,2006,50
+Super Premium,Japan,2007,50
+Super Premium,Japan,2008,50
+Super Premium,Japan,2009,50
+Super Premium,Japan,2010,50
+Super Premium,Japan,2011,50
+Super Premium,Japan,2012,50
+Super Premium,Japan,2013,100
+Super Premium,Japan,2014,100
+Super Premium,Japan,2015,100
+Super Premium,Japan,2016,100
+Super Premium,DF US/Canada,1990,0
+Super Premium,DF US/Canada,1991,0
+Super Premium,DF US/Canada,1992,0
+Super Premium,DF US/Canada,1993,0
+Super Premium,DF US/Canada,1994,50
+Super Premium,DF US/Canada,1995,150
+Super Premium,DF US/Canada,1996,225
+Super Premium,DF US/Canada,1997,250
+Super Premium,DF US/Canada,1998,150
+Super Premium,DF US/Canada,1999,150
+Super Premium,DF US/Canada,2000,50
+Super Premium,DF US/Canada,2001,25
+Super Premium,DF US/Canada,2002,25
+Super Premium,DF US/Canada,2003,25
+Super Premium,DF US/Canada,2004,50
+Super Premium,DF US/Canada,2005,75
+Super Premium,DF US/Canada,2006,75
+Super Premium,DF US/Canada,2007,25
+Super Premium,DF US/Canada,2008,25
+Super Premium,DF US/Canada,2009,0
+Super Premium,DF US/Canada,2010,0
+Super Premium,DF US/Canada,2011,50
+Super Premium,DF US/Canada,2012,25
+Super Premium,DF US/Canada,2013,40
+Super Premium,DF US/Canada,2014,0
+Super Premium,DF US/Canada,2015,50
+Super Premium,DF US/Canada,2016,75
+Super Premium,Mexico,1990,0
+Super Premium,Mexico,1991,0
+Super Premium,Mexico,1992,0
+Super Premium,Mexico,1993,0
+Super Premium,Mexico,1994,0
+Super Premium,Mexico,1995,0
+Super Premium,Mexico,1996,0
+Super Premium,Mexico,1997,0
+Super Premium,Mexico,1998,0
+Super Premium,Mexico,1999,0
+Super Premium,Mexico,2000,0
+Super Premium,Mexico,2001,0
+Super Premium,Mexico,2002,0
+Super Premium,Mexico,2003,0
+Super Premium,Mexico,2004,0
+Super Premium,Mexico,2005,0
+Super Premium,Mexico,2006,0
+Super Premium,Mexico,2007,0
+Super Premium,Mexico,2008,0
+Super Premium,Mexico,2009,0
+Super Premium,Mexico,2010,0
+Super Premium,Mexico,2011,0
+Super Premium,Mexico,2012,0
+Super Premium,Mexico,2013,0
+Super Premium,Mexico,2014,0
+Super Premium,Mexico,2015,0
+Super Premium,Mexico,2016,60
+Super Premium,Hungary,1990,0
+Super Premium,Hungary,1991,0
+Super Premium,Hungary,1992,0
+Super Premium,Hungary,1993,0
+Super Premium,Hungary,1994,0
+Super Premium,Hungary,1995,0
+Super Premium,Hungary,1996,0
+Super Premium,Hungary,1997,0
+Super Premium,Hungary,1998,0
+Super Premium,Hungary,1999,0
+Super Premium,Hungary,2000,0
+Super Premium,Hungary,2001,0
+Super Premium,Hungary,2002,0
+Super Premium,Hungary,2003,0
+Super Premium,Hungary,2004,0
+Super Premium,Hungary,2005,0
+Super Premium,Hungary,2006,0
+Super Premium,Hungary,2007,0
+Super Premium,Hungary,2008,0
+Super Premium,Hungary,2009,0
+Super Premium,Hungary,2010,0
+Super Premium,Hungary,2011,0
+Super Premium,Hungary,2012,0
+Super Premium,Hungary,2013,0
+Super Premium,Hungary,2014,50
+Super Premium,Hungary,2015,50
+Super Premium,Hungary,2016,50
+Super Premium,Netherlands,1990,0
+Super Premium,Netherlands,1991,0
+Super Premium,Netherlands,1992,0
+Super Premium,Netherlands,1993,0
+Super Premium,Netherlands,1994,0
+Super Premium,Netherlands,1995,0
+Super Premium,Netherlands,1996,0
+Super Premium,Netherlands,1997,0
+Super Premium,Netherlands,1998,0
+Super Premium,Netherlands,1999,0
+Super Premium,Netherlands,2000,0
+Super Premium,Netherlands,2001,0
+Super Premium,Netherlands,2002,0
+Super Premium,Netherlands,2003,0
+Super Premium,Netherlands,2004,0
+Super Premium,Netherlands,2005,0
+Super Premium,Netherlands,2006,0
+Super Premium,Netherlands,2007,0
+Super Premium,Netherlands,2008,70
+Super Premium,Netherlands,2009,70
+Super Premium,Netherlands,2010,100
+Super Premium,Netherlands,2011,100
+Super Premium,Netherlands,2012,100
+Super Premium,Netherlands,2013,150
+Super Premium,Netherlands,2014,250
+Super Premium,Netherlands,2015,50
+Super Premium,Netherlands,2016,50
+Super Premium,Italy,1990,0
+Super Premium,Italy,1991,0
+Super Premium,Italy,1992,0
+Super Premium,Italy,1993,0
+Super Premium,Italy,1994,0
+Super Premium,Italy,1995,0
+Super Premium,Italy,1996,0
+Super Premium,Italy,1997,0
+Super Premium,Italy,1998,0
+Super Premium,Italy,1999,0
+Super Premium,Italy,2000,0
+Super Premium,Italy,2001,0
+Super Premium,Italy,2002,0
+Super Premium,Italy,2003,0
+Super Premium,Italy,2004,0
+Super Premium,Italy,2005,0
+Super Premium,Italy,2006,0
+Super Premium,Italy,2007,0
+Super Premium,Italy,2008,0
+Super Premium,Italy,2009,0
+Super Premium,Italy,2010,0
+Super Premium,Italy,2011,0
+Super Premium,Italy,2012,0
+Super Premium,Italy,2013,50
+Super Premium,Italy,2014,50
+Super Premium,Italy,2015,50
+Super Premium,Italy,2016,50
+Super Premium,Bulgaria,1990,0
+Super Premium,Bulgaria,1991,0
+Super Premium,Bulgaria,1992,0
+Super Premium,Bulgaria,1993,0
+Super Premium,Bulgaria,1994,0
+Super Premium,Bulgaria,1995,0
+Super Premium,Bulgaria,1996,0
+Super Premium,Bulgaria,1997,0
+Super Premium,Bulgaria,1998,0
+Super Premium,Bulgaria,1999,0
+Super Premium,Bulgaria,2000,0
+Super Premium,Bulgaria,2001,0
+Super Premium,Bulgaria,2002,0
+Super Premium,Bulgaria,2003,0
+Super Premium,Bulgaria,2004,0
+Super Premium,Bulgaria,2005,0
+Super Premium,Bulgaria,2006,0
+Super Premium,Bulgaria,2007,0
+Super Premium,Bulgaria,2008,0
+Super Premium,Bulgaria,2009,50
+Super Premium,Bulgaria,2010,50
+Super Premium,Bulgaria,2011,100
+Super Premium,Bulgaria,2012,100
+Super Premium,Bulgaria,2013,100
+Super Premium,Bulgaria,2014,100
+Super Premium,Bulgaria,2015,100
+Super Premium,Bulgaria,2016,40
+Super Premium,DF Nordic Countries - (All Countries),1990,0
+Super Premium,DF Nordic Countries - (All Countries),1991,0
+Super Premium,DF Nordic Countries - (All Countries),1992,0
+Super Premium,DF Nordic Countries - (All Countries),1993,0
+Super Premium,DF Nordic Countries - (All Countries),1994,50
+Super Premium,DF Nordic Countries - (All Countries),1995,50
+Super Premium,DF Nordic Countries - (All Countries),1996,25
+Super Premium,DF Nordic Countries - (All Countries),1997,25
+Super Premium,DF Nordic Countries - (All Countries),1998,25
+Super Premium,DF Nordic Countries - (All Countries),1999,20
+Super Premium,DF Nordic Countries - (All Countries),2000,15
+Super Premium,DF Nordic Countries - (All Countries),2001,300
+Super Premium,DF Nordic Countries - (All Countries),2002,250
+Super Premium,DF Nordic Countries - (All Countries),2003,175
+Super Premium,DF Nordic Countries - (All Countries),2004,150
+Super Premium,DF Nordic Countries - (All Countries),2005,125
+Super Premium,DF Nordic Countries - (All Countries),2006,50
+Super Premium,DF Nordic Countries - (All Countries),2007,50
+Super Premium,DF Nordic Countries - (All Countries),2008,50
+Super Premium,DF Nordic Countries - (All Countries),2009,0
+Super Premium,DF Nordic Countries - (All Countries),2010,0
+Super Premium,DF Nordic Countries - (All Countries),2011,5
+Super Premium,DF Nordic Countries - (All Countries),2012,0
+Super Premium,DF Nordic Countries - (All Countries),2013,35
+Super Premium,DF Nordic Countries - (All Countries),2014,40
+Super Premium,DF Nordic Countries - (All Countries),2015,40
+Super Premium,DF Nordic Countries - (All Countries),2016,40
+Super Premium,DF China,1990,0
+Super Premium,DF China,1991,0
+Super Premium,DF China,1992,0
+Super Premium,DF China,1993,0
+Super Premium,DF China,1994,0
+Super Premium,DF China,1995,0
+Super Premium,DF China,1996,0
+Super Premium,DF China,1997,0
+Super Premium,DF China,1998,0
+Super Premium,DF China,1999,0
+Super Premium,DF China,2000,0
+Super Premium,DF China,2001,0
+Super Premium,DF China,2002,0
+Super Premium,DF China,2003,0
+Super Premium,DF China,2004,0
+Super Premium,DF China,2005,0
+Super Premium,DF China,2006,0
+Super Premium,DF China,2007,0
+Super Premium,DF China,2008,0
+Super Premium,DF China,2009,0
+Super Premium,DF China,2010,0
+Super Premium,DF China,2011,25
+Super Premium,DF China,2012,40
+Super Premium,DF China,2013,30
+Super Premium,DF China,2014,35
+Super Premium,DF China,2015,20
+Super Premium,DF China,2016,35
+Super Premium,DF Gulf - (All Countries),1990,0
+Super Premium,DF Gulf - (All Countries),1991,0
+Super Premium,DF Gulf - (All Countries),1992,0
+Super Premium,DF Gulf - (All Countries),1993,0
+Super Premium,DF Gulf - (All Countries),1994,0
+Super Premium,DF Gulf - (All Countries),1995,0
+Super Premium,DF Gulf - (All Countries),1996,0
+Super Premium,DF Gulf - (All Countries),1997,0
+Super Premium,DF Gulf - (All Countries),1998,0
+Super Premium,DF Gulf - (All Countries),1999,0
+Super Premium,DF Gulf - (All Countries),2000,0
+Super Premium,DF Gulf - (All Countries),2001,0
+Super Premium,DF Gulf - (All Countries),2002,0
+Super Premium,DF Gulf - (All Countries),2003,0
+Super Premium,DF Gulf - (All Countries),2004,0
+Super Premium,DF Gulf - (All Countries),2005,0
+Super Premium,DF Gulf - (All Countries),2006,0
+Super Premium,DF Gulf - (All Countries),2007,0
+Super Premium,DF Gulf - (All Countries),2008,0
+Super Premium,DF Gulf - (All Countries),2009,0
+Super Premium,DF Gulf - (All Countries),2010,0
+Super Premium,DF Gulf - (All Countries),2011,25
+Super Premium,DF Gulf - (All Countries),2012,60
+Super Premium,DF Gulf - (All Countries),2013,60
+Super Premium,DF Gulf - (All Countries),2014,15
+Super Premium,DF Gulf - (All Countries),2015,30
+Super Premium,DF Gulf - (All Countries),2016,30
+Super Premium,DF France,1990,0
+Super Premium,DF France,1991,0
+Super Premium,DF France,1992,0
+Super Premium,DF France,1993,0
+Super Premium,DF France,1994,0
+Super Premium,DF France,1995,50
+Super Premium,DF France,1996,125
+Super Premium,DF France,1997,125
+Super Premium,DF France,1998,50
+Super Premium,DF France,1999,20
+Super Premium,DF France,2000,15
+Super Premium,DF France,2001,10
+Super Premium,DF France,2002,15
+Super Premium,DF France,2003,15
+Super Premium,DF France,2004,10
+Super Premium,DF France,2005,15
+Super Premium,DF France,2006,10
+Super Premium,DF France,2007,10
+Super Premium,DF France,2008,10
+Super Premium,DF France,2009,0
+Super Premium,DF France,2010,0
+Super Premium,DF France,2011,0
+Super Premium,DF France,2012,25
+Super Premium,DF France,2013,25
+Super Premium,DF France,2014,15
+Super Premium,DF France,2015,15
+Super Premium,DF France,2016,15
+Super Premium,DF Netherlands,1990,0
+Super Premium,DF Netherlands,1991,0
+Super Premium,DF Netherlands,1992,0
+Super Premium,DF Netherlands,1993,0
+Super Premium,DF Netherlands,1994,50
+Super Premium,DF Netherlands,1995,25
+Super Premium,DF Netherlands,1996,25
+Super Premium,DF Netherlands,1997,25
+Super Premium,DF Netherlands,1998,25
+Super Premium,DF Netherlands,1999,10
+Super Premium,DF Netherlands,2000,0
+Super Premium,DF Netherlands,2001,0
+Super Premium,DF Netherlands,2002,0
+Super Premium,DF Netherlands,2003,0
+Super Premium,DF Netherlands,2004,0
+Super Premium,DF Netherlands,2005,0
+Super Premium,DF Netherlands,2006,0
+Super Premium,DF Netherlands,2007,0
+Super Premium,DF Netherlands,2008,0
+Super Premium,DF Netherlands,2009,25
+Super Premium,DF Netherlands,2010,0
+Super Premium,DF Netherlands,2011,35
+Super Premium,DF Netherlands,2012,25
+Super Premium,DF Netherlands,2013,15
+Super Premium,DF Netherlands,2014,15
+Super Premium,DF Netherlands,2015,15
+Super Premium,DF Netherlands,2016,15
+Super Premium,Finland,1990,0
+Super Premium,Finland,1991,0
+Super Premium,Finland,1992,0
+Super Premium,Finland,1993,0
+Super Premium,Finland,1994,0
+Super Premium,Finland,1995,0
+Super Premium,Finland,1996,0
+Super Premium,Finland,1997,0
+Super Premium,Finland,1998,0
+Super Premium,Finland,1999,0
+Super Premium,Finland,2000,0
+Super Premium,Finland,2001,0
+Super Premium,Finland,2002,0
+Super Premium,Finland,2003,0
+Super Premium,Finland,2004,0
+Super Premium,Finland,2005,0
+Super Premium,Finland,2006,0
+Super Premium,Finland,2007,0
+Super Premium,Finland,2008,0
+Super Premium,Finland,2009,0
+Super Premium,Finland,2010,0
+Super Premium,Finland,2011,0
+Super Premium,Finland,2012,0
+Super Premium,Finland,2013,0
+Super Premium,Finland,2014,0
+Super Premium,Finland,2015,100
+Super Premium,Finland,2016,0
+Super Premium,Latvia,1990,0
+Super Premium,Latvia,1991,0
+Super Premium,Latvia,1992,0
+Super Premium,Latvia,1993,0
+Super Premium,Latvia,1994,0
+Super Premium,Latvia,1995,0
+Super Premium,Latvia,1996,0
+Super Premium,Latvia,1997,0
+Super Premium,Latvia,1998,0
+Super Premium,Latvia,1999,0
+Super Premium,Latvia,2000,0
+Super Premium,Latvia,2001,0
+Super Premium,Latvia,2002,0
+Super Premium,Latvia,2003,0
+Super Premium,Latvia,2004,0
+Super Premium,Latvia,2005,0
+Super Premium,Latvia,2006,0
+Super Premium,Latvia,2007,0
+Super Premium,Latvia,2008,0
+Super Premium,Latvia,2009,0
+Super Premium,Latvia,2010,0
+Super Premium,Latvia,2011,0
+Super Premium,Latvia,2012,0
+Super Premium,Latvia,2013,10
+Super Premium,Latvia,2014,10
+Super Premium,Latvia,2015,0
+Super Premium,Latvia,2016,0
+Super Premium,Portugal,1990,0
+Super Premium,Portugal,1991,0
+Super Premium,Portugal,1992,0
+Super Premium,Portugal,1993,0
+Super Premium,Portugal,1994,0
+Super Premium,Portugal,1995,0
+Super Premium,Portugal,1996,0
+Super Premium,Portugal,1997,0
+Super Premium,Portugal,1998,0
+Super Premium,Portugal,1999,0
+Super Premium,Portugal,2000,0
+Super Premium,Portugal,2001,0
+Super Premium,Portugal,2002,0
+Super Premium,Portugal,2003,0
+Super Premium,Portugal,2004,0
+Super Premium,Portugal,2005,30
+Super Premium,Portugal,2006,0
+Super Premium,Portugal,2007,0
+Super Premium,Portugal,2008,0
+Super Premium,Portugal,2009,50
+Super Premium,Portugal,2010,100
+Super Premium,Portugal,2011,50
+Super Premium,Portugal,2012,0
+Super Premium,Portugal,2013,0
+Super Premium,Portugal,2014,50
+Super Premium,Portugal,2015,0
+Super Premium,Portugal,2016,0
+Super Premium,DF Baltics - (All Countries),1990,0
+Super Premium,DF Baltics - (All Countries),1991,0
+Super Premium,DF Baltics - (All Countries),1992,0
+Super Premium,DF Baltics - (All Countries),1993,0
+Super Premium,DF Baltics - (All Countries),1994,0
+Super Premium,DF Baltics - (All Countries),1995,0
+Super Premium,DF Baltics - (All Countries),1996,0
+Super Premium,DF Baltics - (All Countries),1997,0
+Super Premium,DF Baltics - (All Countries),1998,0
+Super Premium,DF Baltics - (All Countries),1999,0
+Super Premium,DF Baltics - (All Countries),2000,0
+Super Premium,DF Baltics - (All Countries),2001,35
+Super Premium,DF Baltics - (All Countries),2002,10
+Super Premium,DF Baltics - (All Countries),2003,25
+Super Premium,DF Baltics - (All Countries),2004,5
+Super Premium,DF Baltics - (All Countries),2005,5
+Super Premium,DF Baltics - (All Countries),2006,10
+Super Premium,DF Baltics - (All Countries),2007,10
+Super Premium,DF Baltics - (All Countries),2008,10
+Super Premium,DF Baltics - (All Countries),2009,0
+Super Premium,DF Baltics - (All Countries),2010,0
+Super Premium,DF Baltics - (All Countries),2011,0
+Super Premium,DF Baltics - (All Countries),2012,0
+Super Premium,DF Baltics - (All Countries),2013,0
+Super Premium,DF Baltics - (All Countries),2014,0
+Super Premium,DF Baltics - (All Countries),2015,0
+Super Premium,DF Baltics - (All Countries),2016,0
+Super Premium,DF Belgium/Luxembourg,1990,0
+Super Premium,DF Belgium/Luxembourg,1991,0
+Super Premium,DF Belgium/Luxembourg,1992,0
+Super Premium,DF Belgium/Luxembourg,1993,0
+Super Premium,DF Belgium/Luxembourg,1994,50
+Super Premium,DF Belgium/Luxembourg,1995,50
+Super Premium,DF Belgium/Luxembourg,1996,0
+Super Premium,DF Belgium/Luxembourg,1997,25
+Super Premium,DF Belgium/Luxembourg,1998,0
+Super Premium,DF Belgium/Luxembourg,1999,0
+Super Premium,DF Belgium/Luxembourg,2000,0
+Super Premium,DF Belgium/Luxembourg,2001,0
+Super Premium,DF Belgium/Luxembourg,2002,10
+Super Premium,DF Belgium/Luxembourg,2003,0
+Super Premium,DF Belgium/Luxembourg,2004,0
+Super Premium,DF Belgium/Luxembourg,2005,0
+Super Premium,DF Belgium/Luxembourg,2006,0
+Super Premium,DF Belgium/Luxembourg,2007,0
+Super Premium,DF Belgium/Luxembourg,2008,0
+Super Premium,DF Belgium/Luxembourg,2009,0
+Super Premium,DF Belgium/Luxembourg,2010,0
+Super Premium,DF Belgium/Luxembourg,2011,0
+Super Premium,DF Belgium/Luxembourg,2012,0
+Super Premium,DF Belgium/Luxembourg,2013,0
+Super Premium,DF Belgium/Luxembourg,2014,0
+Super Premium,DF Belgium/Luxembourg,2015,0
+Super Premium,DF Belgium/Luxembourg,2016,0
+Super Premium,DF Czech Republic,1990,0
+Super Premium,DF Czech Republic,1991,0
+Super Premium,DF Czech Republic,1992,0
+Super Premium,DF Czech Republic,1993,0
+Super Premium,DF Czech Republic,1994,0
+Super Premium,DF Czech Republic,1995,0
+Super Premium,DF Czech Republic,1996,0
+Super Premium,DF Czech Republic,1997,0
+Super Premium,DF Czech Republic,1998,0
+Super Premium,DF Czech Republic,1999,0
+Super Premium,DF Czech Republic,2000,0
+Super Premium,DF Czech Republic,2001,0
+Super Premium,DF Czech Republic,2002,0
+Super Premium,DF Czech Republic,2003,0
+Super Premium,DF Czech Republic,2004,0
+Super Premium,DF Czech Republic,2005,0
+Super Premium,DF Czech Republic,2006,0
+Super Premium,DF Czech Republic,2007,0
+Super Premium,DF Czech Republic,2008,0
+Super Premium,DF Czech Republic,2009,0
+Super Premium,DF Czech Republic,2010,0
+Super Premium,DF Czech Republic,2011,5
+Super Premium,DF Czech Republic,2012,0
+Super Premium,DF Czech Republic,2013,0
+Super Premium,DF Czech Republic,2014,0
+Super Premium,DF Czech Republic,2015,0
+Super Premium,DF Czech Republic,2016,0
+Super Premium,DF Germany,1990,0
+Super Premium,DF Germany,1991,0
+Super Premium,DF Germany,1992,0
+Super Premium,DF Germany,1993,0
+Super Premium,DF Germany,1994,50
+Super Premium,DF Germany,1995,50
+Super Premium,DF Germany,1996,0
+Super Premium,DF Germany,1997,0
+Super Premium,DF Germany,1998,0
+Super Premium,DF Germany,1999,0
+Super Premium,DF Germany,2000,0
+Super Premium,DF Germany,2001,0
+Super Premium,DF Germany,2002,0
+Super Premium,DF Germany,2003,5
+Super Premium,DF Germany,2004,10
+Super Premium,DF Germany,2005,15
+Super Premium,DF Germany,2006,10
+Super Premium,DF Germany,2007,10
+Super Premium,DF Germany,2008,10
+Super Premium,DF Germany,2009,0
+Super Premium,DF Germany,2010,0
+Super Premium,DF Germany,2011,20
+Super Premium,DF Germany,2012,0
+Super Premium,DF Germany,2013,0
+Super Premium,DF Germany,2014,0
+Super Premium,DF Germany,2015,0
+Super Premium,DF Germany,2016,0
+Super Premium,DF Hong Kong,1990,0
+Super Premium,DF Hong Kong,1991,0
+Super Premium,DF Hong Kong,1992,0
+Super Premium,DF Hong Kong,1993,0
+Super Premium,DF Hong Kong,1994,0
+Super Premium,DF Hong Kong,1995,100
+Super Premium,DF Hong Kong,1996,50
+Super Premium,DF Hong Kong,1997,25
+Super Premium,DF Hong Kong,1998,25
+Super Premium,DF Hong Kong,1999,25
+Super Premium,DF Hong Kong,2000,0
+Super Premium,DF Hong Kong,2001,0
+Super Premium,DF Hong Kong,2002,0
+Super Premium,DF Hong Kong,2003,0
+Super Premium,DF Hong Kong,2004,0
+Super Premium,DF Hong Kong,2005,0
+Super Premium,DF Hong Kong,2006,0
+Super Premium,DF Hong Kong,2007,0
+Super Premium,DF Hong Kong,2008,0
+Super Premium,DF Hong Kong,2009,0
+Super Premium,DF Hong Kong,2010,0
+Super Premium,DF Hong Kong,2011,0
+Super Premium,DF Hong Kong,2012,0
+Super Premium,DF Hong Kong,2013,0
+Super Premium,DF Hong Kong,2014,0
+Super Premium,DF Hong Kong,2015,0
+Super Premium,DF Hong Kong,2016,0
+Super Premium,DF Indian Sub-Continent,1990,0
+Super Premium,DF Indian Sub-Continent,1991,0
+Super Premium,DF Indian Sub-Continent,1992,0
+Super Premium,DF Indian Sub-Continent,1993,0
+Super Premium,DF Indian Sub-Continent,1994,0
+Super Premium,DF Indian Sub-Continent,1995,0
+Super Premium,DF Indian Sub-Continent,1996,0
+Super Premium,DF Indian Sub-Continent,1997,0
+Super Premium,DF Indian Sub-Continent,1998,0
+Super Premium,DF Indian Sub-Continent,1999,0
+Super Premium,DF Indian Sub-Continent,2000,0
+Super Premium,DF Indian Sub-Continent,2001,0
+Super Premium,DF Indian Sub-Continent,2002,0
+Super Premium,DF Indian Sub-Continent,2003,0
+Super Premium,DF Indian Sub-Continent,2004,0
+Super Premium,DF Indian Sub-Continent,2005,0
+Super Premium,DF Indian Sub-Continent,2006,0
+Super Premium,DF Indian Sub-Continent,2007,0
+Super Premium,DF Indian Sub-Continent,2008,0
+Super Premium,DF Indian Sub-Continent,2009,0
+Super Premium,DF Indian Sub-Continent,2010,0
+Super Premium,DF Indian Sub-Continent,2011,0
+Super Premium,DF Indian Sub-Continent,2012,20
+Super Premium,DF Indian Sub-Continent,2013,0
+Super Premium,DF Indian Sub-Continent,2014,0
+Super Premium,DF Indian Sub-Continent,2015,0
+Super Premium,DF Indian Sub-Continent,2016,0
+Super Premium,DF Indonesia,1990,0
+Super Premium,DF Indonesia,1991,0
+Super Premium,DF Indonesia,1992,0
+Super Premium,DF Indonesia,1993,0
+Super Premium,DF Indonesia,1994,0
+Super Premium,DF Indonesia,1995,0
+Super Premium,DF Indonesia,1996,0
+Super Premium,DF Indonesia,1997,0
+Super Premium,DF Indonesia,1998,0
+Super Premium,DF Indonesia,1999,0
+Super Premium,DF Indonesia,2000,0
+Super Premium,DF Indonesia,2001,5
+Super Premium,DF Indonesia,2002,5
+Super Premium,DF Indonesia,2003,0
+Super Premium,DF Indonesia,2004,0
+Super Premium,DF Indonesia,2005,0
+Super Premium,DF Indonesia,2006,0
+Super Premium,DF Indonesia,2007,0
+Super Premium,DF Indonesia,2008,0
+Super Premium,DF Indonesia,2009,0
+Super Premium,DF Indonesia,2010,0
+Super Premium,DF Indonesia,2011,0
+Super Premium,DF Indonesia,2012,0
+Super Premium,DF Indonesia,2013,0
+Super Premium,DF Indonesia,2014,0
+Super Premium,DF Indonesia,2015,0
+Super Premium,DF Indonesia,2016,0
+Super Premium,DF Israel,1990,0
+Super Premium,DF Israel,1991,0
+Super Premium,DF Israel,1992,0
+Super Premium,DF Israel,1993,0
+Super Premium,DF Israel,1994,0
+Super Premium,DF Israel,1995,0
+Super Premium,DF Israel,1996,0
+Super Premium,DF Israel,1997,0
+Super Premium,DF Israel,1998,0
+Super Premium,DF Israel,1999,0
+Super Premium,DF Israel,2000,0
+Super Premium,DF Israel,2001,0
+Super Premium,DF Israel,2002,10
+Super Premium,DF Israel,2003,15
+Super Premium,DF Israel,2004,15
+Super Premium,DF Israel,2005,0
+Super Premium,DF Israel,2006,0
+Super Premium,DF Israel,2007,0
+Super Premium,DF Israel,2008,0
+Super Premium,DF Israel,2009,0
+Super Premium,DF Israel,2010,0
+Super Premium,DF Israel,2011,0
+Super Premium,DF Israel,2012,0
+Super Premium,DF Israel,2013,0
+Super Premium,DF Israel,2014,0
+Super Premium,DF Israel,2015,0
+Super Premium,DF Israel,2016,0
+Super Premium,DF Italy,1990,0
+Super Premium,DF Italy,1991,0
+Super Premium,DF Italy,1992,0
+Super Premium,DF Italy,1993,0
+Super Premium,DF Italy,1994,0
+Super Premium,DF Italy,1995,50
+Super Premium,DF Italy,1996,25
+Super Premium,DF Italy,1997,20
+Super Premium,DF Italy,1998,15
+Super Premium,DF Italy,1999,10
+Super Premium,DF Italy,2000,0
+Super Premium,DF Italy,2001,0
+Super Premium,DF Italy,2002,0
+Super Premium,DF Italy,2003,0
+Super Premium,DF Italy,2004,0
+Super Premium,DF Italy,2005,0
+Super Premium,DF Italy,2006,0
+Super Premium,DF Italy,2007,0
+Super Premium,DF Italy,2008,0
+Super Premium,DF Italy,2009,0
+Super Premium,DF Italy,2010,0
+Super Premium,DF Italy,2011,10
+Super Premium,DF Italy,2012,0
+Super Premium,DF Italy,2013,0
+Super Premium,DF Italy,2014,0
+Super Premium,DF Italy,2015,0
+Super Premium,DF Italy,2016,0
+Super Premium,DF Poland,1990,0
+Super Premium,DF Poland,1991,0
+Super Premium,DF Poland,1992,0
+Super Premium,DF Poland,1993,0
+Super Premium,DF Poland,1994,0
+Super Premium,DF Poland,1995,0
+Super Premium,DF Poland,1996,0
+Super Premium,DF Poland,1997,0
+Super Premium,DF Poland,1998,0
+Super Premium,DF Poland,1999,0
+Super Premium,DF Poland,2000,0
+Super Premium,DF Poland,2001,0
+Super Premium,DF Poland,2002,0
+Super Premium,DF Poland,2003,0
+Super Premium,DF Poland,2004,0
+Super Premium,DF Poland,2005,0
+Super Premium,DF Poland,2006,0
+Super Premium,DF Poland,2007,0
+Super Premium,DF Poland,2008,0
+Super Premium,DF Poland,2009,0
+Super Premium,DF Poland,2010,0
+Super Premium,DF Poland,2011,5
+Super Premium,DF Poland,2012,0
+Super Premium,DF Poland,2013,5
+Super Premium,DF Poland,2014,0
+Super Premium,DF Poland,2015,0
+Super Premium,DF Poland,2016,0
+Super Premium,DF Rest of Africa,1990,0
+Super Premium,DF Rest of Africa,1991,0
+Super Premium,DF Rest of Africa,1992,0
+Super Premium,DF Rest of Africa,1993,0
+Super Premium,DF Rest of Africa,1994,0
+Super Premium,DF Rest of Africa,1995,0
+Super Premium,DF Rest of Africa,1996,0
+Super Premium,DF Rest of Africa,1997,0
+Super Premium,DF Rest of Africa,1998,0
+Super Premium,DF Rest of Africa,1999,0
+Super Premium,DF Rest of Africa,2000,25
+Super Premium,DF Rest of Africa,2001,25
+Super Premium,DF Rest of Africa,2002,25
+Super Premium,DF Rest of Africa,2003,25
+Super Premium,DF Rest of Africa,2004,25
+Super Premium,DF Rest of Africa,2005,0
+Super Premium,DF Rest of Africa,2006,0
+Super Premium,DF Rest of Africa,2007,0
+Super Premium,DF Rest of Africa,2008,0
+Super Premium,DF Rest of Africa,2009,0
+Super Premium,DF Rest of Africa,2010,0
+Super Premium,DF Rest of Africa,2011,0
+Super Premium,DF Rest of Africa,2012,5
+Super Premium,DF Rest of Africa,2013,0
+Super Premium,DF Rest of Africa,2014,0
+Super Premium,DF Rest of Africa,2015,0
+Super Premium,DF Rest of Africa,2016,0
+Super Premium,DF Rest of Australasia,1990,0
+Super Premium,DF Rest of Australasia,1991,0
+Super Premium,DF Rest of Australasia,1992,0
+Super Premium,DF Rest of Australasia,1993,0
+Super Premium,DF Rest of Australasia,1994,50
+Super Premium,DF Rest of Australasia,1995,50
+Super Premium,DF Rest of Australasia,1996,0
+Super Premium,DF Rest of Australasia,1997,0
+Super Premium,DF Rest of Australasia,1998,0
+Super Premium,DF Rest of Australasia,1999,0
+Super Premium,DF Rest of Australasia,2000,0
+Super Premium,DF Rest of Australasia,2001,0
+Super Premium,DF Rest of Australasia,2002,0
+Super Premium,DF Rest of Australasia,2003,0
+Super Premium,DF Rest of Australasia,2004,0
+Super Premium,DF Rest of Australasia,2005,0
+Super Premium,DF Rest of Australasia,2006,0
+Super Premium,DF Rest of Australasia,2007,0
+Super Premium,DF Rest of Australasia,2008,0
+Super Premium,DF Rest of Australasia,2009,5
+Super Premium,DF Rest of Australasia,2010,0
+Super Premium,DF Rest of Australasia,2011,0
+Super Premium,DF Rest of Australasia,2012,0
+Super Premium,DF Rest of Australasia,2013,0
+Super Premium,DF Rest of Australasia,2014,0
+Super Premium,DF Rest of Australasia,2015,0
+Super Premium,DF Rest of Australasia,2016,0
+Super Premium,DF Rest of Central & Eastern Europe,1990,0
+Super Premium,DF Rest of Central & Eastern Europe,1991,0
+Super Premium,DF Rest of Central & Eastern Europe,1992,0
+Super Premium,DF Rest of Central & Eastern Europe,1993,0
+Super Premium,DF Rest of Central & Eastern Europe,1994,0
+Super Premium,DF Rest of Central & Eastern Europe,1995,0
+Super Premium,DF Rest of Central & Eastern Europe,1996,0
+Super Premium,DF Rest of Central & Eastern Europe,1997,0
+Super Premium,DF Rest of Central & Eastern Europe,1998,0
+Super Premium,DF Rest of Central & Eastern Europe,1999,0
+Super Premium,DF Rest of Central & Eastern Europe,2000,0
+Super Premium,DF Rest of Central & Eastern Europe,2001,0
+Super Premium,DF Rest of Central & Eastern Europe,2002,0
+Super Premium,DF Rest of Central & Eastern Europe,2003,0
+Super Premium,DF Rest of Central & Eastern Europe,2004,0
+Super Premium,DF Rest of Central & Eastern Europe,2005,0
+Super Premium,DF Rest of Central & Eastern Europe,2006,0
+Super Premium,DF Rest of Central & Eastern Europe,2007,0
+Super Premium,DF Rest of Central & Eastern Europe,2008,0
+Super Premium,DF Rest of Central & Eastern Europe,2009,0
+Super Premium,DF Rest of Central & Eastern Europe,2010,0
+Super Premium,DF Rest of Central & Eastern Europe,2011,0
+Super Premium,DF Rest of Central & Eastern Europe,2012,0
+Super Premium,DF Rest of Central & Eastern Europe,2013,5
+Super Premium,DF Rest of Central & Eastern Europe,2014,0
+Super Premium,DF Rest of Central & Eastern Europe,2015,0
+Super Premium,DF Rest of Central & Eastern Europe,2016,0
+Super Premium,DF Rest of East Asia,1990,0
+Super Premium,DF Rest of East Asia,1991,0
+Super Premium,DF Rest of East Asia,1992,0
+Super Premium,DF Rest of East Asia,1993,0
+Super Premium,DF Rest of East Asia,1994,100
+Super Premium,DF Rest of East Asia,1995,150
+Super Premium,DF Rest of East Asia,1996,100
+Super Premium,DF Rest of East Asia,1997,50
+Super Premium,DF Rest of East Asia,1998,0
+Super Premium,DF Rest of East Asia,1999,0
+Super Premium,DF Rest of East Asia,2000,0
+Super Premium,DF Rest of East Asia,2001,0
+Super Premium,DF Rest of East Asia,2002,0
+Super Premium,DF Rest of East Asia,2003,0
+Super Premium,DF Rest of East Asia,2004,0
+Super Premium,DF Rest of East Asia,2005,0
+Super Premium,DF Rest of East Asia,2006,0
+Super Premium,DF Rest of East Asia,2007,0
+Super Premium,DF Rest of East Asia,2008,0
+Super Premium,DF Rest of East Asia,2009,0
+Super Premium,DF Rest of East Asia,2010,0
+Super Premium,DF Rest of East Asia,2011,0
+Super Premium,DF Rest of East Asia,2012,0
+Super Premium,DF Rest of East Asia,2013,0
+Super Premium,DF Rest of East Asia,2014,0
+Super Premium,DF Rest of East Asia,2015,0
+Super Premium,DF Rest of East Asia,2016,0
+Super Premium,DF Rest of Latin America,1990,0
+Super Premium,DF Rest of Latin America,1991,0
+Super Premium,DF Rest of Latin America,1992,0
+Super Premium,DF Rest of Latin America,1993,0
+Super Premium,DF Rest of Latin America,1994,0
+Super Premium,DF Rest of Latin America,1995,50
+Super Premium,DF Rest of Latin America,1996,25
+Super Premium,DF Rest of Latin America,1997,25
+Super Premium,DF Rest of Latin America,1998,25
+Super Premium,DF Rest of Latin America,1999,25
+Super Premium,DF Rest of Latin America,2000,25
+Super Premium,DF Rest of Latin America,2001,15
+Super Premium,DF Rest of Latin America,2002,10
+Super Premium,DF Rest of Latin America,2003,5
+Super Premium,DF Rest of Latin America,2004,0
+Super Premium,DF Rest of Latin America,2005,0
+Super Premium,DF Rest of Latin America,2006,0
+Super Premium,DF Rest of Latin America,2007,0
+Super Premium,DF Rest of Latin America,2008,0
+Super Premium,DF Rest of Latin America,2009,0
+Super Premium,DF Rest of Latin America,2010,0
+Super Premium,DF Rest of Latin America,2011,0
+Super Premium,DF Rest of Latin America,2012,0
+Super Premium,DF Rest of Latin America,2013,0
+Super Premium,DF Rest of Latin America,2014,0
+Super Premium,DF Rest of Latin America,2015,0
+Super Premium,DF Rest of Latin America,2016,0
+Super Premium,DF Rest of Southern Europe,1990,0
+Super Premium,DF Rest of Southern Europe,1991,0
+Super Premium,DF Rest of Southern Europe,1992,0
+Super Premium,DF Rest of Southern Europe,1993,0
+Super Premium,DF Rest of Southern Europe,1994,50
+Super Premium,DF Rest of Southern Europe,1995,50
+Super Premium,DF Rest of Southern Europe,1996,50
+Super Premium,DF Rest of Southern Europe,1997,50
+Super Premium,DF Rest of Southern Europe,1998,50
+Super Premium,DF Rest of Southern Europe,1999,25
+Super Premium,DF Rest of Southern Europe,2000,0
+Super Premium,DF Rest of Southern Europe,2001,0
+Super Premium,DF Rest of Southern Europe,2002,0
+Super Premium,DF Rest of Southern Europe,2003,0
+Super Premium,DF Rest of Southern Europe,2004,0
+Super Premium,DF Rest of Southern Europe,2005,0
+Super Premium,DF Rest of Southern Europe,2006,0
+Super Premium,DF Rest of Southern Europe,2007,0
+Super Premium,DF Rest of Southern Europe,2008,0
+Super Premium,DF Rest of Southern Europe,2009,0
+Super Premium,DF Rest of Southern Europe,2010,0
+Super Premium,DF Rest of Southern Europe,2011,0
+Super Premium,DF Rest of Southern Europe,2012,0
+Super Premium,DF Rest of Southern Europe,2013,0
+Super Premium,DF Rest of Southern Europe,2014,0
+Super Premium,DF Rest of Southern Europe,2015,0
+Super Premium,DF Rest of Southern Europe,2016,0
+Super Premium,DF Rest of World,1990,0
+Super Premium,DF Rest of World,1991,0
+Super Premium,DF Rest of World,1992,0
+Super Premium,DF Rest of World,1993,0
+Super Premium,DF Rest of World,1994,50
+Super Premium,DF Rest of World,1995,50
+Super Premium,DF Rest of World,1996,50
+Super Premium,DF Rest of World,1997,50
+Super Premium,DF Rest of World,1998,50
+Super Premium,DF Rest of World,1999,25
+Super Premium,DF Rest of World,2000,0
+Super Premium,DF Rest of World,2001,0
+Super Premium,DF Rest of World,2002,0
+Super Premium,DF Rest of World,2003,0
+Super Premium,DF Rest of World,2004,0
+Super Premium,DF Rest of World,2005,0
+Super Premium,DF Rest of World,2006,0
+Super Premium,DF Rest of World,2007,0
+Super Premium,DF Rest of World,2008,0
+Super Premium,DF Rest of World,2009,0
+Super Premium,DF Rest of World,2010,0
+Super Premium,DF Rest of World,2011,0
+Super Premium,DF Rest of World,2012,0
+Super Premium,DF Rest of World,2013,0
+Super Premium,DF Rest of World,2014,0
+Super Premium,DF Rest of World,2015,0
+Super Premium,DF Rest of World,2016,0
+Super Premium,DF Russia,1990,0
+Super Premium,DF Russia,1991,0
+Super Premium,DF Russia,1992,0
+Super Premium,DF Russia,1993,0
+Super Premium,DF Russia,1994,0
+Super Premium,DF Russia,1995,0
+Super Premium,DF Russia,1996,0
+Super Premium,DF Russia,1997,0
+Super Premium,DF Russia,1998,0
+Super Premium,DF Russia,1999,0
+Super Premium,DF Russia,2000,0
+Super Premium,DF Russia,2001,25
+Super Premium,DF Russia,2002,20
+Super Premium,DF Russia,2003,0
+Super Premium,DF Russia,2004,0
+Super Premium,DF Russia,2005,0
+Super Premium,DF Russia,2006,0
+Super Premium,DF Russia,2007,0
+Super Premium,DF Russia,2008,0
+Super Premium,DF Russia,2009,0
+Super Premium,DF Russia,2010,0
+Super Premium,DF Russia,2011,60
+Super Premium,DF Russia,2012,100
+Super Premium,DF Russia,2013,100
+Super Premium,DF Russia,2014,100
+Super Premium,DF Russia,2015,0
+Super Premium,DF Russia,2016,0
+Super Premium,DF Singapore,1990,0
+Super Premium,DF Singapore,1991,0
+Super Premium,DF Singapore,1992,0
+Super Premium,DF Singapore,1993,0
+Super Premium,DF Singapore,1994,50
+Super Premium,DF Singapore,1995,100
+Super Premium,DF Singapore,1996,100
+Super Premium,DF Singapore,1997,75
+Super Premium,DF Singapore,1998,25
+Super Premium,DF Singapore,1999,25
+Super Premium,DF Singapore,2000,30
+Super Premium,DF Singapore,2001,20
+Super Premium,DF Singapore,2002,15
+Super Premium,DF Singapore,2003,15
+Super Premium,DF Singapore,2004,0
+Super Premium,DF Singapore,2005,5
+Super Premium,DF Singapore,2006,0
+Super Premium,DF Singapore,2007,0
+Super Premium,DF Singapore,2008,0
+Super Premium,DF Singapore,2009,0
+Super Premium,DF Singapore,2010,0
+Super Premium,DF Singapore,2011,0
+Super Premium,DF Singapore,2012,0
+Super Premium,DF Singapore,2013,0
+Super Premium,DF Singapore,2014,0
+Super Premium,DF Singapore,2015,0
+Super Premium,DF Singapore,2016,0
+Super Premium,DF South Korea,1990,0
+Super Premium,DF South Korea,1991,0
+Super Premium,DF South Korea,1992,0
+Super Premium,DF South Korea,1993,0
+Super Premium,DF South Korea,1994,0
+Super Premium,DF South Korea,1995,250
+Super Premium,DF South Korea,1996,225
+Super Premium,DF South Korea,1997,125
+Super Premium,DF South Korea,1998,0
+Super Premium,DF South Korea,1999,180
+Super Premium,DF South Korea,2000,200
+Super Premium,DF South Korea,2001,75
+Super Premium,DF South Korea,2002,75
+Super Premium,DF South Korea,2003,100
+Super Premium,DF South Korea,2004,25
+Super Premium,DF South Korea,2005,25
+Super Premium,DF South Korea,2006,25
+Super Premium,DF South Korea,2007,0
+Super Premium,DF South Korea,2008,0
+Super Premium,DF South Korea,2009,0
+Super Premium,DF South Korea,2010,0
+Super Premium,DF South Korea,2011,0
+Super Premium,DF South Korea,2012,0
+Super Premium,DF South Korea,2013,0
+Super Premium,DF South Korea,2014,0
+Super Premium,DF South Korea,2015,0
+Super Premium,DF South Korea,2016,0
+Super Premium,DF Switzerland,1990,0
+Super Premium,DF Switzerland,1991,0
+Super Premium,DF Switzerland,1992,0
+Super Premium,DF Switzerland,1993,0
+Super Premium,DF Switzerland,1994,0
+Super Premium,DF Switzerland,1995,0
+Super Premium,DF Switzerland,1996,0
+Super Premium,DF Switzerland,1997,0
+Super Premium,DF Switzerland,1998,0
+Super Premium,DF Switzerland,1999,0
+Super Premium,DF Switzerland,2000,0
+Super Premium,DF Switzerland,2001,5
+Super Premium,DF Switzerland,2002,10
+Super Premium,DF Switzerland,2003,5
+Super Premium,DF Switzerland,2004,10
+Super Premium,DF Switzerland,2005,10
+Super Premium,DF Switzerland,2006,0
+Super Premium,DF Switzerland,2007,0
+Super Premium,DF Switzerland,2008,0
+Super Premium,DF Switzerland,2009,0
+Super Premium,DF Switzerland,2010,0
+Super Premium,DF Switzerland,2011,0
+Super Premium,DF Switzerland,2012,0
+Super Premium,DF Switzerland,2013,10
+Super Premium,DF Switzerland,2014,10
+Super Premium,DF Switzerland,2015,0
+Super Premium,DF Switzerland,2016,0
+Super Premium,DF Turkey,1990,0
+Super Premium,DF Turkey,1991,0
+Super Premium,DF Turkey,1992,0
+Super Premium,DF Turkey,1993,0
+Super Premium,DF Turkey,1994,0
+Super Premium,DF Turkey,1995,0
+Super Premium,DF Turkey,1996,0
+Super Premium,DF Turkey,1997,0
+Super Premium,DF Turkey,1998,0
+Super Premium,DF Turkey,1999,0
+Super Premium,DF Turkey,2000,0
+Super Premium,DF Turkey,2001,0
+Super Premium,DF Turkey,2002,0
+Super Premium,DF Turkey,2003,0
+Super Premium,DF Turkey,2004,0
+Super Premium,DF Turkey,2005,0
+Super Premium,DF Turkey,2006,0
+Super Premium,DF Turkey,2007,0
+Super Premium,DF Turkey,2008,0
+Super Premium,DF Turkey,2009,0
+Super Premium,DF Turkey,2010,0
+Super Premium,DF Turkey,2011,5
+Super Premium,DF Turkey,2012,15
+Super Premium,DF Turkey,2013,10
+Super Premium,DF Turkey,2014,10
+Super Premium,DF Turkey,2015,0
+Super Premium,DF Turkey,2016,0
+Super Premium,DF US Pacific,1990,0
+Super Premium,DF US Pacific,1991,0
+Super Premium,DF US Pacific,1992,0
+Super Premium,DF US Pacific,1993,0
+Super Premium,DF US Pacific,1994,0
+Super Premium,DF US Pacific,1995,0
+Super Premium,DF US Pacific,1996,0
+Super Premium,DF US Pacific,1997,0
+Super Premium,DF US Pacific,1998,0
+Super Premium,DF US Pacific,1999,0
+Super Premium,DF US Pacific,2000,0
+Super Premium,DF US Pacific,2001,0
+Super Premium,DF US Pacific,2002,0
+Super Premium,DF US Pacific,2003,0
+Super Premium,DF US Pacific,2004,0
+Super Premium,DF US Pacific,2005,0
+Super Premium,DF US Pacific,2006,0
+Super Premium,DF US Pacific,2007,0
+Super Premium,DF US Pacific,2008,0
+Super Premium,DF US Pacific,2009,0
+Super Premium,DF US Pacific,2010,0
+Super Premium,DF US Pacific,2011,0
+Super Premium,DF US Pacific,2012,0
+Super Premium,DF US Pacific,2013,0
+Super Premium,DF US Pacific,2014,0
+Super Premium,DF US Pacific,2015,0
+Super Premium,DF US Pacific,2016,0
