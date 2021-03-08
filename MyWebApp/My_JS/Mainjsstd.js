@@ -209,8 +209,11 @@ d3.csv(liqour, function (beer) {
       }
 
     }];
+    var layout = {
+      title: 'Alcoholic Consumption of Cases in ' + Year
+    }
     //draw in the histogram using plotly
-    Plotly.newPlot('my_hist', data);
+    Plotly.newPlot('my_hist', data, layout);
 
     //draw in the pie chart
     //define the data and settings for the pie chart
@@ -222,15 +225,15 @@ d3.csv(liqour, function (beer) {
       hoverinfo: 'label + percent'
 
     }];
-    layout = [{
+    layout = {
+      title: 'Alcoholic Consumption of Cases in ' + Year,
       margin: {
         padding: 3
       },
       hovermode: 'closest',
       autoexpand: 'true',
-      height: 600,
-      width: 600
-    }];
+      
+    };
 
     //draw in the pie chart using Plotly
     Plotly.newPlot('my_donut', donut, layout, { responsive: true });

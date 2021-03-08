@@ -1,7 +1,7 @@
 var beer = '../data/beer.csv';
 var beer1 = '../data/beer1.csv'
 var wine = '../data/Wine Imports Value.csv';
-var spirits = '../MyWebApp/data/Spirit Consumption.csv' ;
+var spirits = '../data/Spirit Consumption.csv' ;
 var whiskey = '../data/whiskey.csv'
 //set the liquor value
 liqour = spirits;
@@ -201,8 +201,11 @@ d3.csv(liqour, function (beer) {
       }
 
     }];
+    var layout = {
+      title: 'Alcoholic Consumption of Cases in ' + Year
+    }
     //draw in the histogram using plotly
-    Plotly.newPlot('my_hist', data);
+    Plotly.newPlot('my_hist', data, layout);
 
     //draw in the pie chart
     //define the data and settings for the pie chart
@@ -214,15 +217,11 @@ d3.csv(liqour, function (beer) {
       hoverinfo: 'label + percent'
 
     }];
-    layout = [{
-      margin: {
-        padding: 3
-      },
+    layout = {
+      title: 'Alcoholic Consumption of Cases in ' + Year,
       hovermode: 'closest',
       autoexpand: 'true',
-      height: 600,
-      width: 600
-    }];
+      };
 
     //draw in the pie chart using Plotly
     Plotly.newPlot('my_donut', donut, layout, { responsive: true });
