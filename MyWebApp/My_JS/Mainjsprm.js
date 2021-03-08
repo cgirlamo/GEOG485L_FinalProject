@@ -153,9 +153,9 @@ d3.csv(liqour, function (beer) {
       //draw the chloropleth and create the tooltips
         L.geoJson(response, { style: style}).bindTooltip(function (layer) {
         if (layer.feature.properties.cases == 'undefined') {
-          return layer.feature.properties.CNTRY_NAME + '<br>' + 'cases: 0'
+          return '<b>countries:</b> ' + layer.feature.properties.CNTRY_NAME + '<br>' + '<b>cases:</b> 0 <br> <b>Year:<b> ' + Year;
         } else {
-          return layer.feature.properties.CNTRY_NAME + '<br>' + 'cases: ' + layer.feature.properties.cases;
+          return '<b>countries:</b> ' + layer.feature.properties.CNTRY_NAME + '<br>' + '<b>cases consumed:</b> ' + layer.feature.properties.cases + '<br> <b>Year:</b>' + Year;
         }
 
       },
