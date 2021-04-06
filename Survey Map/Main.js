@@ -1,8 +1,3 @@
-
-
-
-
-// Create the map
 var mymap = L.map('mapid').setView([35.105366, -106.629531],12);
 
 
@@ -66,7 +61,7 @@ mymap.on(L.Draw.Event.CREATED, function(e) {
     //create a popup with a submit button to be created with the marker
     var popupContent = '<form id = "form1">' +
     '<div class = "form-group"'+
-    '<div style = "text-align:center;" class = "col-xs-4"><button type = "submit" id = "button1" value = "submit" class = "btn btn-primary">Submit</button></div>'+
+    '<div style = "text-align:center;" class = "col-xs-4"><button type = "submit" id = "button1" value = "submit" class = "btn btn-dark">Submit</button></div>'+
     '</div>'+
     '</form>'
     //add the popup
@@ -75,7 +70,7 @@ mymap.on(L.Draw.Event.CREATED, function(e) {
         closeButton: false,
     }).openPopup();
     //when the submit button is pressed
-    $('#button1').on('submit' ,function(f) {
+    $('#button1').on('click' ,function(f) {
         //prevent it from automatically submitting
         f.preventDefault()
         //create the geojson variable
@@ -101,9 +96,9 @@ mymap.on(L.Draw.Event.CREATED, function(e) {
             geojson['geometry']['coordinates'] = [coordinates];
         }
         var json = JSON.stringify(geojson);
-        console.log(json)
-    });
+        module.exports = {json};
 
+})
 });
 mymap.on('draw:edited', function(e) {
      //set the type of the layer
@@ -136,9 +131,9 @@ mymap.on('draw:edited', function(e) {
          coordinates.push([latlngs])
      }
      //create a popup with a submit button to be created with the marker
-     var popupContent = '<form id = "form1">' +
+     var popupContent = '<form id = "form1" >' +
      '<div class = "form-group"'+
-     '<div style = "text-align:center;" class = "col-xs-4"><button type = "submit" id = "button1" value = "submit" class = "btn btn-primary">Submit</button></div>'+
+     '<div style = "text-align:center;" class = "col-xs-4"><button type = "submit" id = "button2" value = "submit" class = "btn btn-dark">Submit</button></div>'+
      '</div>'+
      '</form>'
      //add the popup
@@ -147,9 +142,10 @@ mymap.on('draw:edited', function(e) {
          closeButton: false,
      }).openPopup();
      //when the submit button is pressed
-     $('#button1').on('submit' ,function(f) {
+     $('#button2').on('click' ,function(event) {
+        
          //prevent it from automatically submitting
-         f.preventDefault()
+         event.preventDefault();
          //create the geojson variable
          var geojson = {};
          //if the type is rectangle
@@ -173,11 +169,13 @@ mymap.on('draw:edited', function(e) {
              geojson['geometry']['coordinates'] = [coordinates];
          }
          var json = JSON.stringify(geojson);
-         console.log(json)
+         const fs = require('fs');
+         fs.writeFile('geojson.json',json,(err) => {
+             if (err) {
+                 throw err;
+             }
+             console.log('Json data is saved')
+         })
      });
- 
+     
  });
-
-
-
-

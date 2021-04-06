@@ -23,21 +23,298 @@
 
     <style>
         #mapid {
+            
             height: 600px;
-            width: 1200px;
+            width: 1300px;
         }
+        .hidden {
+            visibility: h;
+
+        }
+
     </style>
 </head>
 
 <body>
 
 
+<div class = 'container'>
+    <div class = 'col-md-10'>
+        <h4>Instructions</h4>
+        <p><b>1.</b> Enter in your assigned ID Number</p>
+        <p><b>2.</b> Select either a point or rectangle from the toolbox</p>
+        <p><b>3.</b> place your point or drag and draw your rectangle</p>
+        <p><b>4.</b> hit the black submit button that appears on the map.</p>
+        <p><b>5.</b> The middle text area should autogenerate text, then hit submit</p>
+        <p><b>6.</b> then hit the blue submit button, which should take you to another page telling you your response was succesfully submitted.</p>
+    </div>
+</div>
+<div class="container">
+    <section class="resume-section p-4 p-lg-5 text-center" id="#Contact">
+        <div class="my-auto">
+
+          </h2>
+      
+          <ul style="visibility: hidden;" class="fa-ul mb-4 ml-0">
+            <li id="mail-address">
+              <!--               Replace with your email address -->
+              <i style="display: none;" class="fas fa-envelope-open mr-2 contact-icons"></i>chrisgirlamo@gmail.com</a>
+            </li>
+            <li>
+              <i class="fas fa-mobile-alt mr-2 contact-icons"></i>505-553-3455
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt mr-2 contact-icons"></i>Albuquerque NM
+            </li>
+          </ul>
+          <div class ='col-sm-12'>
+          <form class="contact-form d-flex flex-column align-items-center"  action="https://formspree.io/f/moqpzyjv"
+            method="POST">
+            <div class="form-group w-75">
+              <input  type="name" class="form-control" id='ID' value = ''  placeholder="ID number" name="name" required />
+            </div>
+            <div style='visibility: hidden' class="form-group w-75">
+              <input type="email" class="form-control" value = 'chrisgirlamo@gmail.com' placeholder="Email" name="name" required />
+            </div>
+      
+            <div class="form-group w-75">
+              <textarea class="form-control" type="text" value = ' ' rows="7"  id = 'geocode' name="geocode" placeholder="Select a point or area below and hit submit on the map and this field will auto-generate the results" required></textarea>
+            </div>
+      
+            <button type="submit" class="btn btn-submit btn-info w-75">Submit</button>
+        </div>
+          </form>
+        </div>
+        <div>
+      
+        </div>
+      
+      
+      </section>
+      </section>
+
+    </div>
+
+    </div>
+</div>
+    <div class ='container'>
+        <div class = ' align-self-lg-center'>
     <div id='mapid'></div>
+</div>
+</div>
+<footer class="bg-light text-center text-lg-start">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-md-12 text-center"  >
+  
+
+        </div>
+        <!--Grid column-->
+  
+  </footer>
+    <script >
+        
+var mymap = L.map('mapid').setView([35.105366, -106.629531],12);
 
 
 
 
-    <script src='Main.js'></script>
+//add in the basemap
+var Esri_WorldStreetMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
+}).addTo(mymap);
+
+
+//create the feature group to be drawn and add the mto the map
+var drawnItems = new L.FeatureGroup();
+mymap.addLayer(drawnItems);
+//create a control variable
+var drawControl = new L.Control.Draw({
+    //set the drawing settings, we are not drawing polylines, polygons, or circles
+    draw: {
+        polyline: false,
+        polygon: false,
+        circle: false
+    },
+    //set the featuregroup to be edited as drawnitems and set it to be editables
+    edit: {
+        edit: true,
+        featureGroup: drawnItems
+    
+    }
+});
+//add teh control to the map
+mymap.addControl(drawControl);
+// when a feature is created,perform these functions
+mymap.on(L.Draw.Event.CREATED, function(e) {
+    //set the type of the layer
+    var type = e.layerType;
+    console.log(type)
+    //set the layer variable
+    var layer = e.layer;
+    //if there is already a feature in drawnitedms, delete it
+    if(drawnItems && drawnItems.getLayers().length!==0){
+        drawnItems.clearLayers();
+    }
+    //add the new layer to drawnitems
+    drawnItems.addLayer(layer);
+    //create an empty list for the coordinates
+    var coordinates = [];
+    //if the feature is a rectangle
+    if(type == 'rectangle'){            
+    //get the coordinates
+        latlngs = layer.getLatLngs();
+        console.log(latlngs[0].length);
+        //push those coordinates into the coordinates list
+        for (var i = 0; i < latlngs[0].length; i++) {
+        var values = Object.values(latlngs[0][i])
+        console.log(values)
+        coordinates.push(values)
+    }
+    }
+    //if the type is a marker
+    if(type == 'marker') {
+        //get the coordinates
+        latlngs = layer.getLatLng();
+        //push them into the coordinates list
+        console.log(latlngs)
+        coord = []
+        var keys = Object.values(latlngs)
+        console.log(keys)
+
+        coordinates.push(keys)
+    }
+    //create a popup with a submit button to be created with the marker
+    var popupContent = '<form id = "form1">' +
+    '<div class = "form-group"'+
+    '<div style = "text-align:center;" class = "col-xs-4"><button type = "submit" id = "button1" value = "submit" class = "btn btn-dark">Submit</button></div>'+
+    '</div>'+
+    '</form>'
+    //add the popup
+    layer.bindPopup(popupContent, {
+        keepinView: true,
+        closeButton: false,
+    }).openPopup();
+    //when the submit button is pressed
+    $('#button1').on('click' ,function(f) {
+        //prevent it from automatically submitting
+        f.preventDefault()
+        //create the geojson variable
+        var geojson = {};
+        //if the type is rectangle
+        if (type == 'rectangle') {
+            console.log('success')
+            //create each aspect of the geojson
+            geojson['type'] = 'Feature';
+            geojson['geometry'] = {};
+            geojson['geometry']['type'] = 'Polygon';
+            geojson['properties'] = {}
+
+            geojson['geometry']['coordinates'] = coordinates;
+            geojson['properties']['ID'] = $("#ID").val()
+
+        }
+        //if the type is a marker
+        if(type == 'marker') {
+            //create each aspect of the geojson
+            geojson['type'] = 'Feature';
+            geojson['geometry'] = {};
+            geojson['properties'] = {};
+            geojson['geometry']['type'] = 'Point';
+            geojson['geometry']['coordinates'] = coordinates;
+            geojson['properties']['ID'] = $("#ID").val()
+
+        }
+        var json = JSON.stringify(geojson);
+        $('#geocode')
+        .val(json);
+})
+});
+mymap.on('draw:edited', function(e) {
+     //set the type of the layer
+     var type = e.layerType;
+     console.log(type)
+     //set the layer variable
+     var layer = e.layer;
+     //if there is already a feature in drawnitedms, delete it
+     if(drawnItems && drawnItems.getLayers().length!==0){
+         drawnItems.clearLayers();
+     }
+     //add the new layer to drawnitems
+     drawnItems.addLayer(layer);
+     //create an empty list for the coordinates
+     var coordinates = [];
+     //if the feature is a rectangle
+     if(type == 'rectangle'){            
+     //get the coordinates
+         latlngs = layer.getLatLngs();
+         //push those coordinates into the coordinates list
+         for (var i = 0; i < latlngs.length; i++) {
+         coordinates.push([latlngs[i]])
+     }
+     }
+     //if the type is a marker
+     if(type == 'marker') {
+         //get the coordinates
+         latlngs = layer.getLatLng();
+         //push them into the coordinates list
+         coordinates.push([latlngs])
+     }
+     //create a popup with a submit button to be created with the marker
+     var popupContent = '<form id = "form1" >' +
+     '<div class = "form-group"'+
+     '<div style = "text-align:center;" class = "col-xs-4"><button type = "submit" id = "button2" value = "submit" class = "btn btn-dark">Submit</button></div>'+
+     '</div>'+
+     '</form>'
+     //add the popup
+     layer.bindPopup(popupContent, {
+         keepinView: true,
+         closeButton: false,
+     }).openPopup();
+     //when the submit button is pressed
+     $('#button2').on('click' ,function(event) {
+        
+         //prevent it from automatically submitting
+         event.preventDefault();
+         //create the geojson variable
+         var geojson = {};
+         //if the type is rectangle
+         if (type == 'rectangle') {
+            console.log('success')
+            //create each aspect of the geojson
+            geojson['type'] = 'Feature';
+            geojson['geometry'] = {};
+            geojson['geometry']['type'] = 'Polygon';
+            geojson['properties'] = {}
+
+            geojson['geometry']['coordinates'] = coordinates;
+            geojson['properties']['ID'] = $("#ID").val()
+ 
+         }
+         //if the type is a marker
+         if(type == 'marker') {
+            //create each aspect of the geojson
+            geojson['type'] = 'Feature';
+            geojson['geometry'] = {};
+            geojson['properties'] = {};
+            geojson['geometry']['type'] = 'Point';
+            geojson['geometry']['coordinates'] = coordinates;
+            geojson['properties']['ID'] = $("#ID").val()
+         }
+         var json = JSON.stringify(geojson);
+
+     });
+     
+ });
+ 
+
+    </script>
+
+
+
 </body>
 
 </html>
