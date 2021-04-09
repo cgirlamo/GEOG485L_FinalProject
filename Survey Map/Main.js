@@ -97,8 +97,9 @@ mymap.on(L.Draw.Event.CREATED, function(e) {
             geojson['properties'] = {}
 
             geojson['properties']['ID'] = $("#ID").val()
-            for (var x = 0; x < coordinates.length+1;x++) {
-                if (x == coordinates.length + 1) {
+            for (var x = 0; x < coordinates.length;x++) {
+
+                if (x == coordinates.length) {
                     geojson['geometry']['coordinates'] = [coordinates[0][1],coordinates[0][0]];
                 } else {
                     geojson['geometry']['coordinates'] = [coordinates[x][1],coordinates[x][0]];
@@ -121,6 +122,7 @@ mymap.on(L.Draw.Event.CREATED, function(e) {
         var json = JSON.stringify(geojson);
         $('#geocode')
         .val(json);
+        console.log(json)
 })
 });
 mymap.on('draw:edited', function(e) {
