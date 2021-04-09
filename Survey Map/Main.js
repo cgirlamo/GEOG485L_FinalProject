@@ -1,5 +1,5 @@
         
-var mymap = L.map('mapid').setView([35.105366, -106.629531],12);
+var mymap = L.map('mapid').setView([40.91443, -74.17075],12);
 
 
 
