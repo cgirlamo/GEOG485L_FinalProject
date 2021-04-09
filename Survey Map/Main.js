@@ -114,7 +114,7 @@ mymap.on(L.Draw.Event.CREATED, function(e) {
             geojson['geometry'] = {};
             geojson['properties'] = {};
             geojson['geometry']['type'] = 'Point';
-            geojson['geometry']['coordinates'] = [coordinates[0][1],coordinates[0][0]];
+            geojson['geometry']['coordinates'] = [[coordinates[0][1],coordinates[0][0]]];
             geojson['properties']['ID'] = $("#ID").val()
 
         }
@@ -191,11 +191,12 @@ mymap.on('draw:edited', function(e) {
             geojson['properties'] = {}
 
             geojson['properties']['ID'] = $("#ID").val()
+            var newcoords;
             for (var x = 0; x < coordinates.length+1;x++) {
                 if (x == coordinates.length + 1) {
-                    geojson['geometry']['coordinates'] = [coordinates[0][1],coordinates[0][0]];
+                    newcoords.push([coordinates[0][1],coordinates[0][0]]);
                 } else {
-                    geojson['geometry']['coordinates'] = [coordinates[x][1],coordinates[x][0]];
+                    newcoords.push([coordinates[x][1],coordinates[x][0]]);
                 }
             }
 
