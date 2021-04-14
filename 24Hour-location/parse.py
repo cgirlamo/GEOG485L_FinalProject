@@ -13,19 +13,19 @@ with open(r'24Hour-location\formspree_xleadrpo_2021-04-14T18 51 06_export.json',
     data1=data['submissions']
     for i in data1:
         json_data = json.loads(i['geocode'])
-        print(json_data)
 
-    for x in json_data['features']:
-        typ = x['geometry']['type']
-        if typ == 'Polygon':
-            Polyfeat.append(x)
-        if typ == 'Point':
-            Pointfeat.append(x)
+
+        for x in json_data['features']:
+            typ = x['geometry']['type']
+            if typ == 'Polygon':
+                Polyfeat.append(x)
+            if typ == 'Point':
+                Pointfeat.append(x)
     
-    Polygon['features'] = Polyfeat
-    Point['features'] = Pointfeat
-    Polygon['type'] = 'FeatureCollection'
-    Point['type'] = 'FeatureCollection'
+        Polygon['features'] = Polyfeat
+        Point['features'] = Pointfeat
+        Polygon['type'] = 'FeatureCollection'
+        Point['type'] = 'FeatureCollection'
 with open(r'24Hour-location\Polygon.json','w') as json_file:
     json.dump(Polygon,json_file,indent =4,sort_keys=True)
 with open(r'24Hour-location\Point.json','w') as json_point:
