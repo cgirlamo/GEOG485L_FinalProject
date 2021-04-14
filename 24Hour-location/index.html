@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="utf-8">
+    <title>Survey Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.4.2/leaflet.draw.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.4.2/leaflet.draw.js"></script>
+
+
+
+
+    <style>
+
+        #mapid {
+            
+            height: 600px;
+            width: 1300px;
+        }
+        .hidden {
+            visibility: h;
+
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+
+<div class = 'container' style="text-align: center;border: #ba0c2f;">
+    <div class = 'col-md-12' style="background-color: ghostwhite;">
+        <h2>Instructions</h2>
+        <br>
+        <p><b>1.</b> Enter in your assigned ID Number</p>
+        <p><b>2.</b> Select either a point or rectangle from the toolbox</p>
+        <p><b>3.</b> place your point or drag and draw your rectangle</p>
+        <p><b>4.</b> hit the black Select Features button that appears on the map.</p>
+        <p><b>5.</b> then hit the blue submit button, which should take you to another page telling you your response was succesfully submitted.</p>
+        <p><b>6.</b> If you forget to enter in the student ID before hitting submit, please start over again from step 1 to ensure your result is recorded correctly</p>
+    </div>
+</div>
+<div class="container">
+    <section class="resume-section p-4 p-lg-5 text-center" id="#Contact">
+        <div class="my-auto">
+
+          </h2>
+      
+          <ul style="visibility: hidden;" class="fa-ul mb-4 ml-0">
+            <li id="mail-address">
+              <!--               Replace with your email address -->
+              <i style="display: none;" class="fas fa-envelope-open mr-2 contact-icons"></i>chrisgirlamo@gmail.com</a>
+            </li>
+            <li>
+              <i class="fas fa-mobile-alt mr-2 contact-icons"></i>505-553-3455
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt mr-2 contact-icons"></i>Albuquerque NM
+            </li>
+          </ul>
+          <div class ='col-sm-12'>
+          <form class="contact-form d-flex flex-column align-items-center"  action="https://formspree.io/f/xleadrpo"
+            method="POST">
+
+            <div style='visibility: hidden; height: 1px;'  class="form-group w-75">
+              <input type="email" class="form-control" value = 'chrisgirlamo@gmail.com' placeholder="Email" name="name" required />
+            </div>
+      
+            <div class="form-group w-75">
+              <textarea style = 'height: 1px;' class="form-control" type="text" value = ' ' rows="1"  id = 'geocode' name="geocode" placeholder="Select a point or area below and hit submit on the map and this field will auto-generate the results" required></textarea>
+            </div>
+            <div class="form-group w-75">
+                <input  type="name" class="form-control" id='ID' value = ''  placeholder="ID number" name="name" required />
+                <br>
+                <br>
+              </div>
+
+
+
+            <div id='mapid'></div>
+        
+
+            <div class = 'col-md-12'>
+                <br>
+            <button type="submit" id='submit' class="btn btn-submit btn-info w-75">Submit</button>
+        </div>
+        </div>
+          </form>
+        </div>
+        <div>
+      
+        </div>
+      
+      
+      </section>
+      </section>
+
+    </div>
+
+    </div>
+</div>
+
+<footer style="background-color: #ba0c2f;" class="bg-light text-center text-lg-start">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-md-12 text-center"  >
+  
+
+        </div>
+        <!--Grid column-->
+  
+  </footer>
+    <script src = './Main.js'></script>
+
+
+
+</body>
+
+</html>
