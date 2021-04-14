@@ -62,7 +62,7 @@ mymap.on(L.Draw.Event.CREATED, function(e) {
 var features = [];
 var featureClass = {};
  $('#submit').on('click', function(e) {
-    e.preventDefault()
+
 
     console.log(Rcoords2.length);
     for (feature in Rcoords2) {
@@ -103,4 +103,5 @@ var featureClass = {};
         var json = JSON.stringify(featureClass);
         $('#geocode')
         .val(json);
+
  });
