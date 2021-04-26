@@ -44,12 +44,11 @@
     <div class = 'col-md-12' style="background-color: ghostwhite;">
         <h2>Instructions</h2>
         <br>
-        <p><b>1.</b> Enter in your assigned ID Number</p>
-        <p><b>2.</b> Select either a point or rectangle from the toolbox</p>
-        <p><b>3.</b> place your point or drag and draw your rectangle</p>
-        <p><b>4.</b> hit the black Select Features button that appears on the map.</p>
-        <p><b>5.</b> then hit the blue submit button, which should take you to another page telling you your response was succesfully submitted.</p>
-        <p><b>6.</b> If you forget to enter in the student ID before hitting submit, please start over again from step 1 to ensure your result is recorded correctly</p>
+        <p><b>1.</b> Enter in your email</p>
+        <p><b>2.</b> Use either a point or rectange to draw your home address or neighborhood on the map</p>
+        <p><b>3.</b> hit the black Select Features button that appears on the map.</p>
+        <p><b>4.</b> then hit the blue submit button, which should take you to another page telling you your response was succesfully submitted.</p>
+
     </div>
 </div>
 <div class="container">
@@ -73,16 +72,12 @@
           <div class ='col-sm-12'>
           <form class="contact-form d-flex flex-column align-items-center"  action="https://formspree.io/f/moqpzyjv"
             method="POST">
-
-            <div style='visibility: hidden; height: 1px;'  class="form-group w-75">
-              <input type="email" class="form-control" value = 'chrisgirlamo@gmail.com' placeholder="Email" name="name" required />
-            </div>
       
             <div class="form-group w-75">
               <textarea style = 'visibility: hidden; height: 1px;' class="form-control" type="text" value = ' ' rows="1"  id = 'geocode' name="geocode" placeholder="Select a point or area below and hit submit on the map and this field will auto-generate the results" required></textarea>
             </div>
             <div class="form-group w-75">
-                <input  type="name" class="form-control" id='ID' value = ''  placeholder="ID number" name="name" required />
+                <input  type="name" class="form-control" id='ID' value = ''  placeholder="Email" name="name" required />
                 <br>
                 <br>
               </div>
