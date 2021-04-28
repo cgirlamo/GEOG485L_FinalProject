@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.29724120884202, 40.9614931559928]
+      },
+      "properties": {
+        "FID": "0",
+        "loctype": "Point",
+        "named": "Point",
+        "frequency": "0",
+        "email": "chrisgirlamo@gmail.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.29724120884202, 40.9614931559928]
+      },
+      "properties": {
+        "FID": "0",
+        "loctype": "Point",
+        "named": "Point",
+        "frequency": "0",
+        "email": "chrisgirlamo@gmail.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.29724120884202, 40.9614931559928]
+      },
+      "properties": {
+        "FID": "0",
+        "loctype": "Point",
+        "named": "Point",
+        "frequency": "0",
+        "email": "chrisgirlamo@gmail.com"
+      }
+    }
+  ]
+}
