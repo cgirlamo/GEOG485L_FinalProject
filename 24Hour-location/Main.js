@@ -68,7 +68,7 @@ mymap.on(L.Draw.Event.CREATED, function (e) {
     '<form id = "form1">' +
     '<div class = "form-group"' +
     '<div style = "text-align:center;" class = "col-xs-4"><input type = "text" id = "LocType"  placeholder = "Location Type"/></div>' +
-    '<div style = "text-align:center;" class = "col-xs-4"><input type = "text" id = "Name"  placeholder = "Name"/></div>' + 
+    '<div style = "text-align:center;" class = "col-xs-4"><input type = "text" id = "Name"  placeholder = "Location Name"/></div>' + 
     '<div style = "text-align:center;" class = "col-xs-4"><input type = number id = "frequency" value = 0 placeholder = "Frequency per week"/></div>' +
     '<div style = "text-align:center;" class = "col-xs-4"><button type = "submit" id="sub2" class = "btn btn-secondary">Submit Feature</button></div>'
     "</div>" +
