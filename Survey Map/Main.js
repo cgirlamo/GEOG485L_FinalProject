@@ -1,8 +1,13 @@
 
 
 var mymap = L.map("mapid").setView([40.91443, -74.17075], 12);
-var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-var osmAttrib='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+var Esri_WorldStreetMap = L.tileLayer(
+  "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+  {
+    attribution:
+      "Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012",
+  }
+).addTo(mymap);
 //add in the basemap
 var osm = new L.TileLayer(osmUrl,{attribution: osmAttrib}).addTo(mymap);
 var coordinates = [];
