@@ -20,6 +20,10 @@ var feat = {};
 //create the feature group to be drawn and add the mto the map
 var drawnItems = new L.FeatureGroup();
 mymap.addLayer(drawnItems);
+
+mymap.addLayer(drawnItems);
+var osmGeocoder = new L.Control.OSMGeocoder({placeholder: 'Search location...'});
+mymap.addControl(osmGeocoder);
 //create a control variable
 var drawControl = new L.Control.Draw({
   //set the drawing settings, we are not drawing polylines, polygons, or circles

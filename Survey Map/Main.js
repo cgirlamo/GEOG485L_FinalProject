@@ -1,17 +1,17 @@
+
+
 var mymap = L.map("mapid").setView([40.91443, -74.17075], 12);
-
+var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+var osmAttrib='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 //add in the basemap
-var Esri_WorldStreetMap = L.tileLayer(
-  "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
-  {
-    attribution:
-      "Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012",
-  }
-).addTo(mymap);
-
+var osm = new L.TileLayer(osmUrl,{attribution: osmAttrib}).addTo(mymap);
+var coordinates = [];
+var type1;
 //create the feature group to be drawn and add the mto the map
 var drawnItems = new L.FeatureGroup();
 mymap.addLayer(drawnItems);
+var osmGeocoder = new L.Control.OSMGeocoder({placeholder: 'Search location...'});
+mymap.addControl(osmGeocoder);
 //create a control variable
 var drawControl = new L.Control.Draw({
   //set the drawing settings, we are not drawing polylines, polygons, or circles
@@ -41,7 +41,7 @@ mymap.on(L.Draw.Event.CREATED, function (e) {
   //add the new layer to drawnitems
   drawnItems.addLayer(layer);
   //create an empty list for the coordinates
-  var coordinates = [];
+
   //if the feature is a rectangle
   if (type == "rectangle") {
     //get the coordinates
@@ -71,7 +71,7 @@ mymap.on(L.Draw.Event.CREATED, function (e) {
   var popupContent =
     '<form id = "form1">' +
     '<div class = "form-group"' +
-    '<div style = "text-align:center;" class = "col-xs-4"><button type = "submit" id = "button1" value = "submit" class = "btn btn-dark">Select Feature</button></div>' +
+    '<div style = "text-align:center;" class = "col-xs-4"><button type = "submit" id = "sub2" value = "submit" class = "btn btn-dark">Select Feature</button></div>' +
     "</div>" +
     "</form>";
   //add the popup
@@ -81,18 +81,28 @@ mymap.on(L.Draw.Event.CREATED, function (e) {
       closeOnClick: true,
     })
     .openPopup();
+    $("#sub2").on('click',function(e) {
+      e.preventDefault();
+      if(type == 'rectangle') {
+        type1 = 'rectangle'
+      } else {
+        type1 = 'marker'
+      }
+      layer.closePopup();
+    })
 });
+
 var features = [];
 var featureClass = {};
 //when the submit button is pressed
-$("#button1").on("click", function (f) {
+$("#submit").on("click", function (f) {
   //prevent it from automatically submitting
-  f.preventDefault();
+
   //create the geojson variable
   var geojson = {};
   console.log(coordinates);
   //if the type is rectangle
-  if (type == "rectangle") {
+  if (type1 == "rectangle") {
     console.log("success");
     //create each aspect of the geojson
     geojson["type"] = "Feature";
@@ -113,7 +123,7 @@ $("#button1").on("click", function (f) {
     features.push(geojson);
   }
   //if the type is a marker
-  if (type == "marker") {
+  if (type1 == "marker") {
     //create each aspect of the geojson
     geojson["type"] = "Feature";
     geojson["geometry"] = {};
@@ -123,7 +133,7 @@ $("#button1").on("click", function (f) {
     geojson["properties"]["ID"] = $("#ID").val();
     features.push(geojson);
   }
-  layer.closePopup();
+ 
   featureClass["type"] = "FeatureCollection";
   featureClass["features"] = features;
   var json = JSON.stringify(featureClass);
