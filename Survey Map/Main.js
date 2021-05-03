@@ -9,7 +9,7 @@ var Esri_WorldStreetMap = L.tileLayer(
   }
 ).addTo(mymap);
 //add in the basemap
-var osm = new L.TileLayer(osmUrl,{attribution: osmAttrib}).addTo(mymap);
+
 var coordinates = [];
 var type1;
 //create the feature group to be drawn and add the mto the map
@@ -20,21 +20,30 @@ mymap.addControl(osmGeocoder);
 //create a control variable
 var drawControl = new L.Control.Draw({
   //set the drawing settings, we are not drawing polylines, polygons, or circles
-  draw: {
-    polyline: false,
-    polygon: false,
-    circle: false,
-  },
-  //set the featuregroup to be edited as drawnitems and set it to be editables
-  edit: {
-    edit: true,
-    featureGroup: drawnItems,
-  },
+	position: 'topright',
+	draw: {
+		polyline:false,
+		polygon:false,
+		circle: false, // Turns off this drawing tool
+		rectangle: {
+      allowIntersection: false,
+      showArea: true,
+      drawError: {
+          color: '#b00b00',
+          timeout: 1000
+			}
+		},
+		marker: true
+	},
+	edit: {
+		featureGroup: drawnItems, //REQUIRED!!
+		remove: true
+	}
 });
 //add teh control to the map
 mymap.addControl(drawControl);
 // when a feature is created,perform these functions
-mymap.on(L.Draw.Event.CREATED, function (e) {
+mymap.on('draw:created', function (e) {
   //set the type of the layer
   var type = e.layerType;
   //set the layer variable
