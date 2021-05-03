@@ -21,26 +21,70 @@ var feat = {};
 var drawnItems = new L.FeatureGroup();
 mymap.addLayer(drawnItems);
 
-mymap.addLayer(drawnItems);
+//mymap.addLayer(drawnItems);
 var osmGeocoder = new L.Control.OSMGeocoder({placeholder: 'Search location...'});
 mymap.addControl(osmGeocoder);
-//create a control variable
+// create a control variable
 var drawControl = new L.Control.Draw({
   //set the drawing settings, we are not drawing polylines, polygons, or circles
-  draw: {
-    polyline: false,
-    polygon: false,
-    circle: false,
-  },
-  //set the featuregroup to be edited as drawnitems and set it to be editables
-  edit: {
-    edit: true,
-    featureGroup: drawnItems,
-  },
+	position: 'topright',
+	draw: {
+		polyline:false,
+		polygon:false,
+		circle: false, // Turns off this drawing tool
+		rectangle: {
+      allowIntersection: false,
+      showArea: true,
+      drawError: {
+          color: '#b00b00',
+          timeout: 1000
+			}
+		},
+		marker: true
+	},
+	edit: {
+		featureGroup: drawnItems, //REQUIRED!!
+		remove: false
+	}
 });
+  //   position: 'topright',
+//   draw: {
+//       polyline: {
+//           metric: true
+//       },
+//       polygon: {
+//           allowIntersection: false,
+//           showArea: true,
+//           drawError: {
+//               color: '#b00b00',
+//               timeout: 1000
+//           },
+//           shapeOptions: {
+//               color: '#bada55'
+//           }
+      
+//       },
+//       marker: true
+//   },
+//   edit: {
+//       featureGroup: drawnItems,
+//       remove: true
+//   }
+// });
+  // draw: {
+  //   polyline: false,
+  //   polygon: false,
+  //   circle: false,
+  // },
+  // //set the featuregroup to be edited as drawnitems and set it to be editables
+  // edit: {
+  //   edit: true,
+  //   featureGroup: drawnItems,
+  // },
+// });
 //add teh control to the map
 mymap.addControl(drawControl);
-mymap.on(L.Draw.Event.CREATED, function (e) {
+mymap.on('draw:created', function (e) {
   //set the layer type
   var type = e.layerType;
   //set the layer value
@@ -51,6 +95,7 @@ mymap.on(L.Draw.Event.CREATED, function (e) {
     latlngs = layer.getLatLng();
     var values = Object.values(latlngs);
     Pcoords[keyid] = values;
+    console.log(Pcoords)
   }
   if (type == "rectangle") {
     var values = [];
@@ -100,7 +145,7 @@ mymap.on(L.Draw.Event.CREATED, function (e) {
 
 var features = [];
 var featureClass = {};
-$("#submit").on("click", function (e) {
+$("#submit").on("submit", function (e) {
 
 for (key in Object.keys(feat)) {
   console.log(key)
@@ -110,8 +155,11 @@ for (key in Object.keys(feat)) {
   geojson["type"] = "Feature";
   geojson["geometry"] = {};
   for (pkey in Object.keys(Pcoords)) {
+    
     if(pkey == key) {
+
       coord = Pcoords[key]
+
       geojson['geometry']['type'] = 'Point';
       geojson['properties'] = {};
       geojson['properties']['FID'] = key;
@@ -123,6 +171,7 @@ for (key in Object.keys(feat)) {
 
     }
     features.push(geojson)
+
   }
   for (rkey in Rcoords2) {
     if(rkey == key) {
@@ -155,47 +204,10 @@ for (key in Object.keys(feat)) {
   featureClass['features'] = features;
   var json = JSON.stringify(featureClass);
   $("#geocode").val(json);
-  
 
+ 
 };
 };
-  // for (feature in Rcoords2) {
-  //   var geojson = {};
-  //   geojson["type"] = "Feature";
-  //   geojson["geometry"] = {};
-  //   geojson["geometry"]["type"] = "Polygon";
-  //   geojson["properties"] = {};
-  //   geojson["properties"]["loctype"] = attributelist[feature][0];
-  //   geojson["properties"]["named"] = attributelist[feature][1];
-  //   geojson["properties"]["frequency"] = attributelist[feature][2];
-  //   var newcoords = [];
-  //   geojson["properties"]["ID"] = $("#ID").val();
-  //   for (var x = 0; x < Rcoords2[feature].length; x++) {
-  //     var coordinates = Rcoords2[feature][x];
-  //     console.log(coordinates);
-  //     newcoords.push([coordinates[1], coordinates[0]]);
-  //   }
-  //   geojson["geometry"]["coordinates"] = [newcoords];
-  //   features.push(geojson);
-  // }
-  // console.log(Pcoords);
-  // for (feature in Pcoords) {
-  //   coord = Pcoords[feature];
-  //   var geojson = {};
-  //   geojson["type"] = "Feature";
-  //   geojson["geometry"] = {};
-  //   geojson["properties"] = {};
-  //   geojson["geometry"]["type"] = "Point";
-  //   geojson["geometry"]["coordinates"] = [coord[1], coord[0]];
-  //   geojson["properties"]["ID"] = $("#ID").val();
-  //   geojson["properties"]["loctype"] = attributelist[feature][0];
-  //   geojson["properties"]["named"] = attributelist[feature][1];
-  //   geojson["properties"]["frequency"] = attributelist[feature][2];
-
-  //   features.push(geojson);
-  // }
-  // featureClass["type"] = "FeatureCollection";
-  // featureClass["features"] = features;
-  // var json = JSON.stringify(featureClass);
-  // $("#geocode").val(json);
 });
+
+
