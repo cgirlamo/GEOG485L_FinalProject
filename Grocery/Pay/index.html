@@ -10,6 +10,11 @@
 
     <script src="../../JS_CSS_downloaded_libraries/bower_components/jquery/dist/jquery.js"></script>
     <script src="../../JS_CSS_downloaded_libraries/bootstrap-3.4.1-dist/js/bootstrap.js"></script>
+    <style>
+        img {
+            height: 300px;
+        }
+    </style>
 </head>
 
 <body data-spy='scroll' data-target=".navbar" data-offset="50">
@@ -48,38 +53,45 @@
     <br>
     <div class='container'>
         <div class='row'>
-            <div class='col-md-4'>
-                <ul style='list-style-type: circle;'>
-                    <li>
-                        <h1>Online using:</h1>
-                        <ul>
-                            <li>
-                                <p>Debit</p>
-                            </li>
-                            <li>
-                                <p>Credit</p>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h1>In-Person using:</h1>
-                        <ul>
-                            <li>
-                                <p>Debit</p>
-                            </li>
-                            <li>
-                                <p>Credit</p>
-                            </li>
-                            <li>
-                                <p>Cash</p>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+            <div class='col-md-6'>
+                <h1>Your Cart</h1>
+                <div class = 'col-md-6'>
+                    <p>Chiquita Banana ~ $1.55</p>
+                    <img src = '../../pics/Chiquita.jpg'><br>
+                    <p>avocaodos ~ 1.30</p>
+                    <img src = '../../pics/avocadoes.jpg'><br>
+                    <p>Beer ~ 10.00</p>
+                    <img src = '../../pics/beer.png'><br>
+                    <p>Manzano Bananas ~ 2.21</p>
+                    <img src = '../../pics/manzano.jpg'>
+                </div>
+
+
+        </div>
+        <div class = 'col-md-6'>
+            <h1>Subtotal: $15.06</h1>
+            <div class = 'col-md-6'>
+                <p>Sales Tax: $1.05</p>
+                <h1>Total: $16.11</h1>
+                <h1>Credit Card Information</h1>
+                <form>
+                    <label for ='name'>First and Last Name</label>
+                    <input type = 'text' id = 'name'>
+                    <label for ='ccnum'>Credit Card Number</label>
+                    <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx">
+                    <label for = 'SecNum'>Security Number(3-digit code on the back of your card</label>
+                    <input type = 'tel' inputmode="numeric" pattern ='\d{3}' placeholder="xxx">
+                    <label for = 'expdate'>Expiration Date</label>
+                    <input type ='month' id = 'expdate' placeholder="mm/yy">
+                    <button type ='submit' id = 'subpayment' class = 'btn btn-block' style="background-color: royalblue;">Submit Payment</button>
+                    
+                </form>
+        </div>
+
+        
         </div>
     </div>
-
+</div>
 
 </body>
 

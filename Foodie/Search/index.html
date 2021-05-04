@@ -10,6 +10,12 @@
 
   <script src="../../JS_CSS_downloaded_libraries/bower_components/jquery/dist/jquery.js"></script>
   <script src="../../JS_CSS_downloaded_libraries/bootstrap-3.4.1-dist/js/bootstrap.js"></script>
+
+  <style>
+    img {
+      height: 300px;
+    }
+  </style>
 </head>
 
 <body data-spy='scroll' data-target=".navbar" data-offset="50">
@@ -49,14 +55,22 @@
   <div class="container">
     <div class='row'>
       <div class='col-md-4'>
-        <ul style="list-style-type: circle;">
-          <li>
-            <h1>Filter Searches</h1>
-          </li>
-          <li>
-            <h1>Save Recipes</h1>
-          </li>
-        </ul>
+        <h1>Search for Posts</h1>
+        <p>seperate tags with a ","</p>
+        <form>
+          <input type = 'search' value = 'banana' id = 'Rsearch'>
+          <button type = 'submit'  id = 'searchF'>Search</button>
+        </form>
+      </div>
+      <br>
+
+      <div class = 'col-md-12'>
+        <h1>Results</h1><br>
+        <img src = '../../pics/banana_recipe.jpg' alt = 'banana recipe' >
+        <img src = '../../pics/bananachips.jpg' alt = 'banana chips' >
+        <img src = '../../pics/Chiquita.jpg' alt = 'Chiquita bananas'>
+        <img src = '../../pics/manzano.jpg' alt = 'manzano bananas'>
+
       </div>
     </div>
   </div>

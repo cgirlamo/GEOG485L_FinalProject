@@ -10,6 +10,14 @@
 
     <script src="../../JS_CSS_downloaded_libraries/bower_components/jquery/dist/jquery.js"></script>
     <script src="../../JS_CSS_downloaded_libraries/bootstrap-3.4.1-dist/js/bootstrap.js"></script>
+    <style>
+        img {
+            height: 300px;
+        }
+        p {
+            color: mintcream;
+        }
+    </style>
 </head>
 
 <body data-spy='scroll' data-target=".navbar" data-offset="50">
@@ -47,18 +55,44 @@
     <br>
     <div class='container'>
         <div class='row'>
-            <div class='col-md-4'>
-                <ul style='list-style-type: circle;'>
-                    <li>
-                        <h1>Report Inaccurate Prices</h1>
-                    </li>
-                    <li>
-                        <h1>Direct Message System</h1>
-                    </li>
-                    <li>
-                        <h1>Commenting on Threads about the store</h1>
-                    </li>
-                </ul>
+            <div class='col-md-6'>
+                <br>
+                <h1>Report Inaccurate Prices!</h1><br>
+                <form>
+                    <label for = 'itemname'>Item Name</label><br>
+                    <input type = 'text' id = 'itemname'><br>
+                    <label for = 'AppPrice'>Price in the App</label><br>
+                    <input type = 'number' step = 0.01><br>
+                    <label for = 'actPrice'>Price in the Store</label><br>
+                    <input type ='number' step = 0.01><br>
+                </form>
+                <br>
+                <br>
+                <br>
+                <h1>Message your Friends or the Manager of your favorite Store!</h1>
+                <label for = 'name'>Search for your friends name</label><br>
+                <input type = 'search' placeholder="@yourfriend" id = 'name'><br>
+                <label for = 'message'>Type your message</label><br>
+                <textarea id = 'message'></textarea>
+                <br>
+                <button type = 'submit' class ='btn btn-primary'>Send Message</button>
+            </div>
+            <br>
+            <div class = 'col-md-4' style="text-align: center;">
+                <h1>Comment on Threads!</h1>
+                <div class = 'container' style = 'background-color: lightslategrey; width: 400px; text-align: center;'>
+                    <div class ='col-md-12'>
+                        <p>@JakeRyan ~ Avocadoes are the best!</p><br>
+                        <img src = '../../pics/avocadoes.jpg' alt = 'avocaodos' >
+                        <p>         @MichaelJ ~ @JakeRyan I agree! Love making Guacamole!</p>
+                        <p>@Sakura ~ Found this <b>Great</b> recipe for Banana Smoothies!</p>
+                        <br>
+                        <img src = '../../pics/banana_recipe.jpg' alt = 'banana_recipe' width = 350px>
+                        <p>@Goku ~ @Sakura That looks really good! Will have to try it after my next workout!</p>
+                        <p>@Bulma ~ Really great service at the Albertson's Grocery on Paseo and Wyoming here in ABQ!</p>
+                        
+ 
+                </div>
             </div>
         </div>
     </div>

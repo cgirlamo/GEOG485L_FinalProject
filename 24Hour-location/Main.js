@@ -30,60 +30,34 @@ var drawControl = new L.Control.Draw({
 	position: 'topright',
 	draw: {
 		polyline:false,
-		polygon:false,
-		circle: false, // Turns off this drawing tool
-		rectangle: {
-      allowIntersection: false,
-      showArea: true,
-      drawError: {
-          color: '#b00b00',
-          timeout: 1000
+		polygon: {
+			allowIntersection: false, // Restricts shapes to simple polygons
+			drawError: {
+				color: '#e1e100', // Color the shape will turn when intersects
+				message: '<strong>Oh snap!<strong> you can\'t draw that!' // Message that will show when intersect
+			},
+			shapeOptions: {
+				color: '#bada55'
 			}
 		},
+		circle: false, // Turns off this drawing tool
+		rectangle: false,
 		marker: true
 	},
 	edit: {
 		featureGroup: drawnItems, //REQUIRED!!
-		remove: true
+		remove: true,
+    moveMarkers: false,
+    edit: false // centroids, default: false
 	}
 });
-  //   position: 'topright',
-//   draw: {
-//       polyline: {
-//           metric: true
-//       },
-//       polygon: {
-//           allowIntersection: false,
-//           showArea: true,
-//           drawError: {
-//               color: '#b00b00',
-//               timeout: 1000
-//           },
-//           shapeOptions: {
-//               color: '#bada55'
-//           }
-      
-//       },
-//       marker: true
-//   },
-//   edit: {
-//       featureGroup: drawnItems,
-//       remove: true
-//   }
-// });
-  // draw: {
-  //   polyline: false,
-  //   polygon: false,
-  //   circle: false,
-  // },
-  // //set the featuregroup to be edited as drawnitems and set it to be editables
-  // edit: {
-  //   edit: true,
-  //   featureGroup: drawnItems,
-  // },
-// });
+// drawControl.setDrawingOptions({rectangle:{shapeOptions:{clickable:true}}})
+ 
 //add teh control to the map
+L.drawLocal.draw.toolbar.buttons.polygon = 'place at least three points for your polygon and click the finish button on the toolbar'
+
 mymap.addControl(drawControl);
+
 mymap.on('draw:created', function (e) {
   //set the layer type
   var type = e.layerType;
