@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Chris Girlamo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../JS_CSS_downloaded_libraries/bootstrap-3.4.1-dist/css/bootstrap.css">
+    <link rel='stylesheet' href='../../MyCSS_stylesheets/stylesheet.css'>
+
+    <script src="../../JS_CSS_downloaded_libraries/bower_components/jquery/dist/jquery.js"></script>
+    <script src="../../JS_CSS_downloaded_libraries/bootstrap-3.4.1-dist/js/bootstrap.js"></script>
+    <style>
+        img {
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body data-spy='scroll' data-target=".navbar" data-offset="50">
+
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" id='navbar'>
+        <div class="container" style='background-color: #595959;'>
+
+            <div class='collapse navbar-collapse'>
+                <ul class='nav navbar-nav ml-auto'>
+                    <li class='nav-item'>
+                        <a class='nav-link' href='../../index.html'>Home</a>
+                    </li>
+                    <li class = 'nav-item'>
+                      <a class = 'nav-link' href = '../../MyWebApp/index.html'>My Web App</a>
+                    </li>
+                    <li class="dropdown active">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Foodie App
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="../Account/index.html">Account</a></li>
+                          <li><a href="../Follow/index.html">Follow</a></li>
+                          <li><a href="../Pay/index.html">Pay</a></li>
+                          <li><a href="../Post/index.html">Post</a></li>
+                          <li><a href='../Search/index.html'>Search</a></li>
+                          <li><a href ='../index.html'>Foodie Home</a></li> 
+                        </ul>
+                    <li class = 'nav-item'>
+                      <a class ='nav-link' href = '../../Grocery/index.html'>Grocery App</a>
+                    </li>
+
+
+   
+        
+                  <ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <div class='container'>
+        <div class='row'>
+            <div class='col-md-6'>
+                <h1>Your Cart</h1>
+                <div class = 'col-md-6'>
+                    <p>Chiquita Banana ~ $1.55</p>
+                    <img src = '../../pics/Chiquita.jpg'><br>
+                    <p>avocaodos ~ 1.30</p>
+                    <img src = '../../pics/avocadoes.jpg'><br>
+                    <p>Beer ~ 10.00</p>
+                    <img src = '../../pics/beer.png'><br>
+                    <p>Manzano Bananas ~ 2.21</p>
+                    <img src = '../../pics/manzano.jpg'>
+                </div>
+
+
+        </div>
+        <div class = 'col-md-6'>
+            <h1>Subtotal: $15.06</h1>
+            <div class = 'col-md-6'>
+                <p>Sales Tax: $1.05</p>
+                <h1>Total: $16.11</h1>
+                <h1>Credit Card Information</h1>
+                <form>
+                    <label for ='name'>First and Last Name</label>
+                    <input type = 'text' id = 'name'>
+                    <label for ='ccnum'>Credit Card Number</label>
+                    <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx">
+                    <label for = 'SecNum'>Security Number(3-digit code on the back of your card</label>
+                    <input type = 'tel' inputmode="numeric" pattern ='\d{3}' placeholder="xxx">
+                    <label for = 'expdate'>Expiration Date</label>
+                    <input type ='month' id = 'expdate' placeholder="mm/yy">
+                    <button type ='submit' id = 'subpayment' class = 'btn btn-block' style="background-color: royalblue;">Submit Payment</button>
+                    
+                </form>
+        </div>
+
+        
+        </div>
+    </div>
+</div>
+
+</body>
+
+
+
+</html>
