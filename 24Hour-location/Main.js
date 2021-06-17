@@ -30,16 +30,7 @@ var drawControl = new L.Control.Draw({
 	position: 'topright',
 	draw: {
 		polyline:false,
-		polygon: {
-			allowIntersection: false, // Restricts shapes to simple polygons
-			drawError: {
-				color: '#e1e100', // Color the shape will turn when intersects
-				message: '<strong>Oh snap!<strong> you can\'t draw that!' // Message that will show when intersect
-			},
-			shapeOptions: {
-				color: '#bada55'
-			}
-		},
+    polygon: false,
 		circle: false, // Turns off this drawing tool
 		rectangle: false,
 		marker: true
@@ -51,7 +42,8 @@ var drawControl = new L.Control.Draw({
     edit: false // centroids, default: false
 	}
 });
-// drawControl.setDrawingOptions({rectangle:{shapeOptions:{clickable:true}}})
+
+drawControl.setDrawingOptions({rectangle:{shapeOptions:{clickable:true}}})
  
 //add teh control to the map
 L.drawLocal.draw.toolbar.buttons.polygon = 'place at least three points for your polygon and click the finish button on the toolbar'
